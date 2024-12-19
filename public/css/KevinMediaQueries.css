@@ -193,7 +193,7 @@
   
     .email-text {
       grid-area: email-container;
-      margin-top: -50px;
+      margin-top: 40px;
     }
   
     .comment-container {
