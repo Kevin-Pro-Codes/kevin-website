@@ -12,16 +12,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Flag image sources for English
     const englishFlags = [
-        { src: '/public/images/united-kingdom.png', class: 'uk' },
-        { src: '/public/images/united-states.png', class: 'us' },
-        { src: '/public/images/canada.png', class: 'can' }
+        { src: '/images/united-kingdom.png', class: 'uk' },
+        { src: '/images/united-states.png', class: 'us' },
+        { src: '/images/canada.png', class: 'can' }
     ];
 
     // Flag image sources for Portuguese-speaking countries
     const portugueseFlags = [
-        { src: '/public/images/portugal.png', class: 'pt' },
-        { src: '/public/images/brazil.png', class: 'br' },
-        { src: '/public/images/angola.png', class: 'an' }
+        { src: '/images/portugal.png', class: 'pt' },
+        { src: '/images/brazil.png', class: 'br' },
+        { src: '/images/angola.png', class: 'an' }
     ];
 
     async function setLanguage(lang) {
