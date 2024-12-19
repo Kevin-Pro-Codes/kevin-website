@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="css/KevinStyle.css">
+<link rel="stylesheet" href="css/KevinStyleExtra.css">
+<link rel="stylesheet" href="css/KevinMediaQueries.css">
+
+<script src="js/MainScript.js"></script>
+<script src="js/EmailSuggestions.js"></script>
+<script src="js/CompleteTheSearch.js"></script>
+<script src="js/ManageTabsAndSearch.js"></script>
+<script src="js/ToggleTranslation.js"></script>
+<script src="js/ClickUnselectSubtab.js"></script>
+<script src="js/SaveSelectedStateOfSubtab.js"></script>
+<script src="js/MobileCompatibility.js"></script>
+<script src="js/TypeButtonSearch.js"></script>
+<script src="js/BasicColorSystem.js"></script>
+
+
+
+<title>Kevin's Portfolio</title>
+
+
+</head>
+<body>
+      
+    <div class="navbar-encapsulation">
+        
+    <div id="navbar" class="navbar">
+        <ul>
+          
+            <li><a href="#home" id="home-tab" class="home-tab" data-translate="nav1">Início</a>
+         
+                <div id="sub-tabs-box" class="sub-tabs-box">
+                    <ul>
+                        <li>
+                            <a href="#subtab1" class="subtab" id="about-tab"><i class="fa-regular fa-address-card"></i> 
+                                <span class="translate-text" data-translate="st1">Sobre</span>
+                        </a>
+                        </li>
+                    </ul>   
+                        <ul>            
+                        <li>
+                            <a href="#subtab2" class="subtab" id="copyright-tab"><i class="fa-regular fa-copyright"></i>
+                                <span class="translate-text" data-translate="st2">Termos de Direitos Autorais</span>
+
+                        </a>
+                        </li>
+                    </ul> 
+                </div>
+
+            </li>   
+
+           
+            <li><a href="#portfolio" id="portfolio-tab" class="portfolio-tab" data-translate="nav2">Portfolio</a>
+           
+
+                <div id="sub-tabs-box2" class="sub-tabs-box2">
+                    
+                    <ul>
+                        <li><a href="#subtab3" class="subtab" id="articles-tab"><i class="fa-regular fa-newspaper"></i>
+                            <span class="translate-text" data-translate="st3">Artigos</span>
+                    </a>
+                    </li>
+                    </ul>
+                        <ul>
+                        <li><a href="#subtab4" class="subtab" id="images-tab"><i class="fa-regular fa-image"></i>
+                            <span class="translate-text" data-translate="st4">Imagens</span>
+                    </a>
+                    </li>
+                    </ul>
+                        <ul>
+                        <li><a href="#subtab5" class="subtab" id="projects-tab"><i class="fa-solid fa-briefcase"></i>
+                            <span class="translate-text" data-translate="st5">Projetos</span>
+                    </a>
+                    </li>
+                    </ul>
+                </div>
+            
+            </li>
+            
+            <li><a href="#extras" id="extras-tab" class="extras-tab" data-translate="nav3">Extras</a>
+          
+                <div id="sub-tabs-box3" class="sub-tabs-box3">
+                    <ul>
+                        <li><a href="#subtab6" class="subtab" id="coop-tab"><i class="fa-solid fa-user-group"></i>
+                            <span class="translate-text" data-translate="st6">Co-op</span>
+                    </a>                    
+                    </li>
+                    </ul>
+                    <ul>
+                        <li><a href="#subtab7" class="subtab" id="tradingbot-tab"><i class="fa-solid fa-robot"></i>
+                            <span class="translate-text" data-translate="st7">Robôs de Investimento</span>
+                    </a>
+                    </li>
+                    </ul>
+                    <ul>
+                        <li><a href="#subtab8" class="subtab" id="languages-tab"><i class="fa-solid fa-language"></i>
+                            <span class="translate-text" data-translate="st8">Línguas</span>
+                    </a>
+                    </li>
+                    </ul> 
+                                   
+                </div>
+                        
+            </li>
+          
+            <li><a href="#contact" id="contact-tab" class="contact-tab" data-translate="nav4">Contato</a></li>
+       
+            <div class="flag-container">
+                
+                <a href="#" id="flag-button" class="flag-button" data-language="pt">
+                    <div class ="all-flags">
+                    <img src="images/portugal.png" alt="Flag" class="pt">
+                    <img src="images/brazil.png" alt="Flag" class="br">
+                    <img src="images/angola.png" alt="Flag" class="an">
+                    
+                  
+                    </div>
+                    <div id="flag-text" class="flag-text portuguese-text" data-key="language">Língua: Português</div>
+                    <div class ="low-icons">
+                    <span id="lock-icon" class="lock-icon"><i class="fa-solid fa-lock-open"></i></span>
+                    <span id="change-icon" class="change-icon"><i class="fa-solid fa-arrows-left-right"></i></span>
+                    <span id="color-icon" class="color-icon"><i class="fa-solid fa-droplet"></i></span>
+                    </div>
+                                        
+                </a>
+                
+            </div>
+       
+        </ul>
+        
+    </div>    
+    
+    <div class="kevinbox">
+        
+        <div class="name-container">
+            <div class="name">
+              <img src="/public/images/kevin.gif">
+            </div>
+          </div>
+        
+        <div class="top-search-buttons">
+
+          
+    <div class="button-row">
+        <button class="sbutton" data-category="assembly">Assembly</button>
+        <button class="sbutton" data-category="sql">SQL</button>
+        <button class="sbutton" data-category="c">C</button>
+        <button class="sbutton" data-category="cpp">C++</button>
+        <button class="sbutton" data-category="leetcode">LeetCode</button>
+        <button class="sbutton" data-category="lua">Lua</button>
+        <button class="sbutton" data-category="kotlin">Kotlin</button>
+        <button class="sbutton" data-category="english">Inglês</button>
+        <button class="sbutton" data-category="french">Francês</button>
+    </div>
+    <div class="button-row2">
+        <button class="sbutton2" data-category="web">Web</button>
+        <button class="sbutton2" data-category="html">HTML</button>
+        <button class="sbutton2" data-category="css">CSS</button>
+        <button class="sbutton2" data-category="javascript">JavaScript</button>
+        <button class="sbutton2" data-category="java">Java</button>
+        <button class="sbutton2" data-category="javafx">JavaFX</button>
+        <button class="sbutton2" data-category="mql5">MQL5</button>
+        <button class="sbutton2" data-category="python">Python</button>
+        <button class="sbutton2" data-category="ruby">Ruby</button>
+    </div>
+
+
+    
+        <div class="search-container">
+            <input type="text" id="search-bar" class="search-bar" data-placeholder="search" placeholder="Pesquisar...">
+            <span id="magnifier-icon" class="magnifier-icon"><i class="fas fa-search"></i></span>
+            
+        </div>        
+
+        <p class="counter-text" data-translate="views">Este site foi visitado:</p>
+        <a href="https://www.freecounterstat.com" class="counter" id="counter-link">
+          <img src="https://counter8.optistats.ovh/private/freecounterstat.php?c=2dbkptsqtdy8zwhtxn1wa2sza5x5wku5" width="140" height="40" border="0" title="" alt="">
+        </a>
+        <p class="counter-text2"data-translate="views2">vezes.</p>
+        
+        <style>
+          #counter-link {
+            cursor: default; /* Use default arrow cursor */
+            pointer-events: none; /* Make it non-clickable if desired */
+          }
+        </style>
+                  
+</div>
+</div>  
+
+        <main>                         
+
+            <br><br><br><br><br><br><br><br><br>            
+
+            <div id="not-found-message" style="display: none;">
+                <p>Nenhum resultado para sua pesquisa. Atualize a página ou faça uma nova pesquisa.</p>
+            </div>
+
+
+                   <div class="about-content" style="display: none;">
+                    <div class="about-container">
+                        <div class="about-description">
+                            
+                                <p class="extra-title" data-translate="greeting">SAUDAÇÕES!</p>
+                                                                
+                                <p class="about-text" data-translate="about-atext">Meu nome é Kevin, nasci na Suíça em 1994 e me mudei para o Brasil depois de 1 ano e meio, filho de mãe brasileira e pai português, tenho parentes espalhados por toda a Europa e Brasil, a seguir, tenho interesse em programação de computadores e também enfatizo meus interesses gerais por linguagens. Depois que meu inglês melhorou, tive algum tempo para aprender francês e sueco, porque achei bonito, mas o russo parecia ser uma língua mais poderosa em alguns aspectos, então eu a escolhi. Formei-me como Técnico em Radiologia e trabalhei durante anos na oficina do meu pai, então decidi migrar para a área de TI. 
+                                </p>
+                                
+                                <p class="extra-title">DO QUE SE TRATA ESTE WEBSITE?</p>                
+                                                           
+                                <p class="about-text" data-translate="about-btext">
+                                Este site trata principalmente de projetos na área de tecnologia da informação (programação), mais especificamente em: C, C++, Java, Web e Android. É com prazer que vos apresento os meus projetos e intenções. Também tenho interesse em negociar robôs e linguagens como hobby, coisas que também fazem parte da área de TI. Na minha história com programação, comecei a entendê-la em períodos intercalados e vi conceitos como variáveis ​​e condições em Ruby do RPG Maker XP. Logo depois comecei a programar alguns bots para o jogo Tibia chamado Elf Bot, no qual tratei de programação geral na linguagem Lua. Anos depois, fiz um curso de linguagem C, e foi aí que começaram alguns estudos mais sérios. Li um livro de 250 páginas em pouco tempo e tirei 10/10 na prova C. Logo depois comecei a lidar com outros conteúdos como C++ e criei meu primeiro projeto em C++ com mais de 6 mil linhas de código, que funcionava no console IDE. Esse projeto me trouxe alegria porque entendi que para construir um projeto é preciso disciplina e organização. Foi quando fiz um curso de HTML e depois me envolvi com CSS e JavaScript (este site foi feito em HTML5, CSS3, JavaScript e React). E foram Java e MySQL que tornaram as coisas mais interessantes, e também foi surpreendente lidar com uma linguagem puramente orientada a objetos. Depois disso, comecei uma paixão por Web Browsers, como aquele que fiz no framework Java, chamado JavaFX. Então, percebendo que o início da era mobile tratava de Java, resolvi conhecer Kotlin, e ele se tornou um dos meus principais focos em programação. Tenho a perspectiva de que qualquer projeto que seja desenvolvido deve aplicar princípios, e tudo o que é feito resulta em lições aprendidas. É através deste tipo de noção que me formo, adaptando-me assim à postura e aos comportamentos dos colegas e da empresa. Estou sempre aberto a aprender a sintaxe das linguagens de programação, entendendo os parâmetros léxicos e semânticos e as metodologias de programação existentes. Vou citar algumas áreas nas quais desejo desenvolver habilidades ou adquirir conhecimento e que irão aprimorar minhas capacidades em minha programação futura. Comecemos pelo Assembly: esta linguagem de programação está no pólo oposto das linguagens mais abstratas por ser uma linguagem de baixo nível. Está intimamente relacionado à linguagem de máquina, e o uso de uma linguagem de baixo nível não se trata apenas de movimentos que fazemos por meio da robótica, como microprocessadores, mas de coisas básicas e pequenas que são indispensáveis ​​para um sistema operacional, como seus drivers . Também pode fazer parte de como um IDE compila uma linguagem por meio do código de baixo nível em que é escrito. Outra coisa que quero ter contato e aprimorar é me inclinar para os fundamentos da informática porque dá ao programador o aparato para uma melhor estrutura de programação. Além disso, desafios de programação como 'LeetCode' são sempre úteis para praticar, para mim em algumas linguagens como Java ou C++, mas a complexidade extra sobre onde uma linguagem pode chegar através de suas bibliotecas e funções não deve ser explorada muito profundamente sem ter algo prático e útil. É importante aprimorar a área de NoSQL e adquirir conhecimento sobre como um banco de dados funciona com determinadas linguagens de programação, por se tratar do SQL médio. Também pretendo me envolver na programação de ambientes próximos que simulem carros autônomos, geralmente em Python e C++, como CARLA.
+                                </p> 
+
+                              <!-- <button class="expand-toabout">>></button> --> 
+
+                        </div>
+                        </div>
+                        </div>
+                       
+     
+            <style>
+                .flag {
+                    opacity: 0.5;
+                    transition: opacity 0.3s;
+                }
+            
+                .flag:hover, .flag.active {
+                opacity: 1.0; /* Full opacity for active or hovered flags */
+                }
+
+.flag.br {
+    opacity: 1.0; /* Default opacity for the Brazilian flag */
+}
+            </style>
+
+
+<div class="copyright-content" style="display: none;">
+   
+    <div class="copyright-container">
+        <div class="copyright-description">
+
+    <p class="title">TERMO DE COMPROMISSMO DE NÃO REPRODUÇÃO E NÃO DISTRIBUIÇÃO DE CONTEÚDO AUTORAL</p>
+    <p>
+    Pelo presente Termo de Compromisso de Não Reprodução e Não Distribuição de Conteúdo Autoral, a pessoa identificada como DETENTOR(A) DO DIREITO AUTORAL declara que o conteúdo do website "www.kevinws.netlify.app", aqui referida como CONTEÚDO AUTORAL e projetos nele encontrado, é de sua exclusiva criação e propriedade, estando protegida pela Lei de Direitos Autorais (Lei nº 9.610/1998).
+    <br>
+    Cláusula 1 - Proibição de Reprodução e Distribuição 1.1. Fica estritamente vedada qualquer forma de reprodução, cópia, distribuição, exibição, adaptação, transmissão ou qualquer outro uso do CONTEÚDO AUTORAL sem a expressa autorização prévia e por escrito do DETENTOR(A) DO DIREITO AUTORAL (para projetos ou conteúdos não divulgados em redes de código aberto como GitHub). 1.2. Este termo proíbe a criação de obras derivadas ou modificações do CONTEÚDO AUTORAL, bem como o compartilhamento total ou parcial em qualquer meio físico, digital ou plataforma pública ou privada, sem autorização.
+    <br>
+    Cláusula 2 - Proibição de Uso Comercial 2.1. É proibido o uso comercial do CONTEÚDO AUTORAL, incluindo, mas não se limitando à venda, aluguel, licenciamento, ou qualquer outra forma de exploração econômica sem autorização expressa. 2.2. O CONTEÚDO AUTORAL não poderá ser utilizado em atividades promocionais, publicitárias ou em qualquer outra forma de divulgação com fins lucrativos.
+    <br>
+    Cláusula 3 - Penalidades pelo Descumprimento 3.1. O descumprimento de qualquer disposição deste Termo por terceiros poderá implicar em medidas legais cabíveis, incluindo ações judiciais de reparação de danos e perdas, bem como sanções previstas na legislação de direitos autorais e propriedade intelectual vigente. 3.2. O infrator poderá ser responsabilizado civil e penalmente pelo uso indevido, reproduções não autorizadas ou qualquer outra forma de violação dos direitos autorais do DETENTOR(A) DO DIREITO AUTORAL.
+    <br>
+    Cláusula 4 - Foro 4.1. Para dirimir quaisquer controvérsias oriundas deste Termo, as partes elegem o foro da Comarca de [Cidade e Estado], com renúncia expressa de qualquer outro, por mais privilegiado que seja.
+    <br>
+    Por estarem de pleno acordo com os termos aqui estipulados, as partes assinam o presente Termo de Compromisso de Não Reprodução e Não Distribuição de Conteúdo Autoral em [número de vias] vias de igual teor e forma.
+    <br>
+    Ilhéus, Bahia 2025
+    <br>
+    _____________________________________ <br>
+    Kevin Ferreira
+    
+</p>
+
+</div></div>
+</div>
+
+<div class="articles-content" style="display: none;">
+
+    <div class="articles-container">
+        <div class="articles-description">
+            <p class="title">ANÁLISE DE PARADIGMAS DA PROGRAMAÇÃO</p>
+            <p>
+
+                Este artigo traz informações sobre a complexidade das linguagens de programação e algoritmos. Aborda temas como: os tipos de linguagem, sua estrutura, se são de baixo ou alto nível, tipagem forte ou fraca, compilação e interpretação, o que isso representa, entre outros. Tais temas são discutidos e analisados de forma simples fazendo com que leigos entendam a existência de aspectos presentes nas linguagens de programação.
+                Por fim, na conclusão, são ressaltados os principais pontos discutidos ao longo do artigo, enfatizando a importância do conhecimento das bases da tecnologia da informação para o sucesso profissional na área. São feitas reflexões sobre as tendências futuras das linguagens de programação e suas implicações para o desenvolvimento de softwares, entre outras coisas.
+                                
+                Palavras-chave: TI; algoritmos; Linguagens de programação; Mercado.
+                                                             
+                As bases da tecnologia da informação são fatores imprescindíveis para a contextualização de um bom profissional da área, são temas de estudo que fazem com que fortaleça a formação de um profissional capacitado, flexível e perspicaz. 
+                Um profissional que elabora algoritmos nunca pode desconsiderar a importância de  suas bases de estudo do passado como: elaboração de tabelas da verdade, fluxograma, vocabulário da programação, regras de sintáxe, léxica e semântica em uma linguagem de programação. Vale lembrar que problemas de um tipo voltam em formas desconhecidas que parecem ser complexas mas podem ser simples, assim, cada problema leva um tempo e forma específica para sua solução através de algoritmos, por exemplo.
+                A introdução ao pensamento algorítmico acontece e então o profissional se torna apto a utilizar sua forma de programar sabendo que a programação em si se trata de algo “linguístico” e matemático ao mesmo tempo. Tal consciência faz dele um explorador de horizontes vastos, pois dentro de uma linguagem de programação haverá conteúdos adicionais, como por exemplo: bibliotecas e frameworks, que são nada mais que ferramentas que adicionam recursos em algumas linguagens de programação.
+                O programador faz desde braços robóticos funcionarem, como por exemplo em Arduino, ou o caso de carros auto dirigido, como os serviços que a empresa Comma Ai e Yandex fornecem, como também tudo que permeia a informação e conexões sociais, divulgações de recursos e inovação, tudo isso envolve códigos algorítmicos e programação.
+                Vale lembrar que também são bases importantes em uma empresa de TI a sua administração e seus recursos e ferramentas, práticas de gestão que adotam, de divulgação de informação, assim como também a sua comunicação interna e externa, o quão e como um funcionário é comunicado ou pode comunicar. Outro fator é que a TI faz parte da maioria das empresas na atualidade, assim fazendo da criação de softwares, controle de recursos, comunicação, compartilhamento, entre outros recursos serem cruciais para a sua sobrevivência, manutenção e ascenção.
+                Hoje em dia, além das hierarquias, existem as qualificações como junior, pleno e sênior, que servem pra classificar uma condição de programador ou líder de projetos, fazendo
+                com que os anos de experiência ou habilidades aprofundadas dentro da programação os categorizem dessa forma.
+                </p>
+                <p class="title"> CARACTERÍSTICAS DE ALGORITMOS</p>               
+                <p>
+                Algoritmos possuem de características básicas a outras mais avançadas, assim como a sua classificação de qual tipo se é em uma linguagem de programação. Dentre algumas classificações está o paradigma procedural que se trata de utilizar “procedimentos” ou “subrotinas”. Se usa funções seguidas de funções considerando os escopos e regras de fluxo de controle, variáveis e estruturas de controle como (loops e condicionais). Este é similar ao paradigma imperativo, pois se trata de dizer exatamente à máquina o que deve ser feito, então basicamente este expressa a lógica de uma computação sem especificar o controle de fluxo, em outras palavras, se é focado em descrever o que precisa ser alcançado ao invés de como alcançar isso, assim, uma linguagem de programação pode estar inclusa em mais de um paradigma por si. Outro paradigma de programação é a linguagem funcional, que acontece da forma que as funções podem ser declaradas em variáveis, passadas como argumentos e retornam de outras funções, outro ponto chave é a idéia de “funções puras”. Uma função pura depende somente de sua entrada para gerar um resultado e dado a mesma entrada, é produzido o mesmo resultado. Com esses conceitos em mente, a programação funcional encoraja o programa a ser escrito na maior parte por funções, isto também defende a ideia de que a modularidade e a ausência de efeitos colaterais fazem disso mais fácil de identificar e separar responsabilidades no código fonte. Também, o paradigma declarativo de programação se trata de esconder a complexidade e trazer linguagens de programação perto de uma linguagem humana e pensamento. Essa é direta oposta da linguagem imperativa no sentido de que o programador não dá instruções sobre como o computador deve executar uma tarefa, mas sim de que resultado é necessário. O famoso paradigma de orientação a objetos é um dos mais famosos de hoje em dia, que se trata em separar as funcionalidades em entidades que são codificadas como objetos. Cada entidade agrupará um determinado conjunto de informações (propriedades) e ações (métodos) e podem ser realizadas pela entidade.
+                A POO faz um uso pesado de classes, que é uma forma de criar novos objetos começando de um desenho técnico que o programador coloca. Objetos que são criados de classes são chamados instâncias. O que é ótimo sobre POO é que este facilita o entendimento do programa pela clara separação de conceitos e responsabilidades.
+                Outro tema interessante nesse assunto de linguagens de programação são suas características como a línguagem de alto e baixo nível. Linguagens de baixo nível são voltadas para o entendimento da máquina. Por isso, elas possuem uma sintaxe mais complexa e não contam com comandos tão intuitivos. Por exemplo: lembra-se das instruções “print” ? Apesar de serem de fácil assimilação para uma pessoa, é evidente que o computador não é capaz de entender  tal comando. Isso porque a linguagem da máquina é constituída apenas por sequências de 0 e 1, o chamado código binário. Então, as linguagens de baixo nível têm instruções mais diretas para o processador por isso, são mais próximas da linguagem da máquina. Sendo assim, para utilizá-las é preciso conhecer não só a linguagem, mas também o hardware do dispositivo com o qual irá trabalhar. Dentre as principais vantagens e desvantagens de linguagem de baixo nível está no tempo de processamento mais rápido do que o de uma de alto nível. Além disso, a arquitetura dos dispositivos é mais bem aproveitada com esse tipo de linguagem. Em contrapartida, a pessoa que vai utilizar essa ferramenta de baixo nível pode levar mais tempo para compreender e dominar a sintaxe. Sem contar que ainda será necessário conhecer profundamente o hardware da máquina, o que exige mais investimento em estudo e treinamento. Ademais, visto que o código escrito é mais direcionado ao processador, a portabilidade também é prejudicada, pois ele pode não rodar em processadores de famílias diferentes. No mais, a principal linguagem de baixo nível que temos é o Assembly.
+                Chamamos de linguagem de alto nível aquela cuja sintaxe é voltada para o entendimento humano. Isso significa que esse tipo de linguagem é muito mais intuitivo, abstrato e mais fácil de aprender, principalmente para iniciantes na área de programação. Para que isso seja possível, as linguagens de alto nível abstraem conceitos voltados para a máquina e sintetizam comandos. Por exemplo: “print” e “delete” são instruções comumente usadas nessas linguagens que, como os termos sugerem, servem para mostrar uma informação na tela ou deletar algum dado, respectivamente. Dentre as vantagens e desvantagens das línguagens de programação de alto nível está no grande benefício e a produtividade que o programador ganha ao usar esse tipo de linguagem. Isso porque a abstração proporcionada pela linguagem de alto nível permite que você escreva mais código em menos tempo, o que é extremamente positivo quando se trabalha em sistemas complexos. Além disso, caso outra pessoa precise verificar o seu código, ela conseguirá entender com mais facilidade o que foi feito. Dessa forma, o processo de manutenção também é simplificado. Por outro lado, as linguagens de alto nível apresentam algumas desvantagens. Existem casos, por exemplo, em que o desempenho de um programa pode ser prejudicado, pois ele exige maior tempo de processamento. Normalmente, também ocupam mais memória quando comparadas a uma linguagem de baixo nível. Algumas das línguagens de alto nível, são: Javascript, Java, C#, C++, Python, Ruby, Swift, PHP.
+                Outra observação a se fazer é sobre quando a linguagem é compilada ou interpretada. Sendo a compilada o tipo de linguagem em que se é traduzido para o código de máquina antes da execução, resultando em um processamento mais rápido, assim querendo uma compilação separada para diferentes plataformas. O processo de compilação envolve várias etapas, incluindo análise léxica, análise sintática, otimização de código e geração de código de máquina. O resultado é um arquivo executável ou uma biblioteca de código objeto que pode ser executada pela CPU do computador. 
+                Uma linguagem interpretada é um tipo de linguagem de programação na qual o código-fonte é executado diretamente por um programa chamado interpretador, sem a necessidade de compilação prévia para código de máquina. O interpretador lê e executa as instruções do código-fonte linha por linha durante a execução do programa.
+                Não se deve esquecer que nas linguagens de programação a administração de memória (RAM) é relevante. O gerenciamento de memória é uma parte fundamental no desenvolvimento de software, especialmente em linguagens de programação de mais baixo nível, como C e C++, onde os programadores têm mais controle direto sobre a alocação e desalocação de memória. No entanto, mesmo em linguagens de mais alto nível, como Java, Python e JavaScript, o gerenciamento de memória é uma consideração importante, embora seja muitas vezes realizado de forma mais transparente para o desenvolvedor.
+                Um ponto adicional é tipagem da linguagem, que são classficadas como: tipagem fraca e forte.
+                Em uma linguagem com tipagem fraca, as conversões automáticas entre tipos de dados são frequentemente permitidas e podem ocorrer implicitamente.
+                Em uma linguagem com tipagem forte, as conversões automáticas entre tipos de dados são restritas ou não são permitidas, exigindo que os tipos sejam compatíveis antes de realizar uma operação.
+                </p>
+                <p class="title">RESULTADOS E DISCUSSÃO</p>               
+                <p>
+                Deve-se consciêntizar do fato de que cada linguagem de programação tem sua função em TI, algumas mais próximas e outras mais distantes da linguagem de máquina, dentre outros fatores e categorias como citado acima, apesar do mercado variar de uma região para outra (até considerando-se internacionalmente) o mercado se mostra em um padrão.
+                Assim, cada linguagem de programação tem o seu espaço, pois, em alguns casos a baixa demanda de empregos pode ser compensada por pagamentos alto por execução da função.
+                Vale se atentar para o grande crescimento de  linguagens como Python e Javascript. Python se tornou uma ferramenta essencial em praticamente todas as aplicações científicas em todo o mundo devido ao seu poder e versatilidade. É uma linguagem de programação de propósito geral, que suporta diferentes paradigmas de programação. Essa linguagem é amplamente utilizada em aplicações científicas e especializadas, incluindo ciência de dados, inteligência artificial, aprendizado de máquina, educação em ciência da computação, visão computacional e processamento de imagens, medicina, biologia e até astronomia. Python também é usado para o desenvolvimento web. É aqui que podemos começar a comparar suas aplicações com as aplicações do JavaScript. Python é usado para o desenvolvimento em back-end, que é a área de desenvolvimento web responsável por criar os elementos que os usuários não veem, como o lado do servidor de uma aplicação.
+                Enquanto o Python pode ser usado para desenvolver a parte de back-end de um aplicação web, o JavaScript pode ser usado para desenvolver o back-end e o front-end da aplicação. O front-end é a parte da aplicação que o usuário vê e com a qual ele interage. Sempre que você vê ou interage com um site ou aplicação web, está usando JavaScript "nos bastidores". Da mesma forma, quando você interage com uma aplicação para dispositivos móveis,  talvez esteja usando JavaScript, porque frameworks como React Native nos permitem escrever aplicações que se adaptam a diferentes plataformas. JavaScript é tão amplamente utilizado no desenvolvimento web por ser uma linguagem versátil, que oferece as ferramentas necessárias para desenvolver os componentes de uma aplicação web.
+                </p>            
+                <p class="title">CONCLUSÃO</p>               
+                <p>
+                Conclui-se que tomando a noção sobre as características gerais das linguagens de programação e os seus tipos de estrutura, meios de compilação, níveis de abstração, se adiciona para o programador uma noção de esboço, assim sugerindo como lidar com tal linguagem, e possivelmente prever aspectos da mesma. Deve-se considerar que os mercados e empregabilidade varia de região para região, porém no geral tudo caminha para uma direção similar. Vê-se que poderá haver algumas tendências ocultas como a ascenção de linguagens como Rust e C# em substituição de C++ e Java, respectivamente, pois um dos fatores é a solução atual que tais linguagens trazem para problemas e também a operabilidade funcional  quando se trata do uso de memória que softwares escritos em tais linguagens demandam.
+                Um ponto curioso é o quão linguístico e matemático pode ao mesmo tempo ser um algoritmo. Dentre as regras léxica, sintáxica e semântica limitadas na sua criação fazendo assim das linguagens algo que expande e ao mesmo tempo tem um limite. A idéia de ausência de limites da linguagem C++ se dá através do nível de abstração, dados e estrutura da mesma, assim comportando softwares como Photoshop, com mais de 10 milhoës de linhas de código, entre outros. 
+                As linguagens de programação podem ser compiladas ou interpretadas. Linguagens compiladas são traduzidas completamente para linguagem de máquina antes da execução do programa, enquanto linguagens interpretadas são traduzidas linha por linha durante a execução do programa.
+                Cada linguagem de programação tem seu próprio ecossistema de ferramentas, bibliotecas, frameworks e comunidade de desenvolvedores. Isso pode afetar a produtividade, a facilidade de aprendizado e o suporte disponível para os programadores.
+                Em resumo, as linguagens de programação desempenham um papel crucial no desenvolvimento de software, fornecendo aos desenvolvedores as ferramentas necessárias para criar uma ampla variedade de aplicativos e sistemas de software. A escolha da linguagem de programação certa depende dos requisitos do projeto, das preferências pessoais e da experiência dos desenvolvedores.
+               </p>
+              <br>
+              <div class="article-navigation">
+            <button class="preview-article"><</button>
+            <button class="next-article">></button>
+        </div>
+        </div>
+   
+
+    </div>
+</div>
+
+<div class="images-content" style="display: none;">
+    <p class="title">Images</p>
+</div>
+
+            <div class="projects-content">
+                <br><br><br>
+                <p class="title">Video Title</p>
+                <br><br><br>
+                <div class="projects-container">
+                    <div class="projects-description">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
+                    </div>
+                    
+                    <div class="video-container">
+                        <video id="myVideo" controls>
+                            <source src="/public/videos/Video_1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="flags">
+                            <img src="/public/images/brazil.png" alt="Brazil Flag" class="flag br" data-video="Video_1.mp4">
+                            <img src="/public/images/united-states.png" alt="US Flag" class="flag us" data-video="Video_a.mp4">
+                        </div>
+                    </div>
+                </div>
+                <p class="title">Video Title</p>
+                <br><br><br>
+                <div class="projects-container">
+                    <div class="projects-description">
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout...</p>
+                    </div>
+                    
+                    <div class="video-container">
+                        <video id="myVideo2" controls>
+                            <source src="/public/videos/Video_2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="flags">
+                            <img src="/public/images/brazil.png" alt="Brazil Flag" class="flag br" data-video="Video_2.mp4">
+                            <img src="/public/images/united-states.png" alt="US Flag" class="flag us" data-video="Video_a.mp4">
+                        </div>
+                    </div>
+                </div>
+                <p class="title">Video Title</p><br><br><br>
+                <div class="projects-container">
+                    <div class="projects-description">
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
+                    </div>
+                    
+                    <div class="video-container">
+                        <video id="myVideo3" controls>
+                            <source src="/public/videos/Video_3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="flags">
+                            <img src="/public/images/brazil.png" alt="Brazil Flag" class="flag br" data-video="Video_3.mp4">
+                            <img src="/public/images/united-states.png" alt="US Flag" class="flag us" data-video="Video_a.mp4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <script>
+                
+                document.querySelectorAll('.flags img').forEach(flag => {
+                    flag.addEventListener('click', function() {
+                        const videoSource = this.getAttribute('data-video');
+                        const videoElement = this.closest('.video-container').querySelector('video');
+                        videoElement.querySelector('source').src = videoSource;
+                        videoElement.load();  // Reload the video with the new source
+                    });
+                });
+
+    document.querySelectorAll('.flags img').forEach(flag => {
+    flag.addEventListener('click', function() {
+        // Remove the 'active' class from all flags
+        document.querySelectorAll('.flags img').forEach(f => f.classList.remove('active'));
+
+        // Add the 'active' class to the clicked flag
+        this.classList.add('active');
+
+        // Update the video source
+        const videoSource = this.getAttribute('data-video');
+        const videoElement = this.closest('.video-container').querySelector('video');
+        videoElement.querySelector('source').src = videoSource;
+        videoElement.load();  // Reload the video with the new source
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Initially set Brazilian flag to opacity 1
+    const brazilFlag = document.querySelector('.flag.br');
+    brazilFlag.style.opacity = '1.0';
+
+    document.querySelectorAll('.flags img').forEach(flag => {
+        flag.addEventListener('click', function() {
+            // Reset opacity for all flags
+            document.querySelectorAll('.flags img').forEach(f => {
+                f.style.opacity = '0.7';
+            });
+
+            // Set clicked flag to opacity 1
+            this.style.opacity = '1.0';
+
+            // Update the video source
+            const videoSource = this.getAttribute('data-video');
+            const videoElement = this.closest('.video-container').querySelector('video');
+            videoElement.querySelector('source').src = videoSource;
+            videoElement.load();  // Reload the video with the new source
+        });
+    });
+});
+
+
+function updateFooterDisplay() {
+  const zoomLevel = window.devicePixelRatio;
+  const screenWidth = window.innerWidth; // Get the current screen width
+  const footerRight = document.querySelector('.footer-right');
+
+  if (!footerRight) return; // Ensure the element exists
+
+  // Adjust display based on zoom level and screen width
+  if ((zoomLevel > 1.9) && (screenWidth <= 520)) {
+    // Hide footer-right for incorrect zoom levels or small screens (e.g., tablets, phones)
+    footerRight.style.display = 'none';
+  } else {
+    // Show footer-right for valid zoom levels and wider screens
+    footerRight.style.display = 'flex';
+  }
+}
+
+// Run the function on page load
+document.addEventListener('DOMContentLoaded', updateFooterDisplay);
+
+// Add event listener for window resize to ensure updates on resize
+window.addEventListener('resize', updateFooterDisplay);
+
+
+function updateFooterZoom() {
+  window.requestAnimationFrame(function() {
+    const zoomLevel = window.devicePixelRatio;
+    const footer = document.querySelector('footer');
+
+    // Check if it's Android and likely in desktop mode
+    if (isAndroidDesktopMode()) {
+      if (zoomLevel > 1.25 && zoomLevel <= 1.75) {
+        footer.style.zoom = '0.7'; // Zoom out to 70%
+      } else {
+        footer.style.zoom = '1'; // Reset to default zoom (100%)
+      }
+    }
+  });
+}
+
+function isAndroidDesktopMode() {
+  // Check if the user agent contains 'Android' and keywords for desktop mode
+  return /Android/.test(navigator.userAgent) &&
+         /Windows|Macintosh|Linux/.test(navigator.userAgent) &&
+         !(/Mobile|Tablet/.test(navigator.userAgent));
+}
+
+// Execute the functions during initialization
+document.addEventListener('DOMContentLoaded', function() {
+  updateFooterDisplay();
+  updateFooterZoom();
+});
+
+// Add the event listeners for window resize
+window.addEventListener('resize', updateFooterDisplay);
+window.addEventListener('resize', updateFooterZoom);
+
+</script>
+        
+
+  
+    <div class="coop-content" style="display: none">
+       
+        <div class="coop-container">
+            <div class="coop-description">
+        <p class="title">O QUE É COOP E COMO COLABARAR EM MEUS PROJETOS?</p>
+<p>
+        
+    Olá, entusiasta de código aberto! Tenho o prazer de convidá-lo para colaborar em meus projetos no GitHub. Este convite para cooperação (ou "coop") é uma oportunidade de desenvolvermos juntos ferramentas e aplicativos impactantes e de alta qualidade, por meio de um ambiente dinâmico, inovador e colaborativo. No contexto de projetos open-source, "coop" significa trabalhar de forma coletiva, onde cada pessoa contribui com suas habilidades para criar, revisar e aprimorar as soluções disponíveis. A intenção é que todos — desenvolvedores, designers e outros entusiastas — se unam para transformar ideias em realidade, beneficiando a comunidade e adquirindo novas experiências e conhecimentos. Sobre os Projetos Cada projeto foi planejado com os princípios de código aberto, priorizando acessibilidade, inovação e utilidade para resolver problemas reais. Seja no aprimoramento de interfaces front-end ou na construção de funcionalidades complexas de back-end, esses projetos cobrem várias áreas e são adequados para diferentes níveis de habilidade e experiência. Aqui está o que você pode esperar: Categorias de projetos: desenvolvimento web, aplicativos móveis, análise de dados. Pilha de tecnologia: estamos utilizando tecnologias como: Java, C++, HTML, CSS, JavaScript, Kotlin. Objetivos: criar código de alta qualidade e reutilizável, implementar funcionalidades inovadoras, alcançar escalabilidade e manter uma segurança robusta. Como você pode contribuir Há várias maneiras de apoiar o crescimento desses projetos, e sua contribuição será muito bem-vinda: Desenvolvimento de Funcionalidades: Implemente novas funcionalidades com base no feedback da comunidade ou nos itens do roadmap. Correção de Bugs: Identifique e corrija bugs, aprimorando a estabilidade e o desempenho dos projetos. Revisão de Código: Revise pull requests de outros colaboradores, forneça feedback construtivo e sugira melhorias. Documentação: Melhore a documentação para facilitar a compreensão do projeto por futuros colaboradores e usuários. Teste e QA: Desenvolva testes unitários, testes de ponta a ponta ou ajude com testes manuais para garantir uma experiência sem bugs. Design e UX: Se você é designer, sua contribuição para criar uma interface de usuário intuitiva será essencial. Localização: Torne o projeto acessível para mais pessoas adicionando suporte para diferentes idiomas. Começando Para colaborar, siga esses passos: Explore os Repositórios: Visite os [links dos repositórios do GitHub] e revise o README e o roadmap de cada projeto. Participe das Discussões: Sinta-se à vontade para participar das discussões, abrindo questões com perguntas, sugestões ou novas ideias. Clone e Experimente: Faça um fork do repositório, clone-o localmente e comece a explorar o código. Abra seu primeiro PR: Assim que tiver algo para contribuir, abra um pull request. Ficarei feliz em revisar e discutir suas ideias. Diretrizes de Contribuição Antes de contribuir, por favor, consulte as [Diretrizes de Contribuição] e o [Código de Conduta] para entender os padrões de codificação, as práticas de documentação e a forma de colaboração respeitosa que seguimos. Contato e Suporte Caso tenha dúvidas ou precise de algum esclarecimento, entre em contato diretamente no GitHub ou envie um e-mail para kevinprofessionalman@outlook.com. Estou ansioso para trabalhar junto com você e construir algo incrível! Obrigado por considerar esta oportunidade de cooperação, e estou animado para ver as incríveis contribuições que você trará para esses projetos. Boa Programação!
+
+<p class="title">DIRETRIZES DE CONTRIBUIÇÃO</p> 
+
+<p>
+Para garantir que todos possamos colaborar de forma eficiente e respeitosa, criamos essas diretrizes para ajudar você a começar e para orientar cada contribuição.
+<br>
+1. Como Contribuir
+Fork e Clone o Repositório: Faça um fork do projeto, clone-o localmente e explore o código.
+<br>
+2.Escolha uma Área para Contribuir:
+Funcionalidades: Desenvolva novas funcionalidades com base nas discussões e roadmap.
+Correção de Bugs: Revise as issues abertas para encontrar bugs e colaborar nas correções.
+Revisão de Código: Revise pull requests de outros colaboradores, dando feedback construtivo.
+Documentação: Documente código, APIs e recursos para facilitar a compreensão de todos.
+Teste e QA: Escreva testes automatizados e participe dos testes manuais para garantir a estabilidade.
+Design e UX: Se tiver habilidades de design, ajude a melhorar a interface do usuário.
+Localização: Adicione suporte a diferentes idiomas, tornando o projeto mais acessível.
+<br>
+3. Siga os Padrões de Codificação: Consulte o README e os arquivos de configuração do projeto para alinhar-se ao estilo de código e às boas práticas estabelecidas.
+<br>
+4. Criação de Pull Requests (PR):
+Crie um PR com uma descrição clara e objetivos detalhados do que foi alterado ou adicionado.
+Faça referência a qualquer issue relacionada.
+Revise cuidadosamente seu código antes de submeter o PR.
+<br>
+5. Feedback e Discussões: Participe das discussões de maneira construtiva e aberta. Estamos sempre abertos a novas ideias e melhorias.
+Respeito ao Código de Conduta: Mantenha uma postura respeitosa e profissional em todas as interações, tanto nas discussões quanto nas revisões de código.
+</p>
+
+<p class="title">CÓDIGO DE CONDUTA</p> 
+<p>
+Para garantir que nossa comunidade seja acolhedora e colaborativa, pedimos que todos os colaboradores sigam este código de conduta:
+Compromisso com um Ambiente Inclusivo
+Nós nos comprometemos a construir um ambiente aberto e inclusivo para pessoas de todas as origens e níveis de habilidade.
+<br>
+1. Comportamento Esperado
+Respeito e Inclusividade: Trate todos com respeito. Não toleramos discriminação, assédio ou comportamento abusivo.
+Colaboração Construtiva: Ofereça feedback de maneira construtiva e ajude outros colaboradores a aprender e crescer.
+Reconhecimento de Esforços: Valorize o trabalho e as ideias de todos, independente do nível de experiência.
+<br>
+2. Comportamento Inaceitável
+Comentários Ofensivos ou Discriminatórios: Não são aceitos insultos, discriminação ou assédio de qualquer tipo.
+Desrespeito ao Trabalho de Outros: Desconsiderar ou ridicularizar contribuições de outros é inaceitável.
+Contribuições Maliciosas: Não são permitidas tentativas de danificar o projeto ou prejudicar seu desenvolvimento.
+Consequências de Comportamento Inaceitável
+Qualquer pessoa que viole o código de conduta poderá receber um aviso, ser suspensa temporariamente ou permanentemente de nossa comunidade, dependendo da gravidade do comportamento.
+<br>
+Como Reportar Violações
+Caso observe ou vivencie algum comportamento inadequado, por favor, entre em contato enviando uma mensagem direta no GitHub ou um e-mail para kevinprofessionalman@outlook.com. Todas as denúncias serão tratadas com confidencialidade.
+Obrigado por ajudar a manter um ambiente acolhedor e profissional para todos!
+<br>
+</p>
+</p>
+
+</div></div></div>
+
+    <div class="tradingbot-content" style="display: none">
+
+        <div class="tradingbot-container">
+        <div class="tradingbot-description">
+    <p class="title">ROBÔS DE INVESTIMENTO</p>
+<P>
+    MQL5, ou MetaQuotes Language 5, é uma linguagem de programação desenvolvida especificamente para criação de estratégias automatizadas, indicadores técnicos, scripts e bibliotecas no MetaTrader 5, uma das plataformas de trading mais populares para operações de mercado financeiro. Utilizada principalmente por traders, programadores de algoritmos e analistas financeiros, MQL5 permite a criação de programas para análise técnica, automação de negociações e execução de operações no mercado financeiro de forma rápida e precisa.
+<br>
+    Funções Integradas para Análise Técnica: MQL5 possui uma ampla biblioteca de funções pré-definidas para análise técnica, incluindo indicadores como Média Móvel (Moving Average), Índice de Força Relativa (Relative Strength Index - RSI) e Bandas de Bollinger. Isso ajuda a simplificar a criação de algoritmos de trading, economizando tempo para os programadores.
+    Sistema de Eventos: O MetaTrader 5 e o MQL5 operam com um sistema de eventos, o que permite a execução automática de ações baseadas em determinadas condições, como abertura de ordens de compra ou venda quando um evento específico ocorre no mercado. Isso é feito através de manipuladores de eventos, como OnTick, OnTimer, OnTrade e outros, que capturam eventos do mercado em tempo real.
+    Execução de Ordem e Gestão de Risco: MQL5 é projetada para fornecer controle sobre as operações de trading, permitindo o envio de ordens de compra e venda, cálculo de volume de ordens, gestão de alavancagem e implementação de estratégias de controle de risco. Isso é fundamental para traders automatizados que precisam de precisão e controle em cada operação.
+    Indicadores Personalizados e Scripts: Além dos indicadores embutidos, MQL5 permite a criação de indicadores personalizados que podem ser desenhados diretamente nos gráficos de preço, permitindo análises complexas baseadas em indicadores únicos. Scripts também podem ser desenvolvidos para executar ações específicas, como fechamento de todas as posições abertas, com apenas um clique.
+    Teste de Estratégia e Otimização: A plataforma MetaTrader 5, junto com MQL5, permite o uso de um testador de estratégias integrado, que possibilita o backtesting de algoritmos e otimização de parâmetros. Isso ajuda a avaliar a eficiência de uma estratégia de trading antes de aplicá-la no mercado real, utilizando dados históricos e condições de mercado simuladas.
+    MQL5, ou MetaQuotes Language 5, é uma linguagem de programação desenvolvida especificamente para criação de estratégias automatizadas, indicadores técnicos, scripts e bibliotecas no MetaTrader 5, uma das plataformas de trading mais populares para operações de mercado financeiro. Utilizada principalmente por traders, programadores de algoritmos e analistas financeiros, MQL5 permite a criação de programas para análise técnica, automação de negociações e execução de operações no mercado financeiro de forma rápida e precisa.
+</P>
+    
+    <p class="title">SIMILARIDADE COM C++</p>
+    <p>
+    MQL5 é uma linguagem fortemente inspirada em C++ e adota várias de suas características, como estrutura e sintaxe, tornando-a familiar para programadores com experiência em C e C++. Ela oferece suporte a estruturas avançadas de dados, programação orientada a objetos e manipulação de ponteiros, proporcionando flexibilidade para o desenvolvimento de algoritmos complexos. A linguagem conta com recursos como classes, objetos, herança, encapsulamento e polimorfismo, que permitem criar sistemas robustos e modulares.
+</P>
+    
+
+    <p class="title">PRINCIPAIS RECURSOS DE MQL5</p>
+    
+    <p>
+        MQL5 é uma linguagem de programação poderosa e avançada, ideal para o desenvolvimento de algoritmos de trading no MetaTrader 5. Inspirada em C++, ela suporta Programação Orientada a Objetos (POO), permitindo a criação de classes e instâncias, o que facilita a organização e reutilização do código. Sua ampla biblioteca de funções pré-definidas para análise técnica inclui indicadores como Média Móvel, RSI e Bandas de Bollinger, simplificando a criação de estratégias de trading.
+
+        O sistema de eventos do MetaTrader 5 permite executar ações automáticas com base em condições específicas do mercado, utilizando manipuladores como OnTick, OnTimer e OnTrade, que capturam eventos em tempo real. Além disso, a linguagem proporciona controle total sobre as operações de trading, incluindo envio de ordens, cálculos de volume e implementação de estratégias de controle de risco, fundamentais para traders automatizados.
+        
+        MQL5 permite a criação de indicadores personalizados e scripts para análises complexas ou ações específicas, como fechamento de posições com um clique. O testador de estratégias integrado à plataforma possibilita backtesting e otimização de parâmetros, permitindo avaliar e aprimorar a eficiência de estratégias antes de aplicá-las no mercado real.
+        
+        Apesar dessas vantagens, MQL5 apresenta limitações. Sua aplicação é bastante específica para o trading financeiro, e sua exclusividade ao MetaTrader restringe a portabilidade para outras plataformas.
+        
+        Com alto desempenho, ampla comunidade de suporte, documentação acessível e ferramentas robustas, MQL5 é uma linguagem versátil que atende às demandas de traders e analistas que buscam explorar o potencial do trading algorítmico.
+    </P> 
+    <p class="title">PORQUE CITAR MQL5 AQUI?</p> 
+    <p>
+    Pois gosto de trabalhar alguns Expert Advisors em minhas horas vagas como: hobby, renda extra, e gosto da programação dele em si, consequentemente colocando alguns modelos em forma de projetos pessoais, assim posso possivelmente me encontrar disponível para conversar e contextualizar quando se trata deste assunto.
+</P>
+   <p class="title">CONCLUSÃO</p>
+   <p>
+    Em resumo, MQL5 é uma linguagem de programação avançada e poderosa, ideal para o desenvolvimento de algoritmos de trading no MetaTrader 5. Sua similaridade com C++ facilita o aprendizado para desenvolvedores experientes, enquanto suas funções especializadas para análise técnica e execução de ordens a tornam ideal para o mundo financeiro. Com sua robusta biblioteca de recursos e suporte a programação orientada a objetos, MQL5 é uma escolha versátil para qualquer trader ou analista que deseja automatizar operações de mercado e explorar o potencial do trading algorítmico.
+</P>
+    <p class="title">Contato</p>
+    <p>
+Entre em contato para conversa casual sobre o assunto: kevinprofessionalman@outlook.com
+     </P>
+
+</div>
+</div>
+</div>
+
+    <div class="languages-content" style="display: none">
+
+        <div class="languages-container">
+        <div class="languages-description">
+
+        <p class="title">QUAL A MINHA RELAÇÃO E DISPONIBILIDADE SOBRE ALGUM IDIOMA?</p>
+        <p>
+        Eu sempre tive uma paixão pelo idioma inglês, que considero uma língua extremamente rica e universal. O inglês abriu portas para o mundo, permitindo-me acessar uma quantidade imensa de conhecimento, seja em livros, filmes, artigos acadêmicos, ou interações com pessoas de diferentes culturas ao redor do mundo. É fascinante como o inglês conecta milhões de pessoas e cria oportunidades para compartilhar ideias e experiências.
+
+        Além disso, sou alguém que está sempre aberto a conversas, seja para melhorar a fluência ou simplesmente para trocar experiências. Acredito que a prática constante, por meio de diálogos e imersão no idioma, é essencial para a aprendizagem contínua. Estou sempre disposto a aprender com os outros, seja em um ambiente descontraído ou em contextos mais formais. Sinto que a troca de ideias e a diversidade de perspectivas tornam as conversas ainda mais enriquecedoras.
+        
+        Além do inglês, também estudo o idioma francês, o que tem sido uma experiência maravilhosa. O francês é uma língua cheia de nuances e uma sonoridade única que me encanta a cada dia. Estou em uma jornada de aprendizado e, embora ainda esteja em processo de aprimoramento, estou cada vez mais apaixonado por suas expressões e pela cultura francófona que a acompanha. Estudo o francês com o intuito de expandir ainda mais meu horizonte linguístico e cultural.
+        
+        Se você também é apaixonado por idiomas ou quer compartilhar suas próprias experiências, ficarei feliz em conversar e aprender com você. A troca de conhecimento é algo que aprecio profundamente, e tenho certeza de que as conversas podem ser um ótimo caminho para todos nós crescermos juntos.
+
+        Caso queira conversar sobre experiências ou praticar de forma casual estou aberto para conversas, mande um e-mail ou envie mensagem no WhatsApp.
+    </p>
+</div>
+</div>
+</div>
+
+
+
+<div class="contact-content" style="display: none;" id="contactContent">
+    <div class="contact-container" id="contactContainer">
+      <div class="contact-description" id="contactDescription">
+  
+        <p class="title2" id="contactTitle2">CONTATOS</p>
+  
+        <a href="#" target="_blank" id="linkedin"><i class="fa-brands fa-linkedin"></i><span class="contact-span">  LinkedIn</span></a>
+        <a href="#" target="_blank" id="email"><i class="fa-regular fa-envelope"></i><span class="contact-span">  E-mail</span></a>
+        <a href="#" target="_blank" id="github"><i class="fa-brands fa-square-github"></i><span class="contact-span">  GitHub</span></a>
+        <a href="https://www.youtube.com" target="_blank" id="youtube"><i class="fa-brands fa-youtube"></i><span class="contact-span">  YouTube</span></a>
+        <a href="#" target="_blank" id="discord"><i class="fa-brands fa-discord"></i><span class="contact-span">  Discord</span></a>
+        <a href="#" target="_blank" id="telegram"><i class="fa-brands fa-telegram"></i><span class="contact-span">  Telegram</span></a>
+        <a href="#" target="_blank" id="whatsapp"><i class="fa-brands fa-whatsapp"></i><span class="contact-span">  Whatsapp</span></a>
+        <a href="#" target="_blank" id="instagram"><i class="fa-brands fa-instagram"></i><span class="contact-span">  Instagram</span></a>
+        <a href="#" target="_blank" id="facebook"><i class="fa-brands fa-square-facebook"></i><span class="contact-span">  Facebook</span></a>
+        <a href="#" target="_blank" id="twitter"><i class="fa-brands fa-x-twitter"></i><span class="contact-span">  Twitter</span></a>
+  
+      </div>
+    </div>
+  </div>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<hr class="hr">
+    
+
+<div class="overall-bottom-container">
+  
+    <div class="title-mail-box" >    
+    <p class="comment-text" data-translate="feedback">DÊ SEU FEEDBACK OU PERGUNTE ALGO</p>
+
+    <input type="text" id="cmail-container" class="cmail-container" placeholder="E-mail...">
+    
+    </div>
+    <textarea id="comment-container" class="comment-container" rows="5" cols="5" placeholder="Mensagem..." data-placeholder="comment"></textarea>
+    <button class="comment-send" type="button" data-translate="send">ENVIAR</button>   
+   
+    <p class="email-text" data-translate="update">FIQUE INFORMADO SOBRE OS ÚLTIMOS UPDATES</p>
+    <input type="text" id="email-container" class="email-container" placeholder="E-mail...">
+    <button class="email-sub" type="button" data-translate="subscribe">INSCREVA-SE</button>
+      
+</div>
+
+<!--
+    
+    <div class="bear">
+        <img src="bear.gif">
+    </div>
+</div>
+
+-->
+
+</main>
+
+<footer>   
+    
+    <div class="footer-container">
+    <div class="footer-left">
+        <p  class="supported-text1" data-translate="rights">&copy; 2024 Kevin. Todos direitos reservados.</p>
+    </div>
+
+    <div class="footer-centralizer">
+        <div class="footer-center">
+            <p class="supported-text2">
+                <span data-translate="rights2" class="footer-left2"></span> 
+          
+            </p>
+        </div>
+    </div>
+</div>
+
+    <!-- 
+    
+    <p class="supported-text">
+                <span data-translate="rights2">Apoiado por:</span> 
+                <span class="blue-text"> Devilish Algo Trading</span> 
+                <img src="devil1-1.png" alt="Icon" class="devil" width="28" height="28">  
+                <span data-translate="and">e</span> 
+                <span class="blue-text">Mars Corp</span> 
+                <a href="#" target="_blank"><i class="fa-solid fa-mars"></i></a>
+            </p>
+    
+    -->
+
+    <div class="footer-right">
+        <a href="#" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+        <a href="#" target="_blank"> <i class="fa-brands fa-square-github"></i></a>
+        <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-discord"></i></a>
+        <a href="#" target="_blank"> <i class="fa-brands fa-telegram"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <!--
+        <a href="#" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
+        -->        
+        <a href="#" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+        <a href="#" target="_blank"> <i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#" target="_blank"> <i class="fa-brands fa-x-twitter"></i></a>
+       
+</div>   
+
+    
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,723 @@
+
+@media (min-width: 1px) and (max-width: 250px) {
+  
+  
+  body {
+
+    zoom: 0.2; 
+    
+  }
+     
+ 
+  .navbar {
+
+    zoom: 0.6; 
+      
+  }
+  
+  .overall-bottom-container {
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
+      "comment-text"
+      "comment-container"
+      "comment-send"
+      "email-text"
+      "email-container"
+      "email-sub";
+    max-width: 1200px;
+    padding: 60px; /* Add padding for spacing inside the container */
+       
+    border-radius: 10px; /* Optional rounded corners */
+  }
+
+}
+
+@media (min-width: 250px) and (max-width: 600px) {
+
+  
+  .footer-right {
+
+    display: none !important;
+    
+    }
+    
+    .footer-left, 
+    .footer-center {
+      
+      align-items: flex-start; /* Align vertically */
+      justify-content: flex-start;
+      vertical-align: middle;
+      zoom: 1.23;         
+    }      
+    
+    .footer-container {
+    
+      grid-template-columns: auto auto; /* Defines two columns for footer-left and footer-center */
+      justify-content: center; /* Centers content horizontally */
+      align-items: center; /* Centers content vertically */
+      gap: 1px; /* Space between columns */
+      
+      
+    }
+    
+   .supported-text2, .rights2 {
+      font-size: 15px; /* Sets the font size for both text elements */
+      font-family: Calibri;
+      align-items: center;
+      justify-content: center;
+      vertical-align: middle;
+      padding-bottom: 0.4%;
+    }
+    
+    .english-text,
+    .portuguese-text {
+       
+      margin-right: 10px;  
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .low-icons {
+    
+      margin-left: 6px;
+        
+    }
+  
+}
+
+
+@media (min-width: 600px) and (max-width: 900px) {
+    
+  .overall-bottom-container {
+
+    justify-content: center; /* Horizontal centering */
+    align-items: center;  
+    
+    zoom: 0.9; 
+    }
+    
+    .footer-right {
+    
+    display: none !important;
+    
+    }
+    
+    .footer-left, 
+    .footer-center {
+      
+      align-items: flex-start; /* Align vertically */
+      justify-content: flex-start;
+      vertical-align: middle;
+      zoom: 0.9; 
+    }
+    
+    
+    .footer-container {
+    
+      grid-template-columns: auto auto; /* Defines two columns for footer-left and footer-center */
+      justify-content: center; /* Centers content horizontally */
+      align-items: center; /* Centers content vertically */
+      gap: 1px; /* Space between columns */
+      
+      
+    }
+    
+    .supported-text1, .supported-text2, .rights2 {
+      font-size: 15px; /* Sets the font size for both text elements */
+      font-family: Calibri;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .english-text,
+    .portuguese-text {
+       
+      margin-right: 10px;  
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .low-icons {
+    
+      margin-left: 6px;
+        
+    }
+}
+
+
+/* SOME PHONES FOR KEVIN ELEMENTS ALIGNMENT */
+
+@media (max-width: 900px) {
+    .kevinbox {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .name-container, .top-search-buttons {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .search-bar {
+     
+      height: 50px;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .sbutton, .sbutton2 {
+      font-size: 10px;
+      padding: 8px 10px;
+    }
+  }  
+
+  
+  @media (min-width: 900px) {
+  
+    .overall-bottom-container {
+      grid-template-areas:
+        "comment-text email-text"
+        "comment-container email-container"
+        "comment-send email-sub";
+    }
+  
+    .comment-text {
+      grid-area: comment-text;
+    }
+  
+    .email-text {
+      grid-area: email-container;
+      margin-top: -50px;
+    }
+  
+    .comment-container {
+      grid-area: comment-container;
+    }
+  
+    .email-container {
+      grid-area: email-container;
+      margin-top: 80px;
+    }
+  
+    .comment-send {
+      grid-area: comment-send;
+    }
+  
+    .email-sub {
+      grid-area: email-sub;
+      margin-top: -1.5px; /* Pull it upwards */
+    }
+  }
+  
+  
+  
+  
+  @media (min-width: 250px) and (max-width: 350px) and (min-resolution: 30dpi) and (max-resolution: 140dpi) {
+  
+  
+    body {
+  
+      zoom: 0.45; 
+      
+    }
+       
+   
+    .navbar {
+  
+      zoom: 0.65; 
+        
+    }
+  
+  
+    .overall-bottom-container {
+      display: grid;
+      gap: 5px;
+      grid-template-areas:
+        "comment-text"
+        "comment-container"
+        "comment-send"
+        "email-text"
+        "email-container"
+        "email-sub";
+      max-width: 1200px;
+      padding: 60px; /* Add padding for spacing inside the container */   
+      border-radius: 10px; /* Optional rounded corners */
+      
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+  }
+  
+  
+  @media (min-width: 250px) and (max-width: 350px) and (min-resolution: 30dpi) and (max-resolution: 140dpi) {
+  
+    body {
+  
+      zoom: 0.45; 
+    
+    }
+        
+    .navbar {
+  
+      zoom: 0.65; 
+        
+    }
+  
+    .overall-bottom-container {
+      display: grid;
+      gap: 5px;
+      grid-template-areas:
+        "comment-text"
+        "comment-container"
+        "comment-send"
+        "email-text"
+        "email-container"
+        "email-sub";
+      max-width: 1200px;
+      padding: 60px; /* Add padding for spacing inside the container */   
+      border-radius: 10px; /* Optional rounded corners */
+
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+  }
+  
+  
+  @media (min-width: 350px) and (max-width: 600px) and (min-resolution: 30dpi) and (max-resolution: 140dpi) {
+  
+  
+    body {
+    zoom: 0.45;
+    }
+        
+    .navbar {
+      zoom: 0.70; 
+    }
+    
+    .overall-bottom-container {
+      display: grid;
+      gap: 5px;
+      grid-template-areas:
+        "comment-text"
+        "comment-container"
+        "comment-send"
+        "email-text"
+        "email-container"
+        "email-sub";
+      max-width: 1200px;
+      padding: 60px; /* Add padding for spacing inside the container */   
+      border-radius: 10px; /* Optional rounded corners */
+
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .footer-right {
+      display: none !important;
+      }
+      
+      .footer-left, 
+      .footer-center {      
+        align-items: flex-start; /* Align vertically */
+        justify-content: flex-start;
+        vertical-align: middle;
+      }      
+      
+      .footer-container {
+        grid-template-columns: auto auto; /* Defines two columns for footer-left and footer-center */
+        justify-content: center; /* Centers content horizontally */
+        align-items: center; /* Centers content vertically */
+        gap: 1px; /* Space between columns */
+            
+      }
+      
+     .supported-text2, .rights2 {
+        font-size: 15px; /* Sets the font size for both text elements */
+        font-family: Calibri;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        padding-bottom: 0.4%;
+      }
+      
+      .english-text,
+      .portuguese-text {
+         
+        margin-right: 10px;  
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .low-icons {
+      
+        margin-left: 6px;
+         
+      }
+    
+  }
+  
+  @media (min-width: 250px) and (max-width: 600px) and (min-resolution: 140dpi) and (max-resolution: 160dpi) {
+      
+    body {
+  
+      zoom: 0.445; 
+      
+    }
+       
+   
+    .navbar {
+  
+      zoom: 0.93; 
+        
+    }
+  
+    .footer-right {
+  
+      display: none !important;
+      
+      }
+      
+      .footer-left, 
+      .footer-center {
+        
+        align-items: flex-start; /* Align vertically */
+        justify-content: flex-start;
+        vertical-align: middle;
+                   
+      }      
+      
+      .footer-container {
+      
+        grid-template-columns: auto auto; /* Defines two columns for footer-left and footer-center */
+        justify-content: center; /* Centers content horizontally */
+        align-items: center; /* Centers content vertically */
+        gap: 1px; /* Space between columns */
+        
+        
+      }
+      
+     .supported-text2, .rights2 {
+        font-size: 15px; /* Sets the font size for both text elements */
+        font-family: Calibri;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        padding-bottom: 0.4%;
+      }
+      
+      .english-text,
+      .portuguese-text {
+         
+        margin-right: 10px;  
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .low-icons {
+      
+        margin-left: 6px;
+          
+      }
+    
+
+      .overall-bottom-container {
+        display: grid;
+        gap: 5px;
+        grid-template-areas:
+          "comment-text"
+          "comment-container"
+          "comment-send"
+          "email-text"
+          "email-container"
+          "email-sub";
+        max-width: 1200px;
+        padding: 60px; /* Add padding for spacing inside the container */   
+        border-radius: 10px; /* Optional rounded corners */
+  
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+  
+  }
+  
+  @media (min-width: 250px) and (max-width: 600px) and (min-resolution: 160dpi) and (max-resolution: 180dpi)  /*MY CELLPHONE*/ {
+     
+    .chrome-mobile body {
+      zoom: 0.45; 
+  }
+  
+  .chrome-mobile .navbar {
+      zoom: 0.87; 
+  }
+  
+    body {
+  
+      zoom: 0.43; 
+      
+    }
+       
+     .navbar {
+  
+      zoom: 0.87; 
+         
+    }
+  
+    .overall-bottom-container {
+  
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center vertically within container */
+    align-items: center; /* Align to the start (left) */
+    padding-right: 5.5%;
+    zoom: 1.0; 
+  
+      }
+      
+      .footer-right {
+  
+        display: none !important;
+        
+        }
+        
+        .footer-left, 
+        .footer-center {
+          
+          align-items: flex-start; /* Align vertically */
+          justify-content: flex-start;
+          vertical-align: middle;
+                     
+        }      
+        
+        .footer-container {
+        
+          grid-template-columns: auto auto; /* Defines two columns for footer-left and footer-center */
+          justify-content: center; /* Centers content horizontally */
+          align-items: center; /* Centers content vertically */
+          gap: 1px; /* Space between columns */
+          
+          
+        }
+        
+       .supported-text2, .rights2 {
+          font-size: 15px; /* Sets the font size for both text elements */
+          font-family: Calibri;
+          align-items: center;
+          justify-content: center;
+          vertical-align: middle;
+          padding-bottom: 0.4%;
+        }
+        
+        .english-text,
+        .portuguese-text {
+           
+          margin-right: 10px;  
+          justify-content: center;
+          align-items: center;
+        }
+        
+        .low-icons {
+        
+          margin-left: 6px;
+            
+        }
+        
+        .email-sub {
+  
+          margin-top: 4px;
+        
+        }
+  
+  }
+  
+  @media (min-width: 250px) and (max-width: 600px) and (min-resolution: 180dpi) and (max-resolution: 200dpi) /*MARCOS CEL*/{
+      
+    body {
+  
+      zoom: 0.415; 
+      
+    }
+         
+    .navbar {
+  
+      zoom: 0.81; 
+          
+    }
+  
+    .footer-right {
+  
+      display: none !important;
+      
+      }
+      
+      .footer-left, 
+      .footer-center {
+        
+        align-items: flex-start; /* Align vertically */
+        justify-content: flex-start;
+        vertical-align: middle;
+                   
+      }      
+      
+      .footer-container {
+      
+        grid-template-columns: auto auto; /* Defines two columns for footer-left and footer-center */
+        justify-content: center; /* Centers content horizontally */
+        align-items: center; /* Centers content vertically */
+        gap: 1px; /* Space between columns */
+        
+        
+      }
+      
+     .supported-text2, .rights2 {
+        font-size: 15px; /* Sets the font size for both text elements */
+        font-family: Calibri;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        padding-bottom: 0.4%;
+      }
+      
+      .english-text,
+      .portuguese-text {
+         
+        margin-right: 10px;  
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .low-icons {
+      
+        margin-left: 6px;
+          
+      }
+    
+
+      .overall-bottom-container {
+        display: grid;
+        gap: 5px;
+        grid-template-areas:
+          "comment-text"
+          "comment-container"
+          "comment-send"
+          "email-text"
+          "email-container"
+          "email-sub";
+        max-width: 1200px;
+        padding: 60px; /* Add padding for spacing inside the container */   
+        border-radius: 10px; /* Optional rounded corners */
+  
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+  
+  }
+  
+  @media (min-width: 250px) and (max-width: 600px) and (min-resolution: 200dpi) and (max-resolution: 600dpi) /*MOM CELL*/ {
+      
+    .chrome-mobile body {
+      zoom: 0.50; 
+  }
+  
+  .chrome-mobile .navbar {
+      zoom: 0.75; 
+  }
+  
+  .firefox-mobile .flags {
+  
+   left: 43%;
+  }
+  
+  
+  .flags {
+  
+    left: 45%;
+   }
+  
+    body {
+  
+      zoom: 0.40; 
+     
+    }
+        
+   .navbar {
+  
+      zoom: 0.53; 
+      
+    }
+    
+  
+  .overall-bottom-container {
+  
+  justify-content: center; /* Horizontal centering */
+  align-items: center;  
+  padding-right: 7%;
+  zoom: 0.9; 
+  flex-direction: column;
+     
+  }
+  
+  .footer-right {
+  
+  display: none !important;
+  
+  }
+  
+  .footer-left, 
+  .footer-center {
+    
+    align-items: flex-start; /* Align vertically */
+    justify-content: flex-start;
+    vertical-align: middle;
+    zoom: 0.9; 
+  }
+  
+  
+  .footer-container {
+  
+    grid-template-columns: auto auto; /* Defines two columns for footer-left and footer-center */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    gap: 1px; /* Space between columns */
+    
+    
+  }
+  
+  .supported-text1, .supported-text2, .rights2 {
+    font-size: 15px; /* Sets the font size for both text elements */
+    font-family: Calibri;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .english-text,
+  .portuguese-text {
+     
+    margin-right: 10px;  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .low-icons {
+  
+    margin-left: 6px;
+      
+  }
+
+
+  }
+  
+
+
+  

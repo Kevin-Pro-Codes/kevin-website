@@ -1,0 +1,10 @@
+{
+    "routes": [
+      { "src": "/kevincss.css", "dest": "/kevincss.css" },
+      { "src": "/kevincss.css2", "dest": "/kevincss2.css" },
+      { "src": "/kevinjs.js", "dest": "/kevinjs.js" },
+      { "src": "/kevinjs2.js", "dest": "/kevinjs2.js" },
+      { "src": "/public/(.*)", "dest": "/public/$1" },
+      { "src": "/(.*)", "dest": "/index.html" }
+    ]
+  }

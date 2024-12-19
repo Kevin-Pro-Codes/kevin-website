@@ -1,0 +1,1925 @@
+
+body {
+
+/*
+background-color: rgb(214, 214, 214);
+*/
+
+  margin: 0;
+  background: linear-gradient(to bottom, white, gray, white);
+  display: block;
+}
+
+
+
+.navbar {
+  zoom: 0.68; 
+  position: relative;
+  background-color: black;
+
+  /* Top gradient only */
+  border-top: 4px solid;
+  border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+
+  width: 100%;
+  white-space: nowrap;
+  align-items: center;  
+  z-index: 100;
+}
+
+  
+
+
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: left;
+  font-family: Calibri, sans-serif;
+  font-weight: bold;
+  line-height: 0.5;
+  /* Adjust line height to a smaller value */
+  font-size: 20px;
+  margin-bottom: -3px;
+  margin-top: -1px;
+  margin-right: 42px;
+  margin-left: -5px;
+  justify-content: center;  
+  overflow: hidden;
+
+  
+}
+
+.navbar ul li {
+  float: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px;    
+  margin-right: 0px;
+
+ 
+}
+
+.navbar ul li a {
+
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  outline: none;
+  padding: 46px 25px;
+  padding-top: 45px;
+  border-radius: 6px; 
+  background-color: black;    
+  margin-bottom: 4px;
+  border-radius: 12px;
+
+}
+
+
+.navbar ul li a:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 12px;
+
+}
+
+
+
+.flag-container .flag-button {
+  display: inline-block;
+  /* Change to inline-block to ensure the container's size fits its content */
+  padding: 14px;
+  /*   */
+  width: 200px;
+  height: 78px;
+  text-decoration: none;
+  transform: translateY(4.5%) translateX(-1%);
+  padding-right: 58px;
+  /* Adjust padding to your liking */
+  margin-bottom: 0px;
+  margin-top: -1px;
+  margin-right: -5px;
+ 
+  overflow: hidden;
+  border-radius: 10px;
+  border: 4px solid blue;
+  background-color: black;
+  margin-left: 12px;
+ 
+  
+}
+
+.flag-button {
+  display: inline-block;
+  /* Change to inline-block to ensure the container's size fits its content */
+  padding: 0px;
+  width: 200px;
+  height: 78px;
+  text-decoration: none;
+  transform: translateY(8.5%) translateX(-1%);
+  padding-right: 58px;
+  
+  
+  }
+
+
+
+.flag-button:hover {
+  background-color: white;
+  width: 200px;
+  height: 78px;
+
+}
+
+.flag-button:hover .flag-text {
+  color: black;
+  /* Set the text color to ensure visibility */
+  text-decoration-color: white;
+  /* Set any other properties affecting visibility */
+  
+  
+}
+
+.flag-button:hover .lock-icon {
+  color: black;
+  /* Set the text color to ensure visibility */
+  text-decoration-color: white;
+  /* Set any other properties affecting visibility */
+ 
+  
+}
+
+.flag-button:hover .lock-icon:hover {
+  
+  color: grey;
+   
+}
+
+
+.flag-button:hover .color-icon {
+  color: black;
+  /* Set the text color to ensure visibility */
+  text-decoration-color: white;
+  /* Set any other properties affecting visibility */
+ 
+  
+}
+
+.flag-button:hover .color-icon:hover {
+  
+  color: grey;
+  
+}
+
+.color-icon:hover {
+  
+  color: grey;
+  
+}
+
+
+.flag-button:hover .change-icon {
+  color: black;
+  /* Set the text color to ensure visibility */
+  text-decoration-color: white;
+  /* Set any other properties affecting visibility */
+  
+  
+}
+
+
+.flag-container .flag-button img {
+  margin-right: -3px;
+  /* Adjust spacing between flag images */
+  transform: translateY(0%) translateX(0%);
+  /* Update transform for better alignment */
+  overflow: hidden;
+
+}
+
+
+
+
+.flag-container .flag-button a {
+  color: black;
+  font-weight: bold;
+  overflow: hidden;
+
+
+}
+
+
+
+.flag-text {
+  color: white;
+  font-family: Calibri, sans-serif;
+  
+  transform: translateY(0%) translateX(0%);
+
+}
+
+.flag-text:hover {
+  color: black;
+  text-decoration-color: black;
+
+
+
+}
+
+.english-text {
+  color: white;
+  transform: translateY(-80%) translateX(24.8%);
+  font-family: Calibri, sans-serif;
+  font-size: 20px;
+
+}
+
+
+.portuguese-text {
+  color: white;
+  /* Color for Portuguese text */
+  transform: translateY(-80%) translateX(24.8%);
+  font-family: Calibri, sans-serif;
+  font-size: 20px;
+  
+  
+}
+
+
+
+ 
+
+.flag-container .flag-button img {
+  /* Generic flag styling for other flags */
+  margin-right: 4px;
+}
+
+/* Styles for flags */
+.uk,
+.us,
+.can,
+.ir,
+.au,
+.nz,
+.br,
+.an {
+  width: 44px;
+  /* Ensure all flags have consistent width */
+  height: 44px;
+  /* Ensure all flags have consistent height */
+  object-fit: cover;
+  /* Maintain aspect ratio */
+}
+
+.pt {
+
+  width: 44px;
+  /* Ensure all flags have consistent width */
+  height: 44px;
+  /* Ensure all flags have consistent height */
+
+  transform: translateY(0%) translateX(0%);
+}
+
+
+
+.all-flags {
+
+  margin: 0;
+  transform: translateY(-30%) translateX(25%);
+
+}
+
+
+.low-icons {
+
+  transform: translateY(25%) translateX(19%);
+  
+}
+
+
+.portuguese-icons {
+
+  transform: translateY(25%) translateX(19%);
+}
+
+
+.lock-icon {
+  
+  /* Adjust the size as needed */
+  color: white;
+  margin-left: 25px;
+ 
+}
+
+.color-icon {
+  font-size: 1em;
+  /* Adjust the s
+  ize as needed */
+  color: white;
+  padding-left: 25px;
+}
+
+.change-icon {
+  font-size: 1em;
+  /* Adjust the size as needed */
+  color: white;
+  padding-left: 25px;
+}
+
+
+/* Hover effect for active navigation link */
+.navbar ul li a.active {
+  background-color: white; /* Example background color for active state */
+  color: black; /* Example text color for active state */
+}
+
+
+
+.navbar-encapsulation {
+  display: flex;
+  flex-direction: column; /* Stack navbar and sub-tabs vertically */
+  width: 100%;
+  position: relative;
+  z-index: 10;
+ 
+  
+
+}
+
+
+
+
+/* Sub-tab container styles */
+.sub-tabs-box, .sub-tabs-box2, .sub-tabs-box3, .sub-tabs-box4 {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  position: absolute;
+  width: 350px; /* Adjust as needed */   
+  background-color: black;     
+  z-index: 999; /* Ensure it appears above other elements */
+  border-radius: 16px; /* Rounded corners for the box */
+  top: 100%;      
+  border: 4px solid blue;
+  display:none;
+
+}
+
+
+
+
+/* Sub-tab list styles */
+.sub-tabs-box ul, .sub-tabs-box2 ul, .sub-tabs-box3 ul, .sub-tabs-box4 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: Calibri;
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 2.5; /* Adjust line height */
+  
+}
+
+
+/* Sub-tab list item styles */
+.sub-tabs-box ul li,
+.sub-tabs-box2 ul li,
+.sub-tabs-box3 ul li,
+.sub-tabs-box4 ul li {
+  text-align: center;
+  padding: 0;
+  display: block; /* Make each subtab take up the full width */
+  width: 100%;    /* Ensure the <li> takes up the full width of its container */
+  
+
+  
+}
+
+
+
+/* Sub-tab link styles */
+.sub-tabs-box ul li a,
+.sub-tabs-box2 ul li a,
+.sub-tabs-box3 ul li a,
+.sub-tabs-box4 ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Set link color */
+  display: block; /* Make <a> a block element so it takes full width of <li> */
+  
+  padding: 10px; /* Adjust padding if necessary */
+  background-color: black; /* Button background color */   
+  border-radius: 8px; /* Rounded corners for each button */
+  margin-bottom: 0px;
+
+  text-align: left;
+}
+
+
+/* Hover effect for sub-tab links */
+.sub-tabs-box ul li a:hover, .sub-tabs-box2 ul li a:hover, .sub-tabs-box3 ul li a:hover, .sub-tabs-box4 ul li a:hover {
+  background-color: white; /* Hover background color */
+  color: black; /* Hover text color */ 
+  padding: 10px;  
+  z-index: 999;
+  
+}
+
+
+
+
+
+.subtab {
+
+height: 50px;
+
+
+}
+
+
+.home-tab {
+border: 4px solid blue;
+
+}
+
+
+.portfolio-tab {
+border: 4px solid blue;
+
+}
+
+
+.extras-tab {
+  border: 4px solid blue;
+  
+  }
+  
+  .contact-tab {
+    border: 4px solid blue;
+    
+    }
+    
+
+
+/* Optional: Styling for horizontal rules */
+.hr1, .hr2, .hr3, .hr4 {
+  width: calc(100% + 20px); /* Adjust width to account for padding */
+  margin: 10px -10px; /* Adjust margin to fit within the padding */
+  border: 0; /* Remove default border */
+  height: 2px; /* Set the height */
+  background: blue; /* Set the background color */
+}
+
+
+
+.fa-address-card, .fa-copyright, .fa-newspaper, .fa-image, .fa-briefcase, .fa-user-group, .fa-robot, .fa-language 
+
+{
+
+padding-right: 15px;
+padding-left: 5px;
+
+}
+
+
+.fa-language {
+
+  padding-right: 15px;
+  padding-left: 5px;
+  
+  transform: translateY(6%) translateX(0%);
+}
+
+
+
+
+
+p {
+  color: black;
+
+}
+
+.main {
+
+  margin: 0;
+
+}
+
+
+.kevinbox {
+  display: flex;
+  justify-content: center; /* Center content */
+  align-items: center;
+  padding: 15px 20px;
+  border: 4px solid black;
+  border-top: none;
+  background-color: white;
+  overflow: hidden;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+
+  
+}
+
+
+.name-container,
+.top-search-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%; /* Equal width for both containers */
+  max-width: 500px; /* Adjust as needed */
+  margin: 5px 25px; /* Move outward by 20px */
+  
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center items within name */
+  padding-right: 20px; /* Adds some space to the right */
+  padding-left: 1px; /* Prevents the image from touching the left edge */
+  margin-right: 25px;
+  box-sizing: border-box;
+  width: 100%; /* Ensures it takes the full width within the max-width constraint */
+  
+}
+
+.name img {
+  max-width: 100%;
+  height: auto;
+ 
+}
+
+.top-search-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-basis: 50%; /* Equal width for both containers */
+  max-width: 550px; /* Adjust as needed */
+
+  margin-left: 0; /* Center the container */
+  
+}
+
+.button-row, .button-row2 {
+  display: flex;
+  
+  justify-content: center;
+  width: 100%;
+  margin-right: 12px;
+}
+
+.sbutton, .sbutton2 {
+  height: 32px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-family: Calibri;
+  font-weight: bold;
+  text-align: center;
+  font-size: 12px;
+  margin: 1px;
+  padding: 10px 10px;
+  padding-bottom: 23px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 7px;
+  margin-left: 8px;
+  position: relative;
+  width: 100%;
+  z-index: 50;
+}
+
+.search-bar {
+  width: 500px;
+  height: 70px;
+  font-size: 25px;
+  padding: 15px;
+  border: 3px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateY(0%);
+  margin-bottom: 10px;
+  z-index: 50;
+}
+
+.magnifier-icon {
+  right: 10px;
+  top: 50%; 
+  font-size: 18px;
+  color: #000;
+  cursor: pointer;
+  transform: translateY(32%) translateX(-200%);
+  z-index: 50;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.counter-text, .counter-text2 {
+  font-size: 30px;
+  font-family: Calibri;
+}
+
+.counter-text2 {
+  margin-left: 10px;
+}
+
+
+#not-found-message {
+  display: none; /* Hidden by default, shown when no results found */
+  position: fixed; /* Fixed position to cover the entire screen */
+  top: 0; /* Position at the top of the page */
+  left: 0; /* Position at the left side of the page */
+  width: 100%; /* Full width of the screen */
+  height: 100%; /* Full height of the screen */
+  background-color: rgba(0, 0, 0, 0.8); /* Black background with slight transparency */
+  color: white; /* White text color */
+  font-family: 'Calibri', sans-serif; /* Set the font to Calibri */
+  display: flex; /* Use Flexbox for centering */
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  z-index: 1; /* Ensure it appears above other content */
+  padding-top: 350px;
+  
+}
+
+#not-found-message p {
+  padding-top: 150px;
+  margin-top: 150px;
+  font-size: 60px; /* Adjust the font size */
+  text-align: center; /* Center-align the text */
+  margin: 0; /* Remove margin around the text */
+  color: white; /* White text color */
+  font-family: 'Calibri', sans-serif; /* Set the font to Calibri */
+}
+
+
+
+.SearchResults {
+  background-color: black;
+  border: 4px solid blue;
+  position: relative;
+  display: flex; /* or block */
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  /* Centering the box horizontally */
+  margin: 0 auto; /* This centers the element horizontally */
+  width: 80%; /* Adjust width to control the size of the box (80% means it will take up 80% of the container's width) */
+  max-width: 1200px; /* Optional: Set a max-width to prevent the box from becoming too wide on large screens */
+  /* Add padding on sides for spacing inside the box */
+  padding: 20px; /* Adjust the padding as needed for spacing inside the box */
+  margin-top: 70px;
+  /* Adjust spacing between video containers */
+  font-family: Helvetica;
+  font-weight: bold;
+  margin-bottom: 40px; /* Keeps the space below the box */
+
+
+}
+
+
+.highlight {
+  background-color: yellow; /* Change to any color you prefer */
+  font-weight: bold;
+  color: red; /* Optional, to change text color */
+  z-index: 999;
+}
+
+
+
+.about-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 40px;
+  /* Adjust spacing between video containers */
+  font-family: Calibri;
+  font-weight: bold;
+
+}
+
+.about-description {
+  position: relative;
+  background-color: black;
+  border: 3px solid blue;
+  padding: 10px;
+  width: 90%;
+  /* Adjust width as needed */
+  text-align: center;
+  border-radius: 10px;
+  /* Rounded corners for the box */
+  margin-top: -80px;
+  /* Ensure it stays within the flow of the document */
+  margin-bottom: 20px;
+  word-spacing: 3px;
+  line-height: 2;
+ 
+}
+
+
+
+.about-description p {
+  
+  margin: 0;
+  /* Remove default margin */
+  color: white;
+  font-family: Calibri, sans-serif;
+  text-align: center; /* Center the title text */
+}
+
+.about-content {
+  color: white;
+  padding-left: 10px;
+
+}
+
+.extra-title {
+  color: white;
+  font-size: 55px;
+  text-align: left;
+  font-family: Calibri;
+  word-spacing: 3px;
+  line-height: 1.5;
+}
+
+.about-text {
+  
+  position: relative;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  /* Adjust spacing between video containers */
+  font-size: 20px;
+  font-family: Calibri, sans-serif;
+  font-weight: bold;
+}
+
+.about-text2 {
+ 
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  /* Adjust spacing between video containers */
+  font-size: 20px;
+  font-family: Calibri, sans-serif;
+  font-weight: bold;
+}
+
+.expand-toabout {
+  font-weight: bold;
+  font-size: 30px; /* Increase font size */
+  margin-left: auto; /* Align button to the right */
+  margin-top: 20px;
+ 
+  display: block; /* Ensures it behaves like a block element */
+  border: none; /* Remove default border */
+  background-color: white; /* Example background color */
+  color: black; /* Example text color */
+  padding: 10px 30px; /* Optional padding */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 10px; /* Optional rounded corners */
+  
+}
+
+
+.copyright-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  /* Adjust spacing between video containers */
+  font-size: 20px;
+  font-family: Calibri, sans-serif;
+  font-weight: bold;
+
+}
+
+.copyright-description {
+
+  position: relative;
+  background-color: black;
+  border: 3px solid blue;
+  padding: 10px;
+  width: 90%;
+  /* Adjust width as needed */
+  text-align: center;
+  border-radius: 10px;
+  /* Rounded corners for the box */
+  margin-top: -80px;
+  /* Ensure it stays within the flow of the document */
+  margin-bottom: 20px;
+  word-spacing: 3px;
+  line-height: 2;
+
+}
+
+.copyright-description p {
+  margin: 0;
+  /* Remove default margin */
+  color: white;
+}
+
+.copyright-content {
+
+  padding-left: 10px;
+
+}
+
+.projects-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  /* Adjust spacing between video containers */
+  font-size: 20px;
+  font-family: Calibri, sans-serif;
+  font-weight: bold;
+
+}
+
+.projects-description {
+
+  position: relative;
+  background-color: black;
+  border: 3px solid blue;
+  padding: 10px;
+  width: 90%;
+  /* Adjust width as needed */
+  text-align: center;
+  border-radius: 10px;
+  /* Rounded corners for the box */
+  margin-top: -80px;
+  /* Ensure it stays within the flow of the document */
+  margin-bottom: 20px;
+  word-spacing: 3px;
+  line-height: 2;
+
+}
+
+
+.projects-description p {
+  margin: 0;
+  /* Remove default margin */
+  color: white;
+}
+
+.projects-content {
+
+  padding-left: 10px;
+
+}
+
+
+.articles-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  /* Adjust spacing between video containers */
+  font-size: 20px;
+  font-family: Calibri, sans-serif;
+  font-weight: bold;
+
+}
+
+.articles-description {
+
+  position: relative;
+  background-color: black;
+  border: 3px solid blue;
+  padding: 10px;
+  width: 90%;
+  /* Adjust width as needed */
+  text-align: center;
+  border-radius: 10px;
+  /* Rounded corners for the box */
+  margin-top: -80px;
+  /* Ensure it stays within the flow of the document */
+  margin-bottom: 20px;
+  word-spacing: 3px;
+  line-height: 2;
+
+}
+
+
+.articles-description p {
+  margin: 0;
+  /* Remove default margin */
+  color: white;
+}
+
+.articles-content {
+
+  padding-left: 10px;
+
+}
+
+
+.coop-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  /* Adjust spacing between video containers */
+  font-size: 20px;
+  font-family: Calibri, sans-serif;
+  font-weight: bold;
+
+}
+
+.coop-description {
+
+  position: relative;
+  background-color: black;
+  border: 3px solid blue;
+  padding: 10px;
+  width: 90%;
+  /* Adjust width as needed */
+  text-align: center;
+  border-radius: 10px;
+  /* Rounded corners for the box */
+  margin-top: -80px;
+  /* Ensure it stays within the flow of the document */
+  margin-bottom: 20px;
+  word-spacing: 3px;
+  line-height: 2;
+
+}
+
+
+.coop-description p {
+  margin: 0;
+  /* Remove default margin */
+  color: white;
+}
+
+.coop-content {
+
+  padding-left: 10px;
+
+}
+
+.tradingbot-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  /* Adjust spacing between video containers */
+  font-size: 20px;
+  font-family: Calibri, sans-serif;
+  font-weight: bold;
+
+}
+
+.tradingbot-description {
+
+  position: relative;
+  background-color: black;
+  border: 3px solid blue;
+  padding: 10px;
+  width: 90%;
+  /* Adjust width as needed */
+  text-align: center;
+  border-radius: 10px;
+  /* Rounded corners for the box */
+  margin-top: -80px;
+  /* Ensure it stays within the flow of the document */
+  margin-bottom: 20px;
+  word-spacing: 3px;
+  line-height: 2;
+
+}
+
+
+.tradingbot-description p {
+  margin: 0;
+  /* Remove default margin */
+  color: white;
+}
+
+.tradingbot-content {
+
+  padding-left: 10px;
+
+}
+
+.languages-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  /* Adjust spacing between video containers */
+  font-size: 20px;
+  font-family: Calibri, sans-serif;
+  font-weight: bold;
+
+}
+
+.languages-description {
+
+  position: relative;
+  background-color: black;
+  border: 3px solid blue;
+  padding: 10px;
+  width: 90%;
+  /* Adjust width as needed */
+  text-align: center;
+  border-radius: 10px;
+  /* Rounded corners for the box */
+  margin-top: -80px;
+  /* Ensure it stays within the flow of the document */
+  margin-bottom: 20px;
+  word-spacing: 3px;
+  line-height: 2;
+
+}
+
+
+.languages-description p {
+  margin: 0;
+  /* Remove default margin */
+  color: white;
+}
+
+.languages-content {
+  padding-left: 10px;
+}
+
+
+.contact-description {
+  position: relative;
+  background-color: black;
+  border: 3px solid blue;
+  border-radius: 10px; /* Rounded corners for the box */
+  margin-top: -80px; /* Ensure it stays within the flow of the document */
+  margin-bottom: 20px;
+  word-spacing: 3px;
+  width: 60%;
+  line-height: 2;
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Default to left alignment */
+  padding-left: 0%;  
+  gap: 10px; /* Optional: Add space between items */
+  margin-left: auto;
+  margin-right: auto; /* This will center the box horizontally */
+ 
+}
+
+.contact-description p {
+  margin: 0; /* Remove default margin */
+  color: white;
+  text-align: center; /* Center the title text */
+  font-family: Helvetica;
+  font-size: 45px; /* Font size for the title */
+  font-weight: bold;
+  width: 100%; /* Ensure the title takes full width to be centered */
+ 
+}
+
+.contact-description .title2 {
+  margin: 0;
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center; /* Center the title */
+  font-family: Helvetica;
+  align-self: center; /* Center the title only */
+}
+
+.contact-description a {
+  display: flex; /* Keep flex to align icon and text in a row */
+  align-items: center; /* Vertically center icon and text */
+  justify-content: center; /* Align items to the left */
+  font-size: 20px; /* Adjust font size */
+  color: white; /* Set color for the text */
+  
+  font-family: Helvetica;
+  text-decoration: none; /* Remove underline */
+  gap: 10px; /* Space between icon and text */
+  width: fit-content; /* Ensure the link doesn't stretch across the container */
+}
+
+.contact-description a i {
+  font-size: 30px; /* Adjust icon size */
+}
+
+.contact-description a span {
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.contact-content {
+  
+}
+
+/* For the text next to the icon */
+.contact-span {
+  font-size: 20px; /* Set the default text size */
+  white-space: nowrap; /* Prevent text from wrapping */
+  font-family: Calibri, sans-serif;
+}
+
+/* Specific style for LinkedIn link */
+#linkedin .contact-span {
+  font-size: 30px; /* Increase font size for LinkedIn */
+  font-family: Calibri, sans-serif;
+}
+
+/* Specific style for LinkedIn link */
+#email .contact-span {
+  font-size: 30px; /* Increase font size for LinkedIn */
+  font-family: Calibri, sans-serif;
+}
+
+/* Specific style for LinkedIn link */
+#youtube .contact-span {
+  font-size: 30px; /* Increase font size for LinkedIn */
+  font-family: Calibri, sans-serif;
+}
+
+/* Specific style for LinkedIn link */
+#discord .contact-span {
+  font-size: 30px; /* Increase font size for LinkedIn */
+  font-family: Calibri, sans-serif;
+}
+
+/* Specific style for LinkedIn link */
+#instagram .contact-span {
+  font-size: 30px; /* Increase font size for LinkedIn */
+  font-family: Calibri, sans-serif;
+}
+
+/* Specific style for LinkedIn link */
+#facebook .contact-span {
+  font-size: 30px; /* Increase font size for LinkedIn */
+  font-family: Calibri, sans-serif;
+}
+
+/* Specific style for LinkedIn link */
+#twitter .contact-span {
+  font-size: 30px; /* Increase font size for LinkedIn */
+  font-family: Calibri, sans-serif;
+}
+
+/* Specific style for LinkedIn link */
+#github .contact-span {
+  font-size: 30px; /* Increase font size for LinkedIn */
+  font-family: Calibri, sans-serif;
+}
+
+/* Specific style for LinkedIn link */
+#telegram .contact-span {
+  font-size: 30px; /* Increase font size for LinkedIn */
+  font-family: Calibri, sans-serif;
+}
+
+/* Specific style for LinkedIn link */
+#whatsapp .contact-span {
+  font-size: 30px; /* Increase font size for LinkedIn */
+  font-family: Calibri, sans-serif;
+}
+
+.article-navigation {
+  display: flex; /* Enable flexbox */
+  justify-content: space-between; /* Push child elements to the edges */
+  align-items: center; /* Center items vertically */
+  padding: 20px; /* Optional padding for spacing */
+  background-color: black; /* Example background color */
+}
+
+.preview-article {
+  font-weight: bold;
+  font-size: 30px;
+  display: block; /* Ensure it behaves like a block element */
+  border: none;
+  background-color: white;
+  color: black;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.next-article {
+  font-weight: bold;
+  font-size: 30px;
+  display: block;
+  border: none;
+  background-color: white;
+  color: black;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+
+.title {
+  color: black;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+  font-family: Helvetica;
+  /*
+font-family: Consolas, sans-serif;
+*/
+
+  word-spacing: 3px;
+  line-height: 2;
+}
+
+
+.video-container {
+  position: relative;
+  display: flex; /* Make it a flexbox container */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+ 
+}
+
+video {
+  width: 90%; /* Increased width for a bigger video */
+  max-width: 100%;  /* Prevent video from overflowing the container */
+  height: auto;
+  border-radius: 40px;
+  margin-bottom: 20px;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */ 
+  margin-right: 0%;
+
+  }
+
+
+  
+    .flags {
+      position: absolute;
+      top: 1%; /* Adjust relative to video container */
+      right: 45%; /* Keep it within bounds */      
+      display: flex;
+      gap: 5px;
+      border-radius: 15px;
+
+  }
+
+
+  .flag {
+      width: 40px; /* Fixed size for better control */
+      height: auto;
+  }
+
+
+
+.overall-bottom-container {
+  display: grid;
+  gap: 5px;
+  grid-template-areas:
+    "comment-text"
+    "comment-container"
+    "comment-send"
+    "email-text"
+    "email-container"
+    "email-sub";
+  max-width: 1200px;
+  /* Adjust as needed */
+  margin: 0 auto;
+  /* Center the container */
+  padding-bottom: 50px;
+  padding-left: 55px;
+  overflow: hidden;
+
+}
+
+
+.title-mail-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+
+.comment-text {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Calibri, sans-serif;
+  text-align: center;
+  /* Ensure text is centered */
+  margin-bottom: 2px;
+  /* Add some space below */
+  
+}
+
+
+.email-text {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Calibri, sans-serif;
+  text-align: center;
+  /* Ensure text is centered */
+  margin-bottom: 5px;
+  /* Add some space below */
+}
+
+.comment-container,
+.email-container,
+.cmail-container {
+  width: 100%;
+  /* Ensure full width within grid cell */
+  max-width: 550px;
+  /* Same max width for consistency */
+  font-size: 20px;
+  border: 3px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 1px;
+  margin: 0 auto;
+  /* Center within the grid cell */
+  font-family: Calibri, sans-serif;
+  text-indent: 10px;
+  
+}
+
+.comment-container {
+  height: 250px;
+  /* Specific height for the comment container */
+  resize: none;
+  /* No resizing allowed for textarea */
+  padding-top: 6px;
+  margin-bottom: 5px;
+}
+
+.email-container {
+  max-width: 700px;
+  width: 500px;
+  height: 75px;
+  margin-top: 0px;
+  /* Adjust this value to move down */
+  transform: translateY(0%);
+  /* Adjust for positioning */
+}
+
+.cmail-container {
+  height: 70px;
+  /* Height for the comment mail feedback container */
+  margin: 10px auto;
+  /* Center horizontally with a small top margin */
+  
+}
+
+.comment-send,
+.email-sub {
+  border: 3px solid black;
+  border-radius: 5px;
+  font-family: Calibri, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 200px;
+  margin: 0 auto;
+  /* Center within the grid cell */
+  text-align: center;
+  margin-bottom: 15px;
+
+}
+
+.email-sub {
+
+  margin-top: 5.5px;
+
+}
+
+
+/* CSS */
+.email-text-container { /* Add a new container */
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: center; /* Center vertically within container */
+  align-items: center; /* Align to the start (left) */
+  grid-area: email-text; /* Still use grid for overall positioning */
+  height: 100%; /* Make container use the full height of grid cell */
+}
+
+
+
+
+.hr {
+
+  border: 2px solid black;
+  transform: translate(0px, -185px);
+
+}
+
+
+footer {
+
+  background-color: white;
+  color: white;
+  padding: 10px 1px;
+  height: 20px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  white-space: nowrap;
+  z-index: 555;
+  font-weight: bold;
+  font-family: Calibri;
+
+}
+
+
+.footer-container {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  vertical-align: middle;
+  zoom: 0.85;
+  
+}
+
+.footer-left {
+  margin: 0 3px; /* Add margin to separate the elements */
+  margin-top: 1px;
+  text-align: left; /* Align text within elements to the left */
+}
+
+.footer-center {
+  margin: 0 3px; /* Add margin to separate the elements */
+  margin-top: 17.5px;
+  text-align: left; /* Align text within elements to the left */
+  margin-bottom: 13.5px;
+}
+
+
+.footer-right {
+  margin-left: auto; /* Pushes the footer-right to the far right */
+  text-align: right;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+
+
+/* Maintain space and alignment for footer-center content */
+.footer-center p {
+  text-align: left;
+  font-size: 15px;
+  vertical-align: middle;
+  
+}
+
+.footer-center img {
+  vertical-align: middle;
+}
+
+.fa-mars {
+  font-size: 26px;
+  vertical-align: middle;
+  padding-bottom: 6px;
+  margin-right: 12px;
+}
+
+.footer-center a {
+  text-decoration: none;
+}
+
+.footer-center i {
+  color: black;
+  
+}
+
+.blue-text {
+  color: blue;
+  font-weight: bold;
+}
+
+.supported-text1, .supported-text2, .rights2 {
+  font-size: 15px; /* Sets the font size for both text elements */
+  font-family: Calibri;
+ 
+}
+
+.supported-text2 {
+  align-items: center;
+  font-family: Calibri;
+  padding-top: 2px;
+ 
+}
+
+.footer-container {
+  
+  align-items: center;
+  margin-left: 5px;
+  
+}
+
+.devil {
+
+  padding-bottom: 3px;
+}
+
+.halo {
+  padding-bottom: 10px;
+
+}
+
+.footer-right .fa {
+  padding: 10px;
+  font-size: 20px;
+  
+}
+
+
+.footer-right {
+  display: flex;   /* Turn the footer-right into a flex container */
+  justify-content: flex-start; /* Align items to the left (optional) */ 
+  align-items: center;    /* Align items vertically to the center (optional) */
+  padding: 0px 0px;      /* Keep the existing padding */
+  
+}
+
+
+
+.footer-right a { /* Style the links within the footer-right */
+  margin-right: 4px;  /* Add some space between the icons */
+}
+
+.footer-right .fa-youtube {
+  font-size: 30px;
+  color: red;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.footer-right .fa-youtube:hover {
+  font-size: 30px;
+  color: rgba(39, 38, 38, 0.322);
+  padding: 5px;
+  vertical-align: middle;
+
+}
+
+.footer-right .fa-envelope {
+  font-size: 29px;
+  color: black;
+  padding: 6px;
+  padding-top: 20%;
+   vertical-align: middle;
+}
+
+.footer-right .fa-envelope:hover {
+  font-size: 29px;
+  color: rgba(39, 38, 38, 0.322);
+  padding: 6px;
+  vertical-align: middle;
+}
+
+.footer-right .fa-telegram {
+  font-size: 29.5px;
+  color: rgb(49, 172, 224);
+  padding: 6px;
+  vertical-align: middle;
+}
+
+.footer-right .fa-telegram:hover {
+  font-size: 29.5px;
+  color: rgba(39, 38, 38, 0.322);
+  padding: 6px;
+  vertical-align: middle;
+}
+
+.footer-right .fa-discord {
+  font-size: 29px;
+  color: rgba(84, 98, 228);
+  margin-top: 1px;
+  vertical-align: middle;
+  padding: 1px;
+}
+
+.footer-right .fa-discord:hover {
+  font-size: 29px;
+  color: rgba(39, 38, 38, 0.322);
+  margin-top: 1px;
+  vertical-align: middle;
+  padding: 1px;
+}
+
+.footer-right .fa-square-github {
+  font-size: 33px;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.footer-right .fa-square-github:hover {
+  font-size: 33px;
+  color: rgba(39, 38, 38, 0.322);
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.footer-right .fa-linkedin {
+  font-size: 33px;
+  color: rgb(13, 120, 243);
+  padding: 5px;
+  border-radius: 12%;
+  /* Adjust for round corners */
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+.footer-right .fa-linkedin:hover {
+  font-size: 33px;
+  color: rgba(39, 38, 38, 0.322);
+  padding: 5px;
+  border-radius: 12%;
+  /* Adjust for round corners */
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+
+.footer-right .fa-instagram {
+  font-size: 32px;
+  color: black;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.footer-right .fa-instagram:hover {
+  font-size: 32px;
+  color: rgba(39, 38, 38, 0.322);
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.footer-right .fa-square-facebook {
+  font-size: 31px;
+  color: rgb(1, 26, 110);
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.footer-right .fa-square-facebook:hover {
+  font-size: 31px;
+  color: rgba(39, 38, 38, 0.322);
+  padding: 5px;
+  vertical-align: middle;
+}
+
+
+.footer-right .fa-whatsapp {
+  color: black;
+  font-size: 33px;
+  padding: 4px 5px;
+  margin-bottom: 2px;
+  vertical-align: middle;
+
+}
+
+.footer-right .fa-whatsapp:hover {
+  color: white;
+  font-size: 33px;
+  padding: 4px 5px;
+  border-radius: 10%;
+  background-color: lime;
+  vertical-align: middle;
+}
+
+.footer-right .fa-x-twitter {
+  font-size: 31px;
+  color: black;
+  padding: 5px;
+  padding-right: 6px;
+  padding-left: 1.5px;
+  vertical-align: middle;
+}
+
+.footer-right .fa-x-twitter:hover {
+  font-size: 31px;
+  color: rgba(39, 38, 38, 0.322);
+  padding: 5px;
+  padding-right: 6px;
+  padding-left: 1.5px;
+  vertical-align: middle;
+}
+
+
+
+#youtube {
+  font-size: 35px;
+  color: white;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+#youtube:hover {
+  font-size: 35px;
+  color: grey;
+  padding: 5px;
+  vertical-align: middle;
+
+}
+
+#email {
+  font-size: 34px;
+  color: white;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+#email:hover {
+  font-size: 34px;
+  color: grey;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+#telegram {
+  font-size: 35px;
+  color: white;
+  padding: 6px;
+  vertical-align: middle;
+}
+
+#telegram:hover {
+  font-size: 35px;
+  color: grey;
+  padding: 6px;
+  vertical-align: middle;
+}
+
+#discord {
+  font-size: 34px;
+  color: white;
+  margin-top: 1px;
+  vertical-align: middle;
+  padding: 1px;
+}
+
+#discord:hover {
+  font-size: 34px;
+  color: grey;
+  margin-top: 1px;
+  vertical-align: middle;
+  padding: 1px;
+}
+
+#github {
+  font-size: 38px;
+  color: white;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+#github:hover {
+  font-size: 38px;
+  color: grey;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+#linkedin {
+  font-size: 38px;
+  color: white;
+  padding: 5px;
+  border-radius: 12%;
+  /* Adjust for round corners */
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+#linkedin:hover {
+  font-size: 38px;
+  color: grey;
+  padding: 5px;
+  border-radius: 12%;
+  /* Adjust for round corners */
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+
+#instagram {
+  font-size: 38px;
+  color: white;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+#instagram:hover {
+  font-size: 38px;
+  color: grey;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+#facebook {
+  font-size: 41px;
+  color: white;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+#facebook:hover {
+  font-size: 41px;
+  color: grey;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+
+#whatsapp {
+  color: white;
+  font-size: 43px;
+  padding: 4px 5px;
+  margin-bottom: 2px;
+  vertical-align: middle;
+
+}
+
+#whatsapp:hover {
+  color: grey;
+  font-size: 43px;
+  padding: 4px 5px;
+  border-radius: 10%;
+ 
+  vertical-align: middle;
+}
+
+#twitter {
+  font-size: 36px;
+  color: black;
+  padding: 5px;
+  padding-right: 6px;
+  padding-left: 1.5px;
+  vertical-align: middle;
+}
+
+#twitter:hover {
+  font-size: 36px;
+  color: rgba(39, 38, 38, 0.322);
+  padding: 5px;
+  padding-right: 6px;
+  padding-left: 1.5px;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
