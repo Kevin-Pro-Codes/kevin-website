@@ -1,38 +1,25 @@
 
 body {
-
-/*
-background-color: rgb(214, 214, 214);
-*/
-
   margin: 0;
   background: linear-gradient(to bottom, white, gray, white);
   display: block;
 }
 
-
-
 .navbar {
   zoom: 0.68; 
   position: relative;
   background-color: black;
-
   /* Top gradient only */
   border-top: 4px solid;
   border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
   border-left: none;
   border-right: none;
   border-bottom: none;
-
   width: 100%;
   white-space: nowrap;
   align-items: center;  
   z-index: 100;
 }
-
-  
-
-
 
 .navbar ul {
   list-style-type: none;
@@ -48,9 +35,7 @@ background-color: rgb(214, 214, 214);
   margin-right: 42px;
   margin-left: -5px;
   justify-content: center;  
-  overflow: hidden;
-
-  
+  overflow: hidden;  
 }
 
 .navbar ul li {
@@ -59,13 +44,10 @@ background-color: rgb(214, 214, 214);
   align-items: center;
   justify-content: center;
   padding: 7px;    
-  margin-right: 0px;
-
- 
+  margin-right: 0px; 
 }
 
 .navbar ul li a {
-
   color: white;
   text-align: center;
   text-decoration: none;
@@ -77,19 +59,14 @@ background-color: rgb(214, 214, 214);
   background-color: black;    
   margin-bottom: 4px;
   border-radius: 12px;
-
 }
-
 
 .navbar ul li a:hover {
   background-color: white;
   color: black;
   font-weight: bold;
   border-radius: 12px;
-
 }
-
-
 
 .flag-container .flag-button {
   display: inline-block;
@@ -104,15 +81,12 @@ background-color: rgb(214, 214, 214);
   /* Adjust padding to your liking */
   margin-bottom: 0px;
   margin-top: -1px;
-  margin-right: -5px;
- 
+  margin-right: -5px; 
   overflow: hidden;
   border-radius: 10px;
   border: 4px solid blue;
   background-color: black;
-  margin-left: 12px;
- 
-  
+  margin-left: 12px;  
 }
 
 .flag-button {
@@ -123,76 +97,54 @@ background-color: rgb(214, 214, 214);
   height: 78px;
   text-decoration: none;
   transform: translateY(8.5%) translateX(-1%);
-  padding-right: 58px;
-  
-  
-  }
-
-
+  padding-right: 58px;    
+}
 
 .flag-button:hover {
   background-color: white;
   width: 200px;
   height: 78px;
-
 }
 
 .flag-button:hover .flag-text {
   color: black;
   /* Set the text color to ensure visibility */
   text-decoration-color: white;
-  /* Set any other properties affecting visibility */
-  
-  
+  /* Set any other properties affecting visibility */    
 }
 
 .flag-button:hover .lock-icon {
   color: black;
   /* Set the text color to ensure visibility */
   text-decoration-color: white;
-  /* Set any other properties affecting visibility */
- 
-  
+  /* Set any other properties affecting visibility */  
 }
 
-.flag-button:hover .lock-icon:hover {
-  
-  color: grey;
-   
+.flag-button:hover .lock-icon:hover {  
+  color: grey;   
 }
-
 
 .flag-button:hover .color-icon {
   color: black;
   /* Set the text color to ensure visibility */
   text-decoration-color: white;
-  /* Set any other properties affecting visibility */
- 
-  
+  /* Set any other properties affecting visibility */   
 }
 
-.flag-button:hover .color-icon:hover {
-  
-  color: grey;
-  
+.flag-button:hover .color-icon:hover {  
+  color: grey;  
 }
 
-.color-icon:hover {
-  
-  color: grey;
-  
+.color-icon:hover {  
+  color: grey;  
 }
-
 
 .flag-button:hover .change-icon {
   color: black;
   /* Set the text color to ensure visibility */
   text-decoration-color: white;
-  /* Set any other properties affecting visibility */
-  
-  
+  /* Set any other properties affecting visibility */    
 }
-
 
 .flag-container .flag-button img {
   margin-right: -3px;
@@ -200,36 +152,23 @@ background-color: rgb(214, 214, 214);
   transform: translateY(0%) translateX(0%);
   /* Update transform for better alignment */
   overflow: hidden;
-
 }
-
-
-
 
 .flag-container .flag-button a {
   color: black;
   font-weight: bold;
   overflow: hidden;
-
-
 }
-
-
 
 .flag-text {
   color: white;
-  font-family: Calibri, sans-serif;
-  
+  font-family: Calibri, sans-serif;  
   transform: translateY(0%) translateX(0%);
-
 }
 
 .flag-text:hover {
   color: black;
   text-decoration-color: black;
-
-
-
 }
 
 .english-text {
@@ -237,29 +176,20 @@ background-color: rgb(214, 214, 214);
   transform: translateY(-80%) translateX(24.8%);
   font-family: Calibri, sans-serif;
   font-size: 20px;
-
 }
-
 
 .portuguese-text {
   color: white;
   /* Color for Portuguese text */
   transform: translateY(-80%) translateX(24.8%);
   font-family: Calibri, sans-serif;
-  font-size: 20px;
-  
-  
+  font-size: 20px;   
 }
-
-
-
- 
 
 .flag-container .flag-button img {
   /* Generic flag styling for other flags */
   margin-right: 4px;
 }
-
 /* Styles for flags */
 .uk,
 .us,
@@ -278,44 +208,30 @@ background-color: rgb(214, 214, 214);
 }
 
 .pt {
-
   width: 44px;
   /* Ensure all flags have consistent width */
   height: 44px;
   /* Ensure all flags have consistent height */
-
   transform: translateY(0%) translateX(0%);
 }
 
-
-
 .all-flags {
-
   margin: 0;
   transform: translateY(-30%) translateX(25%);
-
 }
-
 
 .low-icons {
-
-  transform: translateY(25%) translateX(19%);
-  
+  transform: translateY(25%) translateX(19%);  
 }
-
 
 .portuguese-icons {
-
   transform: translateY(25%) translateX(19%);
 }
 
-
-.lock-icon {
-  
+.lock-icon {  
   /* Adjust the size as needed */
   color: white;
-  margin-left: 25px;
- 
+  margin-left: 25px; 
 }
 
 .color-icon {
@@ -333,36 +249,25 @@ background-color: rgb(214, 214, 214);
   padding-left: 25px;
 }
 
-
 /* Hover effect for active navigation link */
 .navbar ul li a.active {
   background-color: white; /* Example background color for active state */
   color: black; /* Example text color for active state */
 }
 
-
-
 .navbar-encapsulation {
   display: flex;
   flex-direction: column; /* Stack navbar and sub-tabs vertically */
   width: 100%;
   position: relative;
-  z-index: 10;
- 
-  
-
+  z-index: 10;  
 }
 
-
-
-
 /* Sub-tab container styles */
-.sub-tabs-box, .sub-tabs-box2, .sub-tabs-box3, .sub-tabs-box4 {
-  
+.sub-tabs-box, .sub-tabs-box2, .sub-tabs-box3, .sub-tabs-box4 {  
   display: flex;
   justify-content: center;
-  align-items: center;
-  
+  align-items: center;  
   position: absolute;
   width: 350px; /* Adjust as needed */   
   background-color: black;     
@@ -371,11 +276,7 @@ background-color: rgb(214, 214, 214);
   top: 100%;      
   border: 4px solid blue;
   display:none;
-
 }
-
-
-
 
 /* Sub-tab list styles */
 .sub-tabs-box ul, .sub-tabs-box2 ul, .sub-tabs-box3 ul, .sub-tabs-box4 ul {
@@ -385,10 +286,8 @@ background-color: rgb(214, 214, 214);
   font-family: Calibri;
   font-size: 19px;
   font-weight: bold;
-  line-height: 2.5; /* Adjust line height */
-  
+  line-height: 2.5; /* Adjust line height */  
 }
-
 
 /* Sub-tab list item styles */
 .sub-tabs-box ul li,
@@ -398,13 +297,8 @@ background-color: rgb(214, 214, 214);
   text-align: center;
   padding: 0;
   display: block; /* Make each subtab take up the full width */
-  width: 100%;    /* Ensure the <li> takes up the full width of its container */
-  
-
-  
+  width: 100%;    /* Ensure the <li> takes up the full width of its container */  
 }
-
-
 
 /* Sub-tab link styles */
 .sub-tabs-box ul li a,
@@ -413,63 +307,43 @@ background-color: rgb(214, 214, 214);
 .sub-tabs-box4 ul li a {
   text-decoration: none; /* Remove underline from links */
   color: white; /* Set link color */
-  display: block; /* Make <a> a block element so it takes full width of <li> */
-  
+  display: block; /* Make <a> a block element so it takes full width of <li> */  
   padding: 10px; /* Adjust padding if necessary */
   background-color: black; /* Button background color */   
   border-radius: 8px; /* Rounded corners for each button */
   margin-bottom: 0px;
-
   text-align: left;
 }
-
 
 /* Hover effect for sub-tab links */
 .sub-tabs-box ul li a:hover, .sub-tabs-box2 ul li a:hover, .sub-tabs-box3 ul li a:hover, .sub-tabs-box4 ul li a:hover {
   background-color: white; /* Hover background color */
   color: black; /* Hover text color */ 
   padding: 10px;  
-  z-index: 999;
-  
+  z-index: 999;  
 }
-
-
-
-
 
 .subtab {
-
 height: 50px;
 
-
 }
-
 
 .home-tab {
 border: 4px solid blue;
-
 }
-
 
 .portfolio-tab {
 border: 4px solid blue;
-
 }
 
-
 .extras-tab {
-  border: 4px solid blue;
-  
+  border: 4px solid blue;  
   }
   
   .contact-tab {
-    border: 4px solid blue;
+    border: 4px solid blue;    
+ }
     
-    }
-    
-
-
-/* Optional: Styling for horizontal rules */
 .hr1, .hr2, .hr3, .hr4 {
   width: calc(100% + 20px); /* Adjust width to account for padding */
   margin: 10px -10px; /* Adjust margin to fit within the padding */
@@ -478,41 +352,25 @@ border: 4px solid blue;
   background: blue; /* Set the background color */
 }
 
-
-
-.fa-address-card, .fa-copyright, .fa-newspaper, .fa-image, .fa-briefcase, .fa-user-group, .fa-robot, .fa-language 
-
-{
-
+.fa-address-card, .fa-copyright, .fa-newspaper, .fa-image, .fa-briefcase, .fa-user-group, .fa-robot, .fa-language {
 padding-right: 15px;
 padding-left: 5px;
-
 }
 
 
 .fa-language {
-
   padding-right: 15px;
-  padding-left: 5px;
-  
+  padding-left: 5px;  
   transform: translateY(6%) translateX(0%);
 }
 
-
-
-
-
 p {
   color: black;
-
 }
 
 .main {
-
   margin: 0;
-
 }
-
 
 .kevinbox {
   display: flex;
@@ -523,9 +381,7 @@ p {
   border-top: none;
   background-color: white;
   overflow: hidden;
-  flex-wrap: wrap; /* Allow wrapping on smaller screens */
-
-  
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */  
 }
 
 
@@ -536,8 +392,7 @@ p {
   align-items: center;
   flex-basis: 50%; /* Equal width for both containers */
   max-width: 500px; /* Adjust as needed */
-  margin: 5px 25px; /* Move outward by 20px */
-  
+  margin: 5px 25px; /* Move outward by 20px */  
 }
 
 .name {
@@ -548,15 +403,13 @@ p {
   padding-left: 1px; /* Prevents the image from touching the left edge */
   margin-right: 25px;
   box-sizing: border-box;
-  width: 100%; /* Ensures it takes the full width within the max-width constraint */
-  
+  width: 100%; /* Ensures it takes the full width within the max-width constraint */  
 }
 
 .name img {
   max-width: 100%;
   height: auto;
- 
-}
+ }
 
 .top-search-buttons {
   display: flex;
@@ -564,14 +417,11 @@ p {
   justify-content: center;
   flex-basis: 50%; /* Equal width for both containers */
   max-width: 550px; /* Adjust as needed */
-
-  margin-left: 0; /* Center the container */
-  
+  margin-left: 0; /* Center the container */  
 }
 
 .button-row, .button-row2 {
-  display: flex;
-  
+  display: flex;  
   justify-content: center;
   width: 100%;
   margin-right: 12px;
@@ -640,7 +490,6 @@ p {
   margin-left: 10px;
 }
 
-
 #not-found-message {
   display: none; /* Hidden by default, shown when no results found */
   position: fixed; /* Fixed position to cover the entire screen */
@@ -655,8 +504,7 @@ p {
   justify-content: center; /* Horizontally center the content */
   align-items: center; /* Vertically center the content */
   z-index: 1; /* Ensure it appears above other content */
-  padding-top: 350px;
-  
+  padding-top: 350px;  
 }
 
 #not-found-message p {
@@ -668,8 +516,6 @@ p {
   color: white; /* White text color */
   font-family: 'Calibri', sans-serif; /* Set the font to Calibri */
 }
-
-
 
 .SearchResults {
   background-color: black;
@@ -692,8 +538,6 @@ p {
   font-family: Helvetica;
   font-weight: bold;
   margin-bottom: 40px; /* Keeps the space below the box */
-
-
 }
 
 
@@ -704,19 +548,15 @@ p {
   z-index: 999;
 }
 
-
-
 .about-container {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-
   margin-bottom: 40px;
   /* Adjust spacing between video containers */
   font-family: Calibri;
   font-weight: bold;
-
 }
 
 .about-description {
@@ -733,14 +573,10 @@ p {
   /* Ensure it stays within the flow of the document */
   margin-bottom: 20px;
   word-spacing: 3px;
-  line-height: 2;
- 
+  line-height: 2; 
 }
 
-
-
-.about-description p {
-  
+.about-description p {  
   margin: 0;
   /* Remove default margin */
   color: white;
@@ -751,7 +587,6 @@ p {
 .about-content {
   color: white;
   padding-left: 10px;
-
 }
 
 .extra-title {
@@ -763,10 +598,8 @@ p {
   line-height: 1.5;
 }
 
-.about-text {
-  
+.about-text {  
   position: relative;
-
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -774,11 +607,9 @@ p {
   /* Adjust spacing between video containers */
   font-size: 20px;
   font-family: Calibri, sans-serif;
-  font-weight: bold;
-}
+  font-weight: bold;}
 
-.about-text2 {
- 
+.about-text2 { 
   position: relative;
   display: flex;
   flex-direction: column;
@@ -795,18 +626,15 @@ p {
   font-weight: bold;
   font-size: 30px; /* Increase font size */
   margin-left: auto; /* Align button to the right */
-  margin-top: 20px;
- 
+  margin-top: 20px; 
   display: block; /* Ensures it behaves like a block element */
   border: none; /* Remove default border */
   background-color: white; /* Example background color */
   color: black; /* Example text color */
   padding: 10px 30px; /* Optional padding */
   cursor: pointer; /* Pointer cursor on hover */
-  border-radius: 10px; /* Optional rounded corners */
-  
+  border-radius: 10px; /* Optional rounded corners */  
 }
-
 
 .copyright-container {
   position: relative;
@@ -819,11 +647,9 @@ p {
   font-size: 20px;
   font-family: Calibri, sans-serif;
   font-weight: bold;
-
 }
 
 .copyright-description {
-
   position: relative;
   background-color: black;
   border: 3px solid blue;
@@ -838,7 +664,6 @@ p {
   margin-bottom: 20px;
   word-spacing: 3px;
   line-height: 2;
-
 }
 
 .copyright-description p {
@@ -848,9 +673,7 @@ p {
 }
 
 .copyright-content {
-
   padding-left: 10px;
-
 }
 
 .projects-container {
@@ -864,11 +687,9 @@ p {
   font-size: 20px;
   font-family: Calibri, sans-serif;
   font-weight: bold;
-
 }
 
 .projects-description {
-
   position: relative;
   background-color: black;
   border: 3px solid blue;
@@ -883,9 +704,7 @@ p {
   margin-bottom: 20px;
   word-spacing: 3px;
   line-height: 2;
-
 }
-
 
 .projects-description p {
   margin: 0;
@@ -894,11 +713,8 @@ p {
 }
 
 .projects-content {
-
   padding-left: 10px;
-
 }
-
 
 .articles-container {
   position: relative;
@@ -911,7 +727,6 @@ p {
   font-size: 20px;
   font-family: Calibri, sans-serif;
   font-weight: bold;
-
 }
 
 .articles-description {
@@ -930,9 +745,7 @@ p {
   margin-bottom: 20px;
   word-spacing: 3px;
   line-height: 2;
-
 }
-
 
 .articles-description p {
   margin: 0;
@@ -941,11 +754,8 @@ p {
 }
 
 .articles-content {
-
   padding-left: 10px;
-
 }
-
 
 .coop-container {
   position: relative;
@@ -958,11 +768,9 @@ p {
   font-size: 20px;
   font-family: Calibri, sans-serif;
   font-weight: bold;
-
 }
 
 .coop-description {
-
   position: relative;
   background-color: black;
   border: 3px solid blue;
@@ -977,9 +785,7 @@ p {
   margin-bottom: 20px;
   word-spacing: 3px;
   line-height: 2;
-
 }
-
 
 .coop-description p {
   margin: 0;
@@ -988,9 +794,7 @@ p {
 }
 
 .coop-content {
-
   padding-left: 10px;
-
 }
 
 .tradingbot-container {
@@ -1004,11 +808,9 @@ p {
   font-size: 20px;
   font-family: Calibri, sans-serif;
   font-weight: bold;
-
 }
 
 .tradingbot-description {
-
   position: relative;
   background-color: black;
   border: 3px solid blue;
@@ -1023,7 +825,6 @@ p {
   margin-bottom: 20px;
   word-spacing: 3px;
   line-height: 2;
-
 }
 
 
@@ -1034,9 +835,7 @@ p {
 }
 
 .tradingbot-content {
-
   padding-left: 10px;
-
 }
 
 .languages-container {
@@ -1050,11 +849,9 @@ p {
   font-size: 20px;
   font-family: Calibri, sans-serif;
   font-weight: bold;
-
 }
 
 .languages-description {
-
   position: relative;
   background-color: black;
   border: 3px solid blue;
@@ -1069,9 +866,7 @@ p {
   margin-bottom: 20px;
   word-spacing: 3px;
   line-height: 2;
-
 }
-
 
 .languages-description p {
   margin: 0;
@@ -1082,7 +877,6 @@ p {
 .languages-content {
   padding-left: 10px;
 }
-
 
 .contact-description {
   position: relative;
@@ -1100,8 +894,7 @@ p {
   padding-left: 0%;  
   gap: 10px; /* Optional: Add space between items */
   margin-left: auto;
-  margin-right: auto; /* This will center the box horizontally */
- 
+  margin-right: auto; /* This will center the box horizontally */ 
 }
 
 .contact-description p {
@@ -1111,8 +904,7 @@ p {
   font-family: Helvetica;
   font-size: 45px; /* Font size for the title */
   font-weight: bold;
-  width: 100%; /* Ensure the title takes full width to be centered */
- 
+  width: 100%; /* Ensure the title takes full width to be centered */ 
 }
 
 .contact-description .title2 {
@@ -1130,8 +922,7 @@ p {
   align-items: center; /* Vertically center icon and text */
   justify-content: center; /* Align items to the left */
   font-size: 20px; /* Adjust font size */
-  color: white; /* Set color for the text */
-  
+  color: white; /* Set color for the text */  
   font-family: Helvetica;
   text-decoration: none; /* Remove underline */
   gap: 10px; /* Space between icon and text */
@@ -1144,10 +935,6 @@ p {
 
 .contact-description a span {
   white-space: nowrap; /* Prevent text from wrapping */
-}
-
-.contact-content {
-  
 }
 
 /* For the text next to the icon */
@@ -1249,21 +1036,15 @@ p {
   border-radius: 10px;
 }
 
-
 .title {
   color: black;
   font-weight: bold;
   font-size: 45px;
   text-align: center;
-  font-family: Helvetica;
-  /*
-font-family: Consolas, sans-serif;
-*/
-
+  font-family: Calibri;
   word-spacing: 3px;
   line-height: 2;
 }
-
 
 .video-container {
   position: relative;
@@ -1272,8 +1053,7 @@ font-family: Consolas, sans-serif;
   align-items: center; /* Center vertically */
   width: 100%;
   max-width: 900px;
-  height: auto;
- 
+  height: auto; 
 }
 
 video {
@@ -1285,10 +1065,7 @@ video {
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */ 
   margin-right: 0%;
-
   }
-
-
   
     .flags {
       position: absolute;
@@ -1297,16 +1074,12 @@ video {
       display: flex;
       gap: 5px;
       border-radius: 15px;
-
   }
-
 
   .flag {
       width: 40px; /* Fixed size for better control */
       height: auto;
   }
-
-
 
 .overall-bottom-container {
   display: grid;
@@ -1323,11 +1096,8 @@ video {
   margin: 0 auto;
   /* Center the container */
   padding-bottom: 50px;
-
   overflow: hidden;
-
 }
-
 
 .title-mail-box {
   display: flex;
@@ -1336,7 +1106,6 @@ video {
   width: 100%;
 }
 
-
 .comment-text {
   font-size: 25px;
   font-weight: bold;
@@ -1344,8 +1113,7 @@ video {
   text-align: center;
   /* Ensure text is centered */
   margin-bottom: 2px;
-  /* Add some space below */
-  
+  /* Add some space below */  
 }
 
 
@@ -1374,8 +1142,7 @@ video {
   margin: 0 auto;
   /* Center within the grid cell */
   font-family: Calibri, sans-serif;
-  text-indent: 10px;
-  
+  text-indent: 10px;  
 }
 
 .comment-container {
@@ -1401,8 +1168,7 @@ video {
   height: 70px;
   /* Height for the comment mail feedback container */
   margin: 10px auto;
-  /* Center horizontally with a small top margin */
-  
+  /* Center horizontally with a small top margin */  
 }
 
 .comment-send,
@@ -1420,17 +1186,12 @@ video {
   /* Center within the grid cell */
   text-align: center;
   margin-bottom: 15px;
-
 }
 
 .email-sub {
-
   margin-top: 5.5px;
-
 }
 
-
-/* CSS */
 .email-text-container { /* Add a new container */
   display: flex;
   flex-direction: column; /* Align items vertically */
@@ -1440,19 +1201,12 @@ video {
   height: 100%; /* Make container use the full height of grid cell */
 }
 
-
-
-
 .hr {
-
   border: 2px solid black;
   transform: translate(0px, -185px);
-
 }
 
-
 footer {
-
   background-color: white;
   color: white;
   padding: 10px 1px;
@@ -1469,17 +1223,14 @@ footer {
   z-index: 555;
   font-weight: bold;
   font-family: Calibri;
-
 }
-
 
 .footer-container {
   display: flex;
   align-items: center; 
   justify-content: center;
   vertical-align: middle;
-  zoom: 0.85;
-  
+  zoom: 0.85;  
 }
 
 .footer-left {
@@ -1495,7 +1246,6 @@ footer {
   margin-bottom: 13.5px;
 }
 
-
 .footer-right {
   margin-left: auto; /* Pushes the footer-right to the far right */
   text-align: right;
@@ -1503,14 +1253,11 @@ footer {
   vertical-align: middle;
 }
 
-
-
 /* Maintain space and alignment for footer-center content */
 .footer-center p {
   text-align: left;
   font-size: 15px;
-  vertical-align: middle;
-  
+  vertical-align: middle;  
 }
 
 .footer-center img {
@@ -1529,8 +1276,7 @@ footer {
 }
 
 .footer-center i {
-  color: black;
-  
+  color: black;  
 }
 
 .blue-text {
@@ -1540,50 +1286,39 @@ footer {
 
 .supported-text1, .supported-text2, .rights2 {
   font-size: 15px; /* Sets the font size for both text elements */
-  font-family: Calibri;
- 
+  font-family: Calibri; 
 }
 
 .supported-text2 {
   align-items: center;
   font-family: Calibri;
-  padding-top: 2px;
- 
+  padding-top: 2px; 
 }
 
-.footer-container {
-  
+.footer-container {  
   align-items: center;
-  margin-left: 5px;
-  
+  margin-left: 5px;  
 }
 
 .devil {
-
   padding-bottom: 3px;
 }
 
 .halo {
   padding-bottom: 10px;
-
 }
 
 .footer-right .fa {
   padding: 10px;
-  font-size: 20px;
-  
+  font-size: 20px;  
 }
-
 
 .footer-right {
   display: flex;   /* Turn the footer-right into a flex container */
   justify-content: flex-start; /* Align items to the left (optional) */ 
   align-items: center;    /* Align items vertically to the center (optional) */
-  padding: 0px 0px;      /* Keep the existing padding */
-  
+  padding: 0px 0px;      /* Keep the existing padding */  
 }
-
-
 
 .footer-right a { /* Style the links within the footer-right */
   margin-right: 4px;  /* Add some space between the icons */
@@ -1601,7 +1336,6 @@ footer {
   color: rgba(39, 38, 38, 0.322);
   padding: 5px;
   vertical-align: middle;
-
 }
 
 .footer-right .fa-envelope {
@@ -1752,8 +1486,6 @@ footer {
   vertical-align: middle;
 }
 
-
-
 #youtube {
   font-size: 35px;
   color: white;
@@ -1766,7 +1498,6 @@ footer {
   color: grey;
   padding: 5px;
   vertical-align: middle;
-
 }
 
 #email {
