@@ -88,14 +88,24 @@
 
 
 @media (min-width: 600px) and (max-width: 900px) {
+
+  .parent.container {
+
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    flex-direction: column; /* Optional: Arrange children in a column */
+    text-align: center; /* Optional: Centers text within the container */
+
+  }
     
   .overall-bottom-container {
-
-    justify-content: center; /* Horizontal centering */
-    align-items: center;  
-    
-    zoom: 0.9; 
-    }
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    flex-direction: column; /* Optional: Arrange children in a column */
+    text-align: center; /* Optional: Centers text within the container */
+  }
     
     
     .kevinbox {
@@ -194,6 +204,7 @@
         "comment-text email-text"
         "comment-container email-container"
         "comment-send email-sub";
+        padding-left: 85px;
     }
   
     .comment-text {
@@ -509,7 +520,7 @@
     flex-direction: column; /* Align items vertically */
     justify-content: center; /* Center vertically within container */
     align-items: center; /* Align to the start (left) */
-    padding-right: 5.5%;
+    /* padding-right: 5.5%; */
     zoom: 1.0; 
   
       }
@@ -701,7 +712,7 @@
   
   justify-content: center; /* Horizontal centering */
   align-items: center;  
-  padding-right: 7%;
+  /*padding-right: 7%;*/
   zoom: 0.9; 
   flex-direction: column;
      
