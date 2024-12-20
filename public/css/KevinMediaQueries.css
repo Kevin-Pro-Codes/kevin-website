@@ -180,6 +180,7 @@
   
   @media (min-width: 900px) {
   
+  
     .overall-bottom-container {
       grid-template-areas:
         "comment-text email-text"
@@ -234,7 +235,11 @@
         
     }
   
-  
+    .sbutton, .sbutton2 {
+      zoom: 1.2;
+    }
+
+
     .overall-bottom-container {
       display: grid;
       gap: 5px;
@@ -271,6 +276,10 @@
         
     }
   
+    .sbutton, .sbutton2 {
+      zoom: 1.2;
+    }
+
     .overall-bottom-container {
       display: grid;
       gap: 5px;
@@ -302,6 +311,10 @@
         
     .navbar {
       zoom: 0.70; 
+    }
+
+    .sbutton, .sbutton2 {
+      zoom: 1.2;
     }
     
     .overall-bottom-container {
@@ -382,6 +395,10 @@
         
     }
   
+    .sbutton, .sbutton2 {
+      zoom: 1.2;
+    }
+
     .footer-right {
   
       display: none !important;
@@ -462,6 +479,7 @@
       zoom: 0.87; 
   }
   
+
     body {
   
       zoom: 0.43; 
@@ -472,6 +490,10 @@
   
       zoom: 0.87; 
          
+    }
+
+    .sbutton, .sbutton2 {
+      zoom: 1.2;
     }
   
     .overall-bottom-container {
@@ -554,6 +576,10 @@
           
     }
   
+    .sbutton, .sbutton2 {
+      zoom: 1.2;
+    }
+
     .footer-right {
   
       display: none !important;
@@ -657,7 +683,11 @@
       
     }
     
-  
+    .sbutton, .sbutton2 {
+      zoom: 1.2;
+    }
+
+
   .overall-bottom-container {
   
   justify-content: center; /* Horizontal centering */
