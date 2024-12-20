@@ -684,6 +684,13 @@
    left: 43%;
   }
   
+ .firefox-mobile .kevinbox {
+    zoom: 1.1;
+  }
+
+  .firefox-mobile .navbar {
+    zoom: 0.58;
+  }
   
   .flags {
   
