@@ -1727,7 +1727,8 @@ footer {
 .footer-right .fa-whatsapp:hover {
   color: white;
   font-size: 33px;
-  padding: 4px 5px;
+  margin-top: 2px;
+  padding: 3px 5px;
   border-radius: 10%;
   background-color: lime;
   vertical-align: middle;
