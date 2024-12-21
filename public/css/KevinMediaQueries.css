@@ -531,7 +531,10 @@
       overflow: auto; /* Prevent content from overflowing */
     }
 
+.name {
 
+  zoom: 1.5;
+}
 
     .overall-bottom-container {  
       display: flex;
@@ -542,7 +545,7 @@
       gap: 10px; /* Add spacing between elements */
       padding: 10px; /* Add padding for better spacing */
       width: 100%;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
       
 
