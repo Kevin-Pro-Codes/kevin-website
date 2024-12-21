@@ -531,7 +531,7 @@
       overflow: auto; /* Prevent content from overflowing */
     }
 
-.name {
+.name, .name-container {
 
   zoom: 2 !important;
 }
