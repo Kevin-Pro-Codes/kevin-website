@@ -974,6 +974,15 @@ p {
 #email .contact-span {
   font-size: 30px; /* Increase font size for LinkedIn */
   font-family: Calibri, sans-serif;
+  
+}
+
+#emailx {
+  font-size: 25px;
+  padding: 0;
+  margin: 0;  /* Remove any margin around the email */
+  line-height: 1.2;  /* Reduce line height for less vertical spacing */
+  font-family: Calibri, sans-serif;
 }
 
 /* Specific style for LinkedIn link */
@@ -1526,6 +1535,8 @@ footer {
   padding: 5px;
   vertical-align: middle;
 }
+
+
 
 #email:hover {
   font-size: 34px;
