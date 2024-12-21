@@ -433,13 +433,14 @@
 
 
     .overall-bottom-container {  
-      display: flex; /* Enable Flexbox */
-      flex-direction: column;  
-      justify-content: center; /* Horizontal centering */
-      align-items: center;  
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Center content vertically */
+      align-items: center; /* Center content horizontally */
       text-align: center;
-      /* padding-right: 5.5%; */
-      zoom: 1.0;   
+      gap: 10px; /* Add spacing between elements */
+      padding: 10px; /* Add padding for better spacing */
+      width: 100%;
     }
       
       .footer-right {  
