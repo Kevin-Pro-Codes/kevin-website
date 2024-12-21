@@ -6,20 +6,25 @@ body {
 }
 
 .navbar {
-  zoom: 0.68; 
+
   position: relative;
   background-color: black;
-  /* Top gradient only */
-  border-top: 5px solid;
-  border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
-  width: 100%;
+border-width: 3px;
+margin-top: 3px;
+border-style: solid;
+border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+width: 100%;
   white-space: nowrap;
+border-right: none;
+border-left: none;
+  border-bottom: none;  
   align-items: center;  
-  z-index: 100;
+  z-index: 10;
+  
+
+
 }
+  
 
 .navbar ul {
   list-style-type: none;
@@ -31,11 +36,14 @@ body {
   /* Adjust line height to a smaller value */
   font-size: 20px;
   margin-bottom: -3px;
-  margin-top: 0px;
+  margin-top: -1px;
   margin-right: 42px;
   margin-left: -5px;
-  justify-content: center;  
-  overflow: hidden;  
+  justify-content: center;
+  
+  overflow: hidden;
+
+  
 }
 
 .navbar ul li {
@@ -44,29 +52,46 @@ body {
   align-items: center;
   justify-content: center;
   padding: 7px;    
-  margin-right: 0px; 
+  margin-right: 0px;
+
+ 
 }
 
 .navbar ul li a {
+
   color: white;
   text-align: center;
   text-decoration: none;
   display: block;
   outline: none;
   padding: 46px 25px;
-  padding-top: 44px;
+  padding-top: 45px;
   border-radius: 6px; 
-  background-color: black;   
+  background-color: blue;    
   margin-bottom: 4px;
   border-radius: 12px;
+
 }
+
 
 .navbar ul li a:hover {
   background-color: white;
   color: black;
   font-weight: bold;
-  margin-bottom: 2px;
+
   border-radius: 12px;
+ 
+
+
+
+}
+
+.navbar-encapsulation {
+  display: flex;
+  flex-direction: column; /* Stack navbar and sub-tabs vertically */
+  width: 100%;
+  position: relative;
+  z-index: 10;  
 }
 
 .flag-container .flag-button {
@@ -248,20 +273,6 @@ body {
   padding-left: 25px;
 }
 
-/* Hover effect for active navigation link */
-.navbar ul li a.active {
-  background-color: white; /* Example background color for active state */
-  color: black; /* Example text color for active state */
-}
-
-.navbar-encapsulation {
-  display: flex;
-  flex-direction: column; /* Stack navbar and sub-tabs vertically */
-  width: 100%;
-  position: relative;
-  z-index: 10;  
-}
-
 /* Sub-tab container styles */
 .sub-tabs-box, .sub-tabs-box2, .sub-tabs-box3, .sub-tabs-box4 {  
   display: flex;
@@ -271,7 +282,7 @@ body {
   width: 350px; /* Adjust as needed */   
   background-color: black;     
   z-index: 999; /* Ensure it appears above other elements */
-  border-radius: 16px; /* Rounded corners for the box */
+  border-radius: 12px; /* Rounded corners for the box */
   top: 100%;      
   border: 4px solid blue;
   display:none;
@@ -286,6 +297,7 @@ body {
   font-size: 19px;
   font-weight: bold;
   line-height: 2.5; /* Adjust line height */  
+  border-radius: 12px;
 }
 
 /* Sub-tab list item styles */
@@ -297,6 +309,7 @@ body {
   padding: 0;
   display: block; /* Make each subtab take up the full width */
   width: 100%;    /* Ensure the <li> takes up the full width of its container */  
+  border-radius: 12px;
 }
 
 /* Sub-tab link styles */
@@ -312,6 +325,7 @@ body {
   border-radius: 8px; /* Rounded corners for each button */
   margin-bottom: 0px;
   text-align: left;
+  border-radius: 12px;
 }
 
 /* Hover effect for sub-tab links */
@@ -320,6 +334,7 @@ body {
   color: black; /* Hover text color */ 
   padding: 10px;  
   z-index: 999;  
+  border-radius: 12px;
 }
 
 .subtab {
