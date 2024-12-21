@@ -10,7 +10,7 @@ body {
   position: relative;
   background-color: black;
   /* Top gradient only */
-  border-top: 4px solid;
+  border-top: 5px solid;
   border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
   border-left: none;
   border-right: none;
@@ -31,7 +31,7 @@ body {
   /* Adjust line height to a smaller value */
   font-size: 20px;
   margin-bottom: -3px;
-  margin-top: -1px;
+  margin-top: 0px;
   margin-right: 42px;
   margin-left: -5px;
   justify-content: center;  
