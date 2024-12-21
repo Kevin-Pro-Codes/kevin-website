@@ -24,6 +24,10 @@
     max-width: 1200px;
     padding: 60px; /* Add padding for spacing inside the container */       
     border-radius: 10px; /* Optional rounded corners */
+    flex-direction: column;  
+  justify-content: center; /* Horizontal centering */
+  align-items: center;  
+  text-align: center;
   }
 }
 
@@ -93,14 +97,11 @@
   }
     
   .overall-bottom-container {
-    zoom: 1.2;
-      display: flex; /* Enable Flexbox */  
-      align-items: center; /* Center horizontally */
-      justify-content: center; /* Center vertically */
-      text-align: center; /* Ensure inline elements are centered */
-      height: 100%; /* Full viewport height */
-      width: 100%; /* Full viewport width */  
-      overflow: auto; /* Prevent content from overflowing */
+    display: flex; /* Enables flexbox layout */
+    flex-direction: column;  
+    justify-content: center; /* Horizontal centering */
+    align-items: center;  
+    text-align: center;
   }
         
   .kevinbox {
@@ -161,14 +162,11 @@
         "comment-text email-text"
         "comment-container email-container"
         "comment-send email-sub";
-        zoom: 1.2;
-        display: flex; /* Enable Flexbox */  
-        align-items: center; /* Center horizontally */
-        justify-content: center; /* Center vertically */
-        text-align: center; /* Ensure inline elements are centered */
-        height: 100%; /* Full viewport height */
-        width: 100%; /* Full viewport width */  
-        overflow: auto; /* Prevent content from overflowing */
+        padding-left: 85px;
+        flex-direction: column;  
+  justify-content: center; /* Horizontal centering */
+  align-items: center;  
+  text-align: center;
     }
   
     .comment-text {
@@ -231,14 +229,13 @@
         "email-text"
         "email-container"
         "email-sub";
-        zoom: 1.2;
-        display: flex; /* Enable Flexbox */  
-        align-items: center; /* Center horizontally */
-        justify-content: center; /* Center vertically */
-        text-align: center; /* Ensure inline elements are centered */
-        height: 100%; /* Full viewport height */
-        width: 100%; /* Full viewport width */  
-        overflow: auto; /* Prevent content from overflowing */
+      max-width: 1200px;
+      padding: 60px; /* Add padding for spacing inside the container */   
+      border-radius: 10px; /* Optional rounded corners */
+      flex-direction: column;  
+  justify-content: center; /* Horizontal centering */
+  align-items: center;  
+  text-align: center;
     }
   
   }
@@ -277,14 +274,13 @@
         "email-text"
         "email-container"
         "email-sub";
-        zoom: 1.2;
-      display: flex; /* Enable Flexbox */  
-      align-items: center; /* Center horizontally */
-      justify-content: center; /* Center vertically */
-      text-align: center; /* Ensure inline elements are centered */
-      height: 100%; /* Full viewport height */
-      width: 100%; /* Full viewport width */  
-      overflow: auto; /* Prevent content from overflowing */
+      max-width: 1200px;
+      padding: 60px; /* Add padding for spacing inside the container */   
+      border-radius: 10px; /* Optional rounded corners */
+      flex-direction: column;  
+  justify-content: center; /* Horizontal centering */
+  align-items: center;  
+  text-align: center;
     }
   
     .footer-right {
@@ -394,14 +390,13 @@
           "email-text"
           "email-container"
           "email-sub";
-          zoom: 1.2;
-      display: flex; /* Enable Flexbox */  
-      align-items: center; /* Center horizontally */
-      justify-content: center; /* Center vertically */
-      text-align: center; /* Ensure inline elements are centered */
-      height: 100%; /* Full viewport height */
-      width: 100%; /* Full viewport width */  
-      overflow: auto; /* Prevent content from overflowing */
+        max-width: 1200px;
+        padding: 60px; /* Add padding for spacing inside the container */   
+        border-radius: 10px; /* Optional rounded corners */  
+        flex-direction: column;  
+  justify-content: center; /* Horizontal centering */
+  align-items: center;  
+  text-align: center;
       }
   
   }
@@ -440,14 +435,12 @@
 
 
     .overall-bottom-container {  
-      zoom: 1.2;
-      display: flex; /* Enable Flexbox */  
-      align-items: center; /* Center horizontally */
-      justify-content: center; /* Center vertically */
-      text-align: center; /* Ensure inline elements are centered */
-      height: 100%; /* Full viewport height */
-      width: 100%; /* Full viewport width */  
-      overflow: auto; /* Prevent content from overflowing */
+      flex-direction: column;  
+      justify-content: center; /* Horizontal centering */
+      align-items: center;  
+      text-align: center;
+    /* padding-right: 5.5%; */
+    zoom: 1.0;   
     }
       
       .footer-right {  
@@ -560,14 +553,13 @@
           "email-text"
           "email-container"
           "email-sub";
-          zoom: 1.2;
-          display: flex; /* Enable Flexbox */  
-          align-items: center; /* Center horizontally */
-          justify-content: center; /* Center vertically */
-          text-align: center; /* Ensure inline elements are centered */
-          height: 100%; /* Full viewport height */
-          width: 100%; /* Full viewport width */  
-          overflow: auto; /* Prevent content from overflowing */
+        max-width: 1200px;
+        padding: 60px; /* Add padding for spacing inside the container */   
+        border-radius: 10px; /* Optional rounded corners */  
+        flex-direction: column;  
+        justify-content: center; /* Horizontal centering */
+        align-items: center;  
+        text-align: center;
       }
   
   }
@@ -616,14 +608,12 @@
     }
 
   .overall-bottom-container {  
-    zoom: 1.2;
-    display: flex; /* Enable Flexbox */  
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
-    text-align: center; /* Ensure inline elements are centered */
-    height: 100%; /* Full viewport height */
-    width: 100%; /* Full viewport width */  
-    overflow: auto; /* Prevent content from overflowing */   
+  flex-direction: column;  
+  justify-content: center; /* Horizontal centering */
+  align-items: center;  
+  text-align: center;
+  /*padding-right: 7%;*/
+  zoom: 0.9;      
   }
   
   .footer-right {  
