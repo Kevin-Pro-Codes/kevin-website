@@ -521,7 +521,7 @@
     }
 
     .kevinbox {
-      zoom: 1.3;
+      zoom: 1.2;
       display: flex; /* Enable Flexbox */  
       align-items: center; /* Center horizontally */
       justify-content: center; /* Center vertically */
@@ -531,16 +531,7 @@
       overflow: auto; /* Prevent content from overflowing */
     }
 
-    .name-container {
-      transform: scale(1.3); /* Scales the container independently */
-      
-    }
-    
-    .kevin {
-      transform: scale(1.3); /* Scales only the image */
-      
-    }
-
+   
 
     .overall-bottom-container {  
       display: flex;
