@@ -521,7 +521,7 @@
     }
 
     .kevinbox {
-      zoom: 2 !important;
+      zoom: 1.5;
       display: flex; /* Enable Flexbox */  
       align-items: center; /* Center horizontally */
       justify-content: center; /* Center vertically */
@@ -533,7 +533,8 @@
 
 .name, .name-container {
 
-  zoom: 2 !important;
+  transform: scale(2); /* Scale the name and its container */
+  transform-origin: center; /* Ensure scaling happens from the center */
 }
 
     .overall-bottom-container {  
