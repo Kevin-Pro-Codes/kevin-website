@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (emailTimestamps.length >= 3) {
                 const timeLeft = Math.max(0, cooldownTime - (now - emailTimestamps[0]));
-                alert(`Você se inscreveu em 3 e-mails recentemente. Por favor, aguarde ${Math.ceil(timeLeft / 60000)} minutos antes de enviar mais e-mails.`);
+                alert(`Você se inscreveu 3 vezes recentemente. Por favor, aguarde ${Math.ceil(timeLeft / 60000)} minutos antes de enviar mais e-mails.`);
             } else {
                 // Add current timestamp to the list and allow email sending
                 emailTimestamps.push(now);
