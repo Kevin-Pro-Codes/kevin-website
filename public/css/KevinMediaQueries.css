@@ -531,9 +531,9 @@
       overflow: auto; /* Prevent content from overflowing */
     }
 
-   .name {
+   .name, .name-container, .kevin {
 
-    zoom: 3.7;
+    zoom: 3.7 !important;
     z-index: 9999;
    }
 
