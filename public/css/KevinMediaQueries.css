@@ -530,15 +530,7 @@
       width: 100%; /* Full viewport width */  
       overflow: auto; /* Prevent content from overflowing */
     }
-
-   .name, .name-container, .kevin {
-
-    zoom: 0.7 !important;
-    z-index: 9999;
-   }
-
-
-
+  
     .overall-bottom-container {  
       display: flex;
       flex-direction: column;
@@ -551,8 +543,6 @@
       margin-bottom: 30px;
     }
       
-
-
     .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
         display: flex;
         flex-direction: column;
