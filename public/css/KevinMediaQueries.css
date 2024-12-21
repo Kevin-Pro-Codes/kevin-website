@@ -231,6 +231,7 @@
   
   }
   
+  /* AVERAGE DEVICE */
   
   @media (min-width: 350px) and (max-width: 600px) and (min-resolution: 30dpi) and (max-resolution: 140dpi) {
     
@@ -244,15 +245,15 @@
 
     .kevinbox {
       zoom: 1.2;
-      align-items: center;
-      justify-content: center;
-      vertical-align: middle;
-      text-align: center;
-      display: flex; /* Enable flexbox */
-      flex-direction: column; /* Stack children vertically */
-      padding-left: 55px;
-      
+      display: flex; /* Enable Flexbox */  
+      align-items: center; /* Center horizontally */
+      justify-content: center; /* Center vertically */
+      text-align: center; /* Ensure inline elements are centered */
+      height: 100%; /* Full viewport height */
+      width: 100%; /* Full viewport width */  
+      overflow: auto; /* Prevent content from overflowing */
     }
+
     
     .overall-bottom-container {
       display: grid;
@@ -389,7 +390,9 @@
   
   }
   
-  @media (min-width: 350px) and (max-width: 600px) and (min-resolution: 160dpi) and (max-resolution: 180dpi)  /*MY CELLPHONE*/ {
+  /*MY CELLPHONE*/
+
+  @media (min-width: 350px) and (max-width: 600px) and (min-resolution: 160dpi) and (max-resolution: 180dpi)  {
      
     .chrome-mobile body {
       zoom: 0.45; 
@@ -471,7 +474,9 @@
         }  
   }
   
-  @media (min-width: 350px) and (max-width: 600px) and (min-resolution: 180dpi) and (max-resolution: 200dpi) /*MARCOS CEL*/ {
+/* MARCOS CEL */
+
+  @media (min-width: 350px) and (max-width: 600px) and (min-resolution: 180dpi) and (max-resolution: 200dpi)  {
       
     body {  
       zoom: 0.415;       
@@ -546,7 +551,9 @@
   
   }
   
-  @media (min-width: 350px) and (max-width: 600px) and (min-resolution: 200dpi) and (max-resolution: 600dpi) /*MOM CELL*/ {
+/* MOM CELL */
+
+  @media (min-width: 350px) and (max-width: 600px) and (min-resolution: 200dpi) and (max-resolution: 600dpi)  {
       
     .chrome-mobile body {
       zoom: 0.50; 
@@ -631,7 +638,6 @@
   .low-icons {  
     margin-left: 6px;      
   }
-
 
   }
   
