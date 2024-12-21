@@ -445,7 +445,7 @@
       
 
 
-      .about-container {
+      .about-content {
         display: flex;
         flex-direction: column;
         justify-content: center; /* Center content vertically */
@@ -458,7 +458,7 @@
         margin: 0 auto; /* Center horizontally */
       }
 
-    }
+    
 
       .footer-right {  
         display: none !important;        
