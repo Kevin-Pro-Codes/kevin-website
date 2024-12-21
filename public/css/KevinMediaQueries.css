@@ -433,12 +433,13 @@
 
 
     .overall-bottom-container {  
+      display: flex; /* Enable Flexbox */
       flex-direction: column;  
       justify-content: center; /* Horizontal centering */
       align-items: center;  
       text-align: center;
-    /* padding-right: 5.5%; */
-    zoom: 1.0;   
+      /* padding-right: 5.5%; */
+      zoom: 1.0;   
     }
       
       .footer-right {  
