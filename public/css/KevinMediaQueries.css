@@ -521,7 +521,7 @@
     }
 
     .kevinbox {
-   
+      zoom: 2 !important;
       display: flex; /* Enable Flexbox */  
       align-items: center; /* Center horizontally */
       justify-content: center; /* Center vertically */
