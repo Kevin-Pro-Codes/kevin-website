@@ -531,10 +531,15 @@
       overflow: auto; /* Prevent content from overflowing */
     }
 
-.kevin {
-
-  zoom: 2.3;
-}
+    .name-container {
+      transform: scale(1.5); /* Scales the container independently */
+      
+    }
+    
+    .kevin {
+      transform: scale(1.5); /* Scales only the image */
+      
+    }
 
 
     .overall-bottom-container {  
