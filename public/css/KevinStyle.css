@@ -13,12 +13,7 @@ border-width: 3px;
 border-style: solid;
 border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
 */
-width: 100%;
-white-space: nowrap;
-border-right: none;
-border-left: none;
-border-bottom: none;  
-align-items: center;  
+
 z-index: 60;
 }  
 
