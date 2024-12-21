@@ -56,8 +56,8 @@ body {
   padding: 46px 25px;
   padding-top: 45px;
   border-radius: 6px; 
-  background-color: black;    
-  margin-bottom: 4px;
+  background-color: black;   
+  margin-bottom: 3px;
   border-radius: 12px;
 }
 
@@ -71,16 +71,16 @@ body {
 .flag-container .flag-button {
   display: inline-block;
   /* Change to inline-block to ensure the container's size fits its content */
-  padding: 14px;
-  /*   */
+  padding: 12px;
+
   width: 200px;
-  height: 78px;
+  height: 80px;
   text-decoration: none;
   transform: translateY(4.5%) translateX(-1%);
   padding-right: 58px;
   /* Adjust padding to your liking */
   margin-bottom: 0px;
-  margin-top: -1px;
+  margin-top: 0px;
   margin-right: -5px; 
   overflow: hidden;
   border-radius: 10px;
@@ -91,10 +91,9 @@ body {
 
 .flag-button {
   display: inline-block;
-  /* Change to inline-block to ensure the container's size fits its content */
-  padding: 0px;
+  /* Change to inline-block to ensure the container's size fits its content */  
   width: 200px;
-  height: 78px;
+  height: 80px;
   text-decoration: none;
   transform: translateY(8.5%) translateX(-1%);
   padding-right: 58px;    
