@@ -408,11 +408,17 @@
     }
 
     .kevinbox {
-      zoom: 1;
-      align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      zoom: 1.2;
+      display: flex; /* Enable Flexbox */  
+      align-items: center; /* Center horizontally */
+      justify-content: center; /* Center vertically */
+      text-align: center; /* Ensure inline elements are centered */
+      height: 100%; /* Full viewport height */
+      width: 100%; /* Full viewport width */  
+      overflow: auto; /* Prevent content from overflowing */
     }
+
+
 
     .overall-bottom-container {  
     flex-direction: column; /* Align items vertically */
