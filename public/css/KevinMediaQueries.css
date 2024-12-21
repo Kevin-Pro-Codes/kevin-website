@@ -532,12 +532,12 @@
     }
 
     .name-container {
-      transform: scale(1.5); /* Scales the container independently */
+      transform: scale(1.3); /* Scales the container independently */
       
     }
     
     .kevin {
-      transform: scale(1.5); /* Scales only the image */
+      transform: scale(1.3); /* Scales only the image */
       
     }
 
