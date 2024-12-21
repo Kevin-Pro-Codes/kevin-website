@@ -444,16 +444,19 @@
     }
       
 
-    .about-container {
 
-      display: flex;
-      flex-direction: column;
-      justify-content: center; /* Center content vertically */
-      align-items: center; /* Center content horizontally */
-      text-align: center;
-      gap: 10px; /* Add spacing between elements */
-      padding: 10px; /* Add padding for better spacing */
-      width: 100%;
+      .about-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Center content vertically */
+        align-items: center; /* Center content horizontally */
+        text-align: center;
+        gap: 10px; /* Add spacing between elements */
+        padding: 10px; /* Add padding for better spacing */
+        
+        width: 90%; /* Set width to 90% of the parent container */
+        margin: 0 auto; /* Center horizontally */
+      }
 
     }
 
