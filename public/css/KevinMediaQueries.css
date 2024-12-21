@@ -521,7 +521,7 @@
     }
 
     .kevinbox {
-      zoom: 1.2;
+   
       display: flex; /* Enable Flexbox */  
       align-items: center; /* Center horizontally */
       justify-content: center; /* Center vertically */
@@ -533,7 +533,7 @@
 
 .name {
 
-  zoom: 1.6 !important;
+  zoom: 2 !important;
 }
 
     .overall-bottom-container {  
