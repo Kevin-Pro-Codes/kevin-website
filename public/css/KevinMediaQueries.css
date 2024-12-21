@@ -29,6 +29,19 @@
   align-items: center;  
   text-align: center;
   }
+
+
+  .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center;        
+    width: 90%; /* Set width to 90% of the parent container */
+    margin: 0 auto; /* Center horizontally */
+  }
+
+
 }
 
 /* BETWEEN SMART WATCH AND SMALL CELLPHONE */ 
@@ -80,6 +93,18 @@
       justify-content: center; /* Center vertically */
       text-align: center; /* Ensure inline elements are centered */ 
   }
+
+  
+  .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center;        
+    width: 90%; /* Set width to 90% of the parent container */
+    margin: 0 auto; /* Center horizontally */
+  }
+
       
 }
 
@@ -87,6 +112,16 @@
 
 @media (min-width: 600px) and (max-width: 900px) {
 
+  body {
+    zoom: 0.8;    
+  }
+     
+ 
+  .navbar {
+    zoom: 0.9;       
+  }
+  
+  
   .parent.container {
     display: flex; /* Enables flexbox layout */
     justify-content: center; /* Centers horizontally */
@@ -95,6 +130,7 @@
     text-align: center; /* Optional: Centers text within the container */
 
   }
+
     
   .overall-bottom-container {
     display: flex; /* Enables flexbox layout */
@@ -104,6 +140,18 @@
     text-align: center;
   }
         
+
+  .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center;        
+    width: 90%; /* Set width to 90% of the parent container */
+    margin: 0 auto; /* Center horizontally */
+  }
+
+
   .kevinbox {
     display: flex; /* Enable Flexbox */  
     align-items: center; /* Center horizontally */
@@ -166,6 +214,19 @@
         flex-direction: column;  
  
     }
+
+
+    .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Center content vertically */
+      align-items: center; /* Center content horizontally */
+      text-align: center;        
+      width: 90%; /* Set width to 90% of the parent container */
+      margin: 0 auto; /* Center horizontally */
+    }
+
+
   
     .comment-text {
       grid-area: comment-text;
@@ -236,6 +297,18 @@
   text-align: center;
     }
   
+  
+    .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Center content vertically */
+      align-items: center; /* Center content horizontally */
+      text-align: center;        
+      width: 90%; /* Set width to 90% of the parent container */
+      margin: 0 auto; /* Center horizontally */
+    }
+
+
   }
   
   /* AVERAGE DEVICE */
@@ -279,7 +352,19 @@
   justify-content: center; /* Horizontal centering */
   align-items: center;  
   text-align: center;
-    }
+  }
+
+
+  .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center;        
+    width: 90%; /* Set width to 90% of the parent container */
+    margin: 0 auto; /* Center horizontally */
+  }
+
   
     .footer-right {
       display: none !important;
@@ -397,6 +482,18 @@
   text-align: center;
       }
   
+
+      .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Center content vertically */
+        align-items: center; /* Center content horizontally */
+        text-align: center;        
+        width: 90%; /* Set width to 90% of the parent container */
+        margin: 0 auto; /* Center horizontally */
+      }
+
+
   }
   
   /*MY CELLPHONE*/
@@ -450,10 +547,7 @@
         flex-direction: column;
         justify-content: center; /* Center content vertically */
         align-items: center; /* Center content horizontally */
-        text-align: center;
-      
-       
-        
+        text-align: center;        
         width: 90%; /* Set width to 90% of the parent container */
         margin: 0 auto; /* Center horizontally */
       }
@@ -579,6 +673,19 @@
         text-align: center;
       }
   
+
+      .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Center content vertically */
+        align-items: center; /* Center content horizontally */
+        text-align: center;        
+        width: 90%; /* Set width to 90% of the parent container */
+        margin: 0 auto; /* Center horizontally */
+      }
+
+
+
   }
   
 /* MOM CELL */
@@ -632,6 +739,19 @@
   /*padding-right: 7%;*/
   zoom: 0.9;      
   }
+
+
+  .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center;        
+    width: 90%; /* Set width to 90% of the parent container */
+    margin: 0 auto; /* Center horizontally */
+  }
+
+
   
   .footer-right {  
   display: none !important;  
