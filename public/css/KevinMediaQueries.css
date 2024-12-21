@@ -164,9 +164,7 @@
         "comment-send email-sub";
         padding-left: 85px;
         flex-direction: column;  
-  justify-content: center; /* Horizontal centering */
-  align-items: center;  
-  text-align: center;
+ 
     }
   
     .comment-text {
