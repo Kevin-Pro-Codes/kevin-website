@@ -445,7 +445,7 @@
       
 
 
-      .about-content {
+    .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
         display: flex;
         flex-direction: column;
         justify-content: center; /* Center content vertically */
