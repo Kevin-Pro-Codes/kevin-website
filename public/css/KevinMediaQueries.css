@@ -520,11 +520,20 @@
     zoom: 0.87;         
     }
 
-  
+    .kevinbox {
+      zoom: 1.3;
+      display: flex; /* Enable Flexbox */  
+      align-items: center; /* Center horizontally */
+      justify-content: center; /* Center vertically */
+      text-align: center; /* Ensure inline elements are centered */
+      height: 100%; /* Full viewport height */
+      width: 100%; /* Full viewport width */  
+      overflow: auto; /* Prevent content from overflowing */
+    }
 
-.name, .name-container {
+.kevin {
 
-  zoom: 2.3;
+  zoom: 1.8;
 }
 
 
