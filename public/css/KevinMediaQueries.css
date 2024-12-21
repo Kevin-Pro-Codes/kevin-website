@@ -71,11 +71,11 @@
     }
 
     .kevinbox {
-      zoom: 1.2;
-      align-items: center;
-      justify-content: center;
-      vertical-align: middle;
-    }
+      display: flex; /* Enable Flexbox */  
+      align-items: center; /* Center horizontally */
+      justify-content: center; /* Center vertically */
+      text-align: center; /* Ensure inline elements are centered */ 
+  }
       
 }
 
@@ -100,13 +100,16 @@
     text-align: center; /* Optional: Centers text within the container */
   }
         
-    .kevinbox {
-      zoom: 1.2;
-      align-items: center;
-      justify-content: center;
-      vertical-align: middle;
-      padding-left: 50px;
-    }
+  .kevinbox {
+    display: flex; /* Enable Flexbox */  
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center; /* Ensure inline elements are centered */
+    height: 100%; /* Full viewport height */
+    width: 100%; /* Full viewport width */  
+    overflow: auto; /* Prevent content from overflowing */
+}
+
     
     .footer-right {    
     display: none !important;    
@@ -186,7 +189,7 @@
     }
   }  
    
-  /* SMALL CELLPHONES : CHECK PADDING KEVINBOX  */
+  /* SMALL CELLPHONES  */
 
   @media (min-width: 200px) and (max-width: 350px) and (min-resolution: 30dpi) and (max-resolution: 140dpi) {
   
@@ -199,12 +202,14 @@
     }
   
     .kevinbox {
-      zoom: 1.2;
-      align-items: center;
-      justify-content: center;
-      vertical-align: middle;
-      padding-left: 55px;
-    }
+      display: flex; /* Enable Flexbox */  
+      align-items: center; /* Center horizontally */
+      justify-content: center; /* Center vertically */
+      text-align: center; /* Ensure inline elements are centered */
+      height: 100%; /* Full viewport height */
+      width: 100%; /* Full viewport width */  
+      overflow: auto; /* Prevent content from overflowing */
+  }
 
     .overall-bottom-container {
       display: grid;
