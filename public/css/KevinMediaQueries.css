@@ -531,7 +531,13 @@
       overflow: auto; /* Prevent content from overflowing */
     }
 
-   
+   .name {
+
+    zoom: 1.7;
+    z-index: 9999;
+   }
+
+
 
     .overall-bottom-container {  
       display: flex;
