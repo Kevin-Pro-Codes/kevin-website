@@ -11,24 +11,37 @@
     zoom: 0.6;       
   }
   
-  .overall-bottom-container {
-    display: grid;
-    gap: 5px;
-    grid-template-areas:
-      "comment-text"
-      "comment-container"
-      "comment-send"
-      "email-text"
-      "email-container"
-      "email-sub";
-    max-width: 1200px;
-    padding: 60px; /* Add padding for spacing inside the container */       
-    border-radius: 10px; /* Optional rounded corners */
-    flex-direction: column;  
-  justify-content: center; /* Horizontal centering */
-  align-items: center;  
-  text-align: center;
+
+  .parent-container {
+    display: flex;
+    display: flex; /* Enable Flexbox */  
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center; /* Ensure inline elements are centered */
+    height: 100%; /* Full viewport height */
+    width: 100%; /* Full viewport width */  
+    overflow: auto; /* Prevent content from overflowing */
+    
   }
+
+.overall-bottom-container {
+display: grid;
+gap: 5px;
+grid-template-areas:
+  "comment-text"
+  "comment-container"
+  "comment-send"
+  "email-text"
+  "email-container"
+  "email-sub";
+max-width: 600px; /* Adjust width as needed */
+width: 100%;
+border-radius: 10px;
+text-align: center;
+margin-bottom: 20px;
+margin: 0 auto; /* Center horizontally */
+
+}
 
 
   .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
@@ -48,6 +61,38 @@
 
 @media (min-width: 250px) and (max-width: 600px) {
   
+  .parent-container {
+    display: flex;
+    display: flex; /* Enable Flexbox */  
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center; /* Ensure inline elements are centered */
+    height: 100%; /* Full viewport height */
+    width: 100%; /* Full viewport width */  
+    overflow: auto; /* Prevent content from overflowing */
+    
+  }
+
+.overall-bottom-container {
+display: grid;
+gap: 5px;
+grid-template-areas:
+  "comment-text"
+  "comment-container"
+  "comment-send"
+  "email-text"
+  "email-container"
+  "email-sub";
+max-width: 600px; /* Adjust width as needed */
+width: 100%;
+border-radius: 10px;
+text-align: center;
+margin-bottom: 20px;
+margin: 0 auto; /* Center horizontally */
+
+}
+
+
   .footer-right {
     display: none !important;    
     }
@@ -122,24 +167,36 @@
   }
   
   
-  .parent.container {
-    display: flex; /* Enables flexbox layout */
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
-    flex-direction: column; /* Optional: Arrange children in a column */
-    text-align: center; /* Optional: Centers text within the container */
-
-  }
-
+  .parent-container {
+    display: flex;
+    display: flex; /* Enable Flexbox */  
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center; /* Ensure inline elements are centered */
+    height: 100%; /* Full viewport height */
+    width: 100%; /* Full viewport width */  
+    overflow: auto; /* Prevent content from overflowing */
     
-  .overall-bottom-container {
-    display: flex; /* Enables flexbox layout */
-    flex-direction: column;  
-    justify-content: center; /* Horizontal centering */
-    align-items: center;  
-    text-align: center;
-    margin-bottom: 20px;
   }
+
+.overall-bottom-container {
+display: grid;
+gap: 5px;
+grid-template-areas:
+  "comment-text"
+  "comment-container"
+  "comment-send"
+  "email-text"
+  "email-container"
+  "email-sub";
+max-width: 600px; /* Adjust width as needed */
+width: 100%;
+border-radius: 10px;
+text-align: center;
+margin-bottom: 20px;
+margin: 0 auto; /* Center horizontally */
+
+}
         
 
   .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
@@ -206,16 +263,20 @@
   
   @media (min-width: 900px) {
     
+
+  
     .overall-bottom-container {
+      display: grid; /* Enable grid layout */
       grid-template-areas:
         "comment-text email-text"
         "comment-container email-container"
         "comment-send email-sub";
-        padding-left: 85px;
-        flex-direction: column;  
-        margin-bottom: 20px;
+      gap: 10px; /* Gap between grid items inside this container */
+      max-width: 1200px; /* Control maximum width */
+      border-radius: 10px; /* Optional rounded corners */
+      margin-bottom: 20px; /* Space below this container */
+      text-align: center;
     }
-
 
     .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
       display: flex;
@@ -279,26 +340,38 @@
       overflow: auto; /* Prevent content from overflowing */
   }
 
-    .overall-bottom-container {
-      display: grid;
-      gap: 5px;
-      grid-template-areas:
-        "comment-text"
-        "comment-container"
-        "comment-send"
-        "email-text"
-        "email-container"
-        "email-sub";
-      max-width: 1200px;
-      padding: 60px; /* Add padding for spacing inside the container */   
-      border-radius: 10px; /* Optional rounded corners */
-      flex-direction: column;  
-  justify-content: center; /* Horizontal centering */
-  align-items: center;  
+
+   .parent-container {
+      display: flex;
+      display: flex; /* Enable Flexbox */  
+      align-items: center; /* Center horizontally */
+      justify-content: center; /* Center vertically */
+      text-align: center; /* Ensure inline elements are centered */
+      height: 100%; /* Full viewport height */
+      width: 100%; /* Full viewport width */  
+      overflow: auto; /* Prevent content from overflowing */
+      
+    }
+
+.overall-bottom-container {
+  display: grid;
+  gap: 5px;
+  grid-template-areas:
+    "comment-text"
+    "comment-container"
+    "comment-send"
+    "email-text"
+    "email-container"
+    "email-sub";
+  max-width: 600px; /* Adjust width as needed */
+  width: 100%;
+  border-radius: 10px;
   text-align: center;
   margin-bottom: 20px;
-    }
+  margin: 0 auto; /* Center horizontally */
   
+}
+
   
     .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
       display: flex;
@@ -337,25 +410,37 @@
     }
 
     
-    .overall-bottom-container {
-      display: grid;
-      gap: 5px;
-      grid-template-areas:
-        "comment-text"
-        "comment-container"
-        "comment-send"
-        "email-text"
-        "email-container"
-        "email-sub";
-      max-width: 1200px;
-      padding: 60px; /* Add padding for spacing inside the container */   
-      border-radius: 10px; /* Optional rounded corners */
-      flex-direction: column;  
-  justify-content: center; /* Horizontal centering */
-  align-items: center;  
+    .parent-container {
+      display: flex;
+      display: flex; /* Enable Flexbox */  
+      align-items: center; /* Center horizontally */
+      justify-content: center; /* Center vertically */
+      text-align: center; /* Ensure inline elements are centered */
+      height: 100%; /* Full viewport height */
+      width: 100%; /* Full viewport width */  
+      overflow: auto; /* Prevent content from overflowing */
+      
+    }
+
+.overall-bottom-container {
+  display: grid;
+  gap: 5px;
+  grid-template-areas:
+    "comment-text"
+    "comment-container"
+    "comment-send"
+    "email-text"
+    "email-container"
+    "email-sub";
+  max-width: 600px; /* Adjust width as needed */
+  width: 100%;
+  border-radius: 10px;
   text-align: center;
   margin-bottom: 20px;
-  }
+  margin: 0 auto; /* Center horizontally */
+  
+}
+
 
 
   .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
@@ -466,25 +551,37 @@
       }
     
 
-      .overall-bottom-container {
-        display: grid;
-        gap: 5px;
-        grid-template-areas:
-          "comment-text"
-          "comment-container"
-          "comment-send"
-          "email-text"
-          "email-container"
-          "email-sub";
-        max-width: 1200px;
-        padding: 60px; /* Add padding for spacing inside the container */   
-        border-radius: 10px; /* Optional rounded corners */  
-        flex-direction: column;  
-  justify-content: center; /* Horizontal centering */
-  align-items: center;  
-  text-align: center;
-  margin-bottom: 20px;
+      .parent-container {
+        display: flex;
+        display: flex; /* Enable Flexbox */  
+        align-items: center; /* Center horizontally */
+        justify-content: center; /* Center vertically */
+        text-align: center; /* Ensure inline elements are centered */
+        height: 100%; /* Full viewport height */
+        width: 100%; /* Full viewport width */  
+        overflow: auto; /* Prevent content from overflowing */
+        
       }
+  
+  .overall-bottom-container {
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
+      "comment-text"
+      "comment-container"
+      "comment-send"
+      "email-text"
+      "email-container"
+      "email-sub";
+    max-width: 600px; /* Adjust width as needed */
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 0 auto; /* Center horizontally */
+    
+  }
+  
   
 
       .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
@@ -531,17 +628,37 @@
       overflow: auto; /* Prevent content from overflowing */
     }
   
-    .overall-bottom-container {  
+    .parent-container {
       display: flex;
-      flex-direction: column;
-      justify-content: center; /* Center content vertically */
-      align-items: center; /* Center content horizontally */
-      text-align: center;
-      gap: 10px; /* Add spacing between elements */
-      padding: 10px; /* Add padding for better spacing */
-      width: 100%;
-      margin-bottom: 30px;
+      display: flex; /* Enable Flexbox */  
+      align-items: center; /* Center horizontally */
+      justify-content: center; /* Center vertically */
+      text-align: center; /* Ensure inline elements are centered */
+      height: 100%; /* Full viewport height */
+      width: 100%; /* Full viewport width */  
+      overflow: auto; /* Prevent content from overflowing */
+      
     }
+
+.overall-bottom-container {
+  display: grid;
+  gap: 5px;
+  grid-template-areas:
+    "comment-text"
+    "comment-container"
+    "comment-send"
+    "email-text"
+    "email-container"
+    "email-sub";
+  max-width: 600px; /* Adjust width as needed */
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin: 0 auto; /* Center horizontally */
+  
+}
+
       
     .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
         display: flex;
@@ -655,25 +772,36 @@
       margin-left: 6px;          
       }    
 
-      .overall-bottom-container {
-        display: grid;
-        gap: 5px;
-        grid-template-areas:
-          "comment-text"
-          "comment-container"
-          "comment-send"
-          "email-text"
-          "email-container"
-          "email-sub";
-        max-width: 1200px;
-        padding: 60px; /* Add padding for spacing inside the container */   
-        border-radius: 10px; /* Optional rounded corners */  
-        flex-direction: column;  
-        justify-content: center; /* Horizontal centering */
-        align-items: center;  
-        text-align: center;
-        margin-bottom: 20px;
+      .parent-container {
+        display: flex;
+        display: flex; /* Enable Flexbox */  
+        align-items: center; /* Center horizontally */
+        justify-content: center; /* Center vertically */
+        text-align: center; /* Ensure inline elements are centered */
+        height: 100%; /* Full viewport height */
+        width: 100%; /* Full viewport width */  
+        overflow: auto; /* Prevent content from overflowing */
+        
       }
+  
+  .overall-bottom-container {
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
+      "comment-text"
+      "comment-container"
+      "comment-send"
+      "email-text"
+      "email-container"
+      "email-sub";
+    max-width: 600px; /* Adjust width as needed */
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 0 auto; /* Center horizontally */
+    
+  }
   
 
       .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
@@ -733,15 +861,36 @@
       vertical-align: middle;
     }
 
-  .overall-bottom-container {  
-  flex-direction: column;  
-  justify-content: center; /* Horizontal centering */
-  align-items: center;  
+    .parent-container {
+      display: flex;
+      display: flex; /* Enable Flexbox */  
+      align-items: center; /* Center horizontally */
+      justify-content: center; /* Center vertically */
+      text-align: center; /* Ensure inline elements are centered */
+      height: 100%; /* Full viewport height */
+      width: 100%; /* Full viewport width */  
+      overflow: auto; /* Prevent content from overflowing */
+      
+    }
+
+.overall-bottom-container {
+  display: grid;
+  gap: 5px;
+  grid-template-areas:
+    "comment-text"
+    "comment-container"
+    "comment-send"
+    "email-text"
+    "email-container"
+    "email-sub";
+  max-width: 600px; /* Adjust width as needed */
+  width: 100%;
+  border-radius: 10px;
   text-align: center;
-  /*padding-right: 7%;*/
   margin-bottom: 20px;
-  zoom: 0.9;      
-  }
+  margin: 0 auto; /* Center horizontally */
+  
+}
 
 
   .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
