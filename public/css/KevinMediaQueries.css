@@ -664,11 +664,11 @@
         "email-container"
         "email-sub";
       max-width: 600px; /* Control the maximum width */
-      width: 90%; /* Use percentage for responsiveness */
+      width: 100%; /* Use percentage for responsiveness */
       border-radius: 10px;
       text-align: center;
       margin: 0 auto; /* Center horizontally */
-      padding: 20px; /* Add padding for better spacing */
+  
       box-sizing: border-box; /* Ensure padding doesn't affect width */
       margin-bottom: 20px;
     }
