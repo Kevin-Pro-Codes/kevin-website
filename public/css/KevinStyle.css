@@ -525,6 +525,8 @@ p {
   align-items: center; /* Vertically center the content */
   z-index: 1; /* Ensure it appears above other content */
   padding-top: 350px;  
+
+  margin-bottom: 40px;
 }
 
 #not-found-message p {
