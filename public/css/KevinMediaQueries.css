@@ -43,16 +43,29 @@
     margin-bottom: 20px;
   }
 
-
-  .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
-    text-align: center;        
-    width: 90%; /* Set width to 90% of the parent container */
-    margin: 0 auto; /* Center horizontally */
-  }
+  .about-content, 
+    .extra-text, 
+    .copyright-content, 
+    .articles-content, 
+    .images-content, 
+    .projects-content, 
+    .coop-content, 
+    .tradingbot-content, 
+    .languages-content, 
+    .contact-content {
+        display: grid;
+        grid-template-columns: 1fr; /* Single column layout */
+        justify-content: center; /* Horizontal centering */
+        align-items: center; /* Vertical centering */
+        text-align: center;
+        width: 99%; /* Ensure consistent width */
+        max-width: 1200px; /* Prevent excessive stretching */
+        margin: 0 auto; /* Center horizontally in parent */
+        gap: 10px; /* Add space between boxes */
+        padding: 20px; /* Add spacing inside the container */
+        box-sizing: border-box; /* Include padding in width */
+    }
+    
 
 
 }
@@ -141,15 +154,29 @@
   }
 
   
-  .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
-    text-align: center;        
-    width: 90%; /* Set width to 90% of the parent container */
-    margin: 0 auto; /* Center horizontally */
+  .about-content, 
+  .extra-text, 
+  .copyright-content, 
+  .articles-content, 
+  .images-content, 
+  .projects-content, 
+  .coop-content, 
+  .tradingbot-content, 
+  .languages-content, 
+  .contact-content {
+      display: grid;
+      grid-template-columns: 1fr; /* Single column layout */
+      justify-content: center; /* Horizontal centering */
+      align-items: center; /* Vertical centering */
+      text-align: center;
+      width: 99%; /* Ensure consistent width */
+      max-width: 1200px; /* Prevent excessive stretching */
+      margin: 0 auto; /* Center horizontally in parent */
+      gap: 10px; /* Add space between boxes */
+      padding: 20px; /* Add spacing inside the container */
+      box-sizing: border-box; /* Include padding in width */
   }
+  
 
       
 }
@@ -201,15 +228,29 @@
       
         
 
-  .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
-    text-align: center;        
-    width: 90%; /* Set width to 90% of the parent container */
-    margin: 0 auto; /* Center horizontally */
+  .about-content, 
+  .extra-text, 
+  .copyright-content, 
+  .articles-content, 
+  .images-content, 
+  .projects-content, 
+  .coop-content, 
+  .tradingbot-content, 
+  .languages-content, 
+  .contact-content {
+      display: grid;
+      grid-template-columns: 1fr; /* Single column layout */
+      justify-content: center; /* Horizontal centering */
+      align-items: center; /* Vertical centering */
+      text-align: center;
+      width: 99%; /* Ensure consistent width */
+      max-width: 1200px; /* Prevent excessive stretching */
+      margin: 0 auto; /* Center horizontally in parent */
+      gap: 10px; /* Add space between boxes */
+      padding: 20px; /* Add spacing inside the container */
+      box-sizing: border-box; /* Include padding in width */
   }
+  
 
 
   .kevinbox {
@@ -280,15 +321,29 @@
       text-align: center;
     }
 
-    .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center; /* Center content vertically */
-      align-items: center; /* Center content horizontally */
-      text-align: center;        
-      width: 90%; /* Set width to 90% of the parent container */
-      margin: 0 auto; /* Center horizontally */
+    .about-content, 
+    .extra-text, 
+    .copyright-content, 
+    .articles-content, 
+    .images-content, 
+    .projects-content, 
+    .coop-content, 
+    .tradingbot-content, 
+    .languages-content, 
+    .contact-content {
+        display: grid;
+        grid-template-columns: 1fr; /* Single column layout */
+        justify-content: center; /* Horizontal centering */
+        align-items: center; /* Vertical centering */
+        text-align: center;
+        width: 99%; /* Ensure consistent width */
+        max-width: 1200px; /* Prevent excessive stretching */
+        margin: 0 auto; /* Center horizontally in parent */
+        gap: 10px; /* Add space between boxes */
+        padding: 20px; /* Add spacing inside the container */
+        box-sizing: border-box; /* Include padding in width */
     }
+    
 
 
   
@@ -376,16 +431,29 @@
     }
         
 
-  
-    .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center; /* Center content vertically */
-      align-items: center; /* Center content horizontally */
-      text-align: center;        
-      width: 90%; /* Set width to 90% of the parent container */
-      margin: 0 auto; /* Center horizontally */
+    .about-content, 
+    .extra-text, 
+    .copyright-content, 
+    .articles-content, 
+    .images-content, 
+    .projects-content, 
+    .coop-content, 
+    .tradingbot-content, 
+    .languages-content, 
+    .contact-content {
+        display: grid;
+        grid-template-columns: 1fr; /* Single column layout */
+        justify-content: center; /* Horizontal centering */
+        align-items: center; /* Vertical centering */
+        text-align: center;
+        width: 99%; /* Ensure consistent width */
+        max-width: 1200px; /* Prevent excessive stretching */
+        margin: 0 auto; /* Center horizontally in parent */
+        gap: 10px; /* Add space between boxes */
+        padding: 20px; /* Add spacing inside the container */
+        box-sizing: border-box; /* Include padding in width */
     }
+    
 
 
   }
@@ -428,37 +496,52 @@
 
     .overall-bottom-container {
       display: grid;
-      gap: 10px; /* Increase gap for better spacing */
+      gap: 10px; /* Space between grid items */
       grid-template-areas:
-        "comment-text"
-        "comment-container"
-        "comment-send"
-        "email-text"
-        "email-container"
-        "email-sub";
-      max-width: 1200px; /* Control the maximum width */
-      width: 100%; /* Use percentage for responsiveness */
-      border-radius: 10px;
+          "comment-text"
+          "comment-container"
+          "comment-send"
+          "email-text"
+          "email-container"
+          "email-sub";
+      max-width: 600px; /* Control the maximum width for better readability */
+      width: 100%; /* Responsive width */
+      border-radius: 10px; /* Optional rounded corners */
       text-align: center;
-      margin: 0 auto; /* Center horizontally */  
-      box-sizing: border-box; /* Ensure padding doesn't affect width */
+      margin: 0 auto; /* Horizontal centering */
+      box-sizing: border-box; /* Include padding in width */
       margin-bottom: 20px;
-    }
-        
+      padding: 20px; /* Add padding for internal spacing */
+      align-items: center; /* Vertical centering of grid items */
+      justify-items: center; /* Horizontal centering of grid items */
+  }
+  
     
 
 
-
-  .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
-    text-align: center;        
-    width: 90%; /* Set width to 90% of the parent container */
-    margin: 0 auto; /* Center horizontally */
-  }
-
+    .about-content, 
+    .extra-text, 
+    .copyright-content, 
+    .articles-content, 
+    .images-content, 
+    .projects-content, 
+    .coop-content, 
+    .tradingbot-content, 
+    .languages-content, 
+    .contact-content {
+        display: grid;
+        grid-template-columns: 1fr; /* Single column layout */
+        justify-content: center; /* Horizontal centering */
+        align-items: center; /* Vertical centering */
+        text-align: center;
+        width: 99%; /* Ensure consistent width */
+        max-width: 1200px; /* Prevent excessive stretching */
+        margin: 0 auto; /* Center horizontally in parent */
+        gap: 10px; /* Add space between boxes */
+        padding: 20px; /* Add spacing inside the container */
+        box-sizing: border-box; /* Include padding in width */
+    }
+    
   
     .footer-right {
       display: none !important;
@@ -590,15 +673,29 @@
           
   
 
-      .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center; /* Center content vertically */
-        align-items: center; /* Center content horizontally */
-        text-align: center;        
-        width: 90%; /* Set width to 90% of the parent container */
-        margin: 0 auto; /* Center horizontally */
-      }
+      .about-content, 
+    .extra-text, 
+    .copyright-content, 
+    .articles-content, 
+    .images-content, 
+    .projects-content, 
+    .coop-content, 
+    .tradingbot-content, 
+    .languages-content, 
+    .contact-content {
+        display: grid;
+        grid-template-columns: 1fr; /* Single column layout */
+        justify-content: center; /* Horizontal centering */
+        align-items: center; /* Vertical centering */
+        text-align: center;
+        width: 99%; /* Ensure consistent width */
+        max-width: 1200px; /* Prevent excessive stretching */
+        margin: 0 auto; /* Center horizontally in parent */
+        gap: 10px; /* Add space between boxes */
+        padding: 20px; /* Add spacing inside the container */
+        box-sizing: border-box; /* Include padding in width */
+    }
+    
 
 
   }
@@ -667,15 +764,29 @@
     }
 
       
-    .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center; /* Center content vertically */
-        align-items: center; /* Center content horizontally */
-        text-align: center;        
-        width: 90%; /* Set width to 90% of the parent container */
-        margin: 0 auto; /* Center horizontally */
-      }
+    .about-content, 
+    .extra-text, 
+    .copyright-content, 
+    .articles-content, 
+    .images-content, 
+    .projects-content, 
+    .coop-content, 
+    .tradingbot-content, 
+    .languages-content, 
+    .contact-content {
+        display: grid;
+        grid-template-columns: 1fr; /* Single column layout */
+        justify-content: center; /* Horizontal centering */
+        align-items: center; /* Vertical centering */
+        text-align: center;
+        width: 99%; /* Ensure consistent width */
+        max-width: 1200px; /* Prevent excessive stretching */
+        margin: 0 auto; /* Center horizontally in parent */
+        gap: 10px; /* Add space between boxes */
+        padding: 20px; /* Add spacing inside the container */
+        box-sizing: border-box; /* Include padding in width */
+    }
+    
 
     
 
@@ -812,16 +923,29 @@
           
   
 
-      .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center; /* Center content vertically */
-        align-items: center; /* Center content horizontally */
-        text-align: center;        
-        width: 90%; /* Set width to 90% of the parent container */
-        margin: 0 auto; /* Center horizontally */
+      .about-content, 
+      .extra-text, 
+      .copyright-content, 
+      .articles-content, 
+      .images-content, 
+      .projects-content, 
+      .coop-content, 
+      .tradingbot-content, 
+      .languages-content, 
+      .contact-content {
+          display: grid;
+          grid-template-columns: 1fr; /* Single column layout */
+          justify-content: center; /* Horizontal centering */
+          align-items: center; /* Vertical centering */
+          text-align: center;
+          width: 99%; /* Ensure consistent width */
+          max-width: 1200px; /* Prevent excessive stretching */
+          margin: 0 auto; /* Center horizontally in parent */
+          gap: 10px; /* Add space between boxes */
+          padding: 20px; /* Add spacing inside the container */
+          box-sizing: border-box; /* Include padding in width */
       }
-
+      
 
 
   }
@@ -902,17 +1026,29 @@
     }
 
 
-  .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
-    text-align: center;        
-    width: 90%; /* Set width to 90% of the parent container */
-    margin: 0 auto; /* Center horizontally */
-  }
-
-
+    .about-content, 
+    .extra-text, 
+    .copyright-content, 
+    .articles-content, 
+    .images-content, 
+    .projects-content, 
+    .coop-content, 
+    .tradingbot-content, 
+    .languages-content, 
+    .contact-content {
+        display: grid;
+        grid-template-columns: 1fr; /* Single column layout */
+        justify-content: center; /* Horizontal centering */
+        align-items: center; /* Vertical centering */
+        text-align: center;
+        width: 99%; /* Ensure consistent width */
+        max-width: 1200px; /* Prevent excessive stretching */
+        margin: 0 auto; /* Center horizontally in parent */
+        gap: 10px; /* Add space between boxes */
+        padding: 20px; /* Add spacing inside the container */
+        box-sizing: border-box; /* Include padding in width */
+    }
+    
   
   .footer-right {  
   display: none !important;  
