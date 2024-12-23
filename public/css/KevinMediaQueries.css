@@ -663,7 +663,7 @@
         "email-text"
         "email-container"
         "email-sub";
-      max-width: 600px; /* Control the maximum width */
+      max-width: 1200px; /* Control the maximum width */
       width: 100%; /* Use percentage for responsiveness */
       border-radius: 10px;
       text-align: center;
