@@ -955,11 +955,11 @@
   @media (min-width: 250px) and (max-width: 600px) and (min-resolution: 200dpi) and (max-resolution: 600dpi)  {
       
     .chrome-mobile body {
-      zoom: 0.10; 
+      zoom: 0.50; 
   }
   
   .chrome-mobile .navbar {
-      zoom: 0.25; 
+      zoom: 0.75; 
   }
   
   .firefox-mobile .flags {  
