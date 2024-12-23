@@ -34,16 +34,14 @@
       "email-text"
       "email-container"
       "email-sub";
-    max-width: 600px; /* Control the maximum width */
-    width: 90%; /* Use percentage for responsiveness */
+    max-width: 1200px; /* Control the maximum width */
+    width: 100%; /* Use percentage for responsiveness */
     border-radius: 10px;
     text-align: center;
-    margin: 0 auto; /* Center horizontally */
-    padding: 20px; /* Add padding for better spacing */
+    margin: 0 auto; /* Center horizontally */  
     box-sizing: border-box; /* Ensure padding doesn't affect width */
     margin-bottom: 20px;
   }
-      
 
 
   .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
@@ -85,12 +83,11 @@
       "email-text"
       "email-container"
       "email-sub";
-    max-width: 600px; /* Control the maximum width */
-    width: 90%; /* Use percentage for responsiveness */
+    max-width: 1200px; /* Control the maximum width */
+    width: 100%; /* Use percentage for responsiveness */
     border-radius: 10px;
     text-align: center;
-    margin: 0 auto; /* Center horizontally */
-    padding: 20px; /* Add padding for better spacing */
+    margin: 0 auto; /* Center horizontally */  
     box-sizing: border-box; /* Ensure padding doesn't affect width */
     margin-bottom: 20px;
   }
@@ -193,12 +190,11 @@
       "email-text"
       "email-container"
       "email-sub";
-    max-width: 600px; /* Control the maximum width */
-    width: 90%; /* Use percentage for responsiveness */
+    max-width: 1200px; /* Control the maximum width */
+    width: 100%; /* Use percentage for responsiveness */
     border-radius: 10px;
     text-align: center;
-    margin: 0 auto; /* Center horizontally */
-    padding: 20px; /* Add padding for better spacing */
+    margin: 0 auto; /* Center horizontally */  
     box-sizing: border-box; /* Ensure padding doesn't affect width */
     margin-bottom: 20px;
   }
@@ -359,6 +355,7 @@
       
     }
 
+    
     .overall-bottom-container {
       display: grid;
       gap: 10px; /* Increase gap for better spacing */
@@ -369,12 +366,11 @@
         "email-text"
         "email-container"
         "email-sub";
-      max-width: 600px; /* Control the maximum width */
-      width: 90%; /* Use percentage for responsiveness */
+      max-width: 1200px; /* Control the maximum width */
+      width: 100%; /* Use percentage for responsiveness */
       border-radius: 10px;
       text-align: center;
-      margin: 0 auto; /* Center horizontally */
-      padding: 20px; /* Add padding for better spacing */
+      margin: 0 auto; /* Center horizontally */  
       box-sizing: border-box; /* Ensure padding doesn't affect width */
       margin-bottom: 20px;
     }
@@ -440,12 +436,11 @@
         "email-text"
         "email-container"
         "email-sub";
-      max-width: 600px; /* Control the maximum width */
-      width: 90%; /* Use percentage for responsiveness */
+      max-width: 1200px; /* Control the maximum width */
+      width: 100%; /* Use percentage for responsiveness */
       border-radius: 10px;
       text-align: center;
-      margin: 0 auto; /* Center horizontally */
-      padding: 20px; /* Add padding for better spacing */
+      margin: 0 auto; /* Center horizontally */  
       box-sizing: border-box; /* Ensure padding doesn't affect width */
       margin-bottom: 20px;
     }
@@ -584,12 +579,11 @@
           "email-text"
           "email-container"
           "email-sub";
-        max-width: 600px; /* Control the maximum width */
-        width: 90%; /* Use percentage for responsiveness */
+        max-width: 1200px; /* Control the maximum width */
+        width: 100%; /* Use percentage for responsiveness */
         border-radius: 10px;
         text-align: center;
-        margin: 0 auto; /* Center horizontally */
-        padding: 20px; /* Add padding for better spacing */
+        margin: 0 auto; /* Center horizontally */  
         box-sizing: border-box; /* Ensure padding doesn't affect width */
         margin-bottom: 20px;
       }
@@ -667,12 +661,10 @@
       width: 100%; /* Use percentage for responsiveness */
       border-radius: 10px;
       text-align: center;
-      margin: 0 auto; /* Center horizontally */
-  
+      margin: 0 auto; /* Center horizontally */  
       box-sizing: border-box; /* Ensure padding doesn't affect width */
       margin-bottom: 20px;
     }
-        
 
       
     .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
@@ -809,12 +801,11 @@
           "email-text"
           "email-container"
           "email-sub";
-        max-width: 600px; /* Control the maximum width */
-        width: 90%; /* Use percentage for responsiveness */
+        max-width: 1200px; /* Control the maximum width */
+        width: 100%; /* Use percentage for responsiveness */
         border-radius: 10px;
         text-align: center;
-        margin: 0 auto; /* Center horizontally */
-        padding: 20px; /* Add padding for better spacing */
+        margin: 0 auto; /* Center horizontally */  
         box-sizing: border-box; /* Ensure padding doesn't affect width */
         margin-bottom: 20px;
       }
@@ -901,16 +892,14 @@
         "email-text"
         "email-container"
         "email-sub";
-      max-width: 600px; /* Control the maximum width */
-      width: 90%; /* Use percentage for responsiveness */
+      max-width: 1200px; /* Control the maximum width */
+      width: 100%; /* Use percentage for responsiveness */
       border-radius: 10px;
       text-align: center;
-      margin: 0 auto; /* Center horizontally */
-      padding: 20px; /* Add padding for better spacing */
+      margin: 0 auto; /* Center horizontally */  
       box-sizing: border-box; /* Ensure padding doesn't affect width */
       margin-bottom: 20px;
     }
-        
 
 
   .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
