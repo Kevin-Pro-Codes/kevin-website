@@ -526,7 +526,7 @@ p {
   z-index: 1; /* Ensure it appears above other content */
   padding-top: 350px;  
 
-  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 #not-found-message p {
