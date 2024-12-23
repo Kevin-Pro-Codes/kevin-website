@@ -583,7 +583,7 @@
     
   }
   
-  @media (min-width: 350px) and (max-width: 600px) and (min-resolution: 140dpi) and (max-resolution: 160dpi) {
+  @media (min-width: 250px) and (max-width: 600px) and (min-resolution: 140dpi) and (max-resolution: 160dpi) {
       
     body {  
       zoom: 0.445;      
@@ -702,7 +702,7 @@
   
   /*MY CELLPHONE*/
 
-  @media (min-width: 350px) and (max-width: 600px) and (min-resolution: 160dpi) and (max-resolution: 180dpi)  {
+  @media (min-width: 250px) and (max-width: 600px) and (min-resolution: 160dpi) and (max-resolution: 180dpi)  {
      
     .chrome-mobile body {
       zoom: 0.45; 
@@ -835,7 +835,7 @@
   
 /* MARCOS CEL */
 
-  @media (min-width: 350px) and (max-width: 600px) and (min-resolution: 180dpi) and (max-resolution: 200dpi)  {
+  @media (min-width: 250px) and (max-width: 600px) and (min-resolution: 180dpi) and (max-resolution: 200dpi)  {
       
     body {  
       zoom: 0.415;       
