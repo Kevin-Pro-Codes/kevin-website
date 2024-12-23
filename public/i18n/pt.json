@@ -84,18 +84,22 @@
   
     "tbot6-title": "CONTATO",
     "tbot6-text": "Entre em contato para conversa casual sobre o assunto: kevinprofessionalman@outlook.com",
-  
-  
+     
+    "lang-title": "QUAL A MINHA RELAÇÃO E DISPONIBILIDADE SOBRE ALGUM IDIOMA?",
+    "lang-text": "Eu sempre tive uma paixão pelo idioma inglês, que considero uma língua extremamente rica e universal. O inglês abriu portas para o mundo, permitindo-me acessar uma quantidade imensa de conhecimento, seja em livros, filmes, artigos acadêmicos ou interações com pessoas de diferentes culturas ao redor do mundo. É fascinante como o inglês conecta milhões de pessoas e cria oportunidades para compartilhar ideias e experiências.\n\nAlém disso, sou alguém que está sempre aberto a conversas, seja para melhorar a fluência ou simplesmente para trocar experiências. Acredito que a prática constante, por meio de diálogos e imersão no idioma, é essencial para a aprendizagem contínua. Estou sempre disposto a aprender com os outros, seja em um ambiente descontraído ou em contextos mais formais. Sinto que a troca de ideias e a diversidade de perspectivas tornam as conversas ainda mais enriquecedoras.\n\nAlém do inglês, também estudo o idioma francês, o que tem sido uma experiência maravilhosa. O francês é uma língua cheia de nuances e uma sonoridade única que me encanta a cada dia. Estou em uma jornada de aprendizado e, embora ainda esteja em processo de aprimoramento, estou cada vez mais apaixonado por suas expressões e pela cultura francófona que a acompanha. Estudo o francês com o intuito de expandir ainda mais meu horizonte linguístico e cultural.\n\nSe você também é apaixonado por idiomas ou quer compartilhar suas próprias experiências, ficarei feliz em conversar e aprender com você. A troca de conhecimento é algo que aprecio profundamente, e tenho certeza de que as conversas podem ser um ótimo caminho para todos nós crescermos juntos.\n\nCaso queira conversar sobre experiências ou praticar de forma casual, estou aberto para conversas. Mande um e-mail ou envie uma mensagem no WhatsApp.",
     
-        "lang-title": "QUAL A MINHA RELAÇÃO E DISPONIBILIDADE SOBRE ALGUM IDIOMA?",
-        "lang-text": "Eu sempre tive uma paixão pelo idioma inglês, que considero uma língua extremamente rica e universal. O inglês abriu portas para o mundo, permitindo-me acessar uma quantidade imensa de conhecimento, seja em livros, filmes, artigos acadêmicos ou interações com pessoas de diferentes culturas ao redor do mundo. É fascinante como o inglês conecta milhões de pessoas e cria oportunidades para compartilhar ideias e experiências.\n\nAlém disso, sou alguém que está sempre aberto a conversas, seja para melhorar a fluência ou simplesmente para trocar experiências. Acredito que a prática constante, por meio de diálogos e imersão no idioma, é essencial para a aprendizagem contínua. Estou sempre disposto a aprender com os outros, seja em um ambiente descontraído ou em contextos mais formais. Sinto que a troca de ideias e a diversidade de perspectivas tornam as conversas ainda mais enriquecedoras.\n\nAlém do inglês, também estudo o idioma francês, o que tem sido uma experiência maravilhosa. O francês é uma língua cheia de nuances e uma sonoridade única que me encanta a cada dia. Estou em uma jornada de aprendizado e, embora ainda esteja em processo de aprimoramento, estou cada vez mais apaixonado por suas expressões e pela cultura francófona que a acompanha. Estudo o francês com o intuito de expandir ainda mais meu horizonte linguístico e cultural.\n\nSe você também é apaixonado por idiomas ou quer compartilhar suas próprias experiências, ficarei feliz em conversar e aprender com você. A troca de conhecimento é algo que aprecio profundamente, e tenho certeza de que as conversas podem ser um ótimo caminho para todos nós crescermos juntos.\n\nCaso queira conversar sobre experiências ou praticar de forma casual, estou aberto para conversas. Mande um e-mail ou envie uma mensagem no WhatsApp.",
+    "title-contact": "CONTATOS",
+
+
+    
+        "comment_success": "Seu comentário foi enviado!",
+        "comment_error": "Erro! Comentário ou e-mail inválido!",
+        "comment_cooldown": "Você enviou 3 comentários recentemente. Por favor, aguarde {time} minutos antes de enviar mais comentários.",
+        "email_success": "Inscrição de e-mail bem-sucedida!",
+        "email_error": "Erro! Endereço de e-mail inválido!",
+        "email_cooldown": "Você se inscreveu 3 vezes recentemente. Por favor, aguarde {time} minutos antes de enviar mais e-mails."
+      
       
 
-      
-
-
-
-
-"title-contact": "CONTATOS"
 
   }

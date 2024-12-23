@@ -1,74 +1,3 @@
-/* SMART WATCH */
-
-@media (min-width: 1px) and (max-width: 250px) {
-    
-  body {
-    zoom: 0.2;    
-  }
-     
- 
-  .navbar {
-    zoom: 0.6;       
-  }
-  
-
-  .parent-container {
-    display: flex;
-    display: flex; /* Enable Flexbox */  
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
-    text-align: center; /* Ensure inline elements are centered */
-    height: 100%; /* Full viewport height */
-    width: 100%; /* Full viewport width */  
-    overflow: auto; /* Prevent content from overflowing */
-    
-  }
-
-  .overall-bottom-container {
-    display: grid;
-    gap: 10px; /* Increase gap for better spacing */
-    grid-template-areas:
-      "comment-text"
-      "comment-container"
-      "comment-send"
-      "email-text"
-      "email-container"
-      "email-sub";
-    max-width: 1200px; /* Control the maximum width */
-    width: 100%; /* Use percentage for responsiveness */
-    border-radius: 10px;
-    text-align: center;
-    margin: 0 auto; /* Center horizontally */  
-    box-sizing: border-box; /* Ensure padding doesn't affect width */
-    margin-bottom: 20px;
-  }
-
-  .about-content, 
-    .extra-text, 
-    .copyright-content, 
-    .articles-content, 
-    .images-content, 
-    .projects-content, 
-    .coop-content, 
-    .tradingbot-content, 
-    .languages-content, 
-    .contact-content {
-        display: grid;
-        grid-template-columns: 1fr; /* Single column layout */
-        justify-content: center; /* Horizontal centering */
-        align-items: center; /* Vertical centering */
-        text-align: center;
-        width: 99%; /* Ensure consistent width */
-        max-width: 1200px; /* Prevent excessive stretching */
-        margin: 0 auto; /* Center horizontally in parent */
-        gap: 10px; /* Add space between boxes */
-        padding: 20px; /* Add spacing inside the container */
-        box-sizing: border-box; /* Include padding in width */
-    }
-    
-
-
-}
 
 /* BETWEEN SMART WATCH AND SMALL CELLPHONE */ 
 
@@ -224,6 +153,7 @@
     margin: 0 auto; /* Center horizontally */  
     box-sizing: border-box; /* Ensure padding doesn't affect width */
     margin-bottom: 20px;
+    
   }
       
         
@@ -311,15 +241,24 @@
     .overall-bottom-container {
       display: grid; /* Enable grid layout */
       grid-template-areas:
-        "comment-text email-text"
-        "comment-container email-container"
-        "comment-send email-sub";
-      gap: 10px; /* Gap between grid items inside this container */
+          "comment-text email-text"
+          "comment-container email-container"
+          "comment-send email-sub";
+      grid-template-columns: 1fr 1fr; /* Two equal columns */
+      column-gap: 50px; /* Space between left and right columns */
+      row-gap: 10px; /* Space between rows */
       max-width: 1200px; /* Control maximum width */
+      width: 80%;
       border-radius: 10px; /* Optional rounded corners */
       margin-bottom: 20px; /* Space below this container */
-      text-align: center;
-    }
+      text-align: center; /* Center text in grid items */
+      justify-content: center; /* Center grid horizontally */
+      align-content: center; /* Center grid vertically */
+      box-sizing: border-box;
+      margin: 0 auto; /* Ensure grid itself is centered */
+      
+  }
+  
 
     .about-content, 
     .extra-text, 
@@ -344,7 +283,6 @@
         box-sizing: border-box; /* Include padding in width */
     }
     
-
 
   
     .comment-text {
@@ -374,6 +312,112 @@
       margin-top: -1.5px; /* Pull it upwards */
     }
   }  
+
+
+/* SMART WATCH */
+
+@media (min-width: 1px) and (max-width: 200px) {
+    
+  body {
+    zoom: 0.2;    
+  }
+     
+ 
+  .navbar {
+    zoom: 0.6;       
+  }
+  
+  .kevinbox {
+    display: flex; /* Enable Flexbox */  
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center; /* Ensure inline elements are centered */
+    height: 100%; /* Full viewport height */
+    width: 100%; /* Full viewport width */  
+    overflow: auto; /* Prevent content from overflowing */
+}
+
+
+  .parent-container {
+    display: flex;
+    display: flex; /* Enable Flexbox */  
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center; /* Ensure inline elements are centered */
+    height: 100%; /* Full viewport height */
+    width: 100%; /* Full viewport width */  
+    overflow: auto; /* Prevent content from overflowing */
+    
+  }
+
+  .overall-bottom-container {
+    display: grid;
+    gap: 10px; /* Increase gap for better spacing */
+    grid-template-areas:
+      "comment-text"
+      "comment-container"
+      "comment-send"
+      "email-text"
+      "email-container"
+      "email-sub";
+    max-width: 1200px; /* Control the maximum width */
+    width: 100%; /* Use percentage for responsiveness */
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto; /* Center horizontally */  
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    margin-bottom: 20px;
+  }
+
+  .about-content, 
+    .extra-text, 
+    .copyright-content, 
+    .articles-content, 
+    .images-content, 
+    .projects-content, 
+    .coop-content, 
+    .tradingbot-content, 
+    .languages-content, 
+    .contact-content {
+        display: grid;
+        grid-template-columns: 1fr; /* Single column layout */
+        justify-content: center; /* Horizontal centering */
+        align-items: center; /* Vertical centering */
+        text-align: center;
+        width: 99%; /* Ensure consistent width */
+        max-width: 1200px; /* Prevent excessive stretching */
+        margin: 0 auto; /* Center horizontally in parent */
+        gap: 10px; /* Add space between boxes */
+        padding: 20px; /* Add spacing inside the container */
+        box-sizing: border-box; /* Include padding in width */
+    }
+    
+
+    .overall-bottom-container {
+      display: grid;
+      gap: 10px; /* Increase gap for better spacing */
+      grid-template-areas:
+        "comment-text"
+        "comment-container"
+        "comment-send"
+        "email-text"
+        "email-container"
+        "email-sub";
+      max-width: 1200px; /* Control the maximum width */
+      width: 100%; /* Use percentage for responsiveness */
+      border-radius: 10px;
+      text-align: center;
+      margin: 0 auto; /* Center horizontally */  
+      box-sizing: border-box; /* Ensure padding doesn't affect width */
+      margin-bottom: 20px;
+    }
+        
+
+    
+
+}
+
+
    
   /* SMALL CELLPHONES  */
 
@@ -467,7 +511,7 @@
     }
         
     .navbar {
-      zoom: 0.70; 
+      zoom: 0.75; 
     }
 
     .kevinbox {

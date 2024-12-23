@@ -1,23 +1,18 @@
-//TOGGLE TRANSLATION BUTTON THROUGH JSON
-
-
 document.addEventListener('DOMContentLoaded', function() {
     const flagButton = document.querySelector('.flag-button');
     const flagText = document.querySelector('.flag-text');
     const flagImages = flagButton.querySelectorAll('img');
     const lowIcons = document.querySelector('.low-icons');
-    const lockIcon = document.querySelector('.lock-icon i'); // Lock icon element
+    const lockIcon = document.querySelector('.lock-icon i'); 
 
-    let isLocked = false; // Track if the lock is active
+    let isLocked = false; 
 
-    // Flag image sources for English
     const englishFlags = [
         { src: '/images/united-kingdom.png', class: 'uk' },
         { src: '/images/united-states.png', class: 'us' },
         { src: '/images/canada.png', class: 'can' }
     ];
 
-    // Flag image sources for Portuguese-speaking countries
     const portugueseFlags = [
         { src: '/images/portugal.png', class: 'pt' },
         { src: '/images/brazil.png', class: 'br' },
@@ -26,60 +21,54 @@ document.addEventListener('DOMContentLoaded', function() {
 
     async function setLanguage(lang) {
         try {
-            const response = await fetch(`./i18n/${lang}.json`);
+            const response = await fetch(`./i18n/${lang}.json`); 
             if (!response.ok) {
                 throw new Error('Language file not found');
             }
             const translations = await response.json();
-    
+
             document.querySelectorAll('[data-translate]').forEach(el => {
                 const key = el.getAttribute('data-translate');
                 el.innerHTML = translations[key] || el.innerHTML;
             });
-    
-            // Handle placeholders
+
             document.querySelectorAll('[data-placeholder]').forEach(el => {
                 const key = el.getAttribute('data-placeholder');
                 if (translations[key]) {
                     el.placeholder = translations[key];
                 }
             });
-    
+
             if (lang === 'pt') {
                 setPortuguese();
             } else {
                 setEnglish();
             }
-    
+
             localStorage.setItem('selectedLanguage', lang);
         } catch (error) {
             console.error('Error loading language:', error);
         }
     }
-    
+
     function setPortuguese() {
         flagText.innerHTML = 'Língua: Português';
         flagText.classList.add('portuguese-text');
         flagText.classList.remove('english-text');
         lowIcons.classList.add('portuguese-icons');
         lowIcons.classList.remove('english-icons');
-    
-        // Reset the brazil-icons class to ensure it doesn't persist when switching languages
         lowIcons.classList.remove('brazil-icons');
-    
+
         flagImages.forEach((img, index) => {
             img.src = portugueseFlags[index].src;
             img.classList.add(portugueseFlags[index].class);
-            img.classList.remove('uk', 'us', 'can'); // Remove English classes
-    
-            // Add the brazil-icons class when the Brazil flag is selected
+            img.classList.remove('uk', 'us', 'can'); 
             if (img.classList.contains('br')) {
                 lowIcons.classList.add('brazil-icons');
             }
         });
     }
 
-    
     function setEnglish() {
         flagText.innerHTML = 'Language: English';
         flagText.classList.add('english-text');
@@ -90,47 +79,40 @@ document.addEventListener('DOMContentLoaded', function() {
         flagImages.forEach((img, index) => {
             img.src = englishFlags[index].src;
             img.classList.add(englishFlags[index].class);
-            img.classList.remove('pt', 'br', 'an'); // Remove Portuguese classes
+            img.classList.remove('pt', 'br', 'an'); 
         });
     }
 
-    // Initialize language on page load
-    const savedLanguage = localStorage.getItem('selectedLanguage');
-    const defaultLanguage = savedLanguage || 'pt'; // Default to 'pt' if no language is saved
-    setLanguage(defaultLanguage);
+    function getLanguage(){
+        return localStorage.getItem('selectedLanguage') || 'pt'; 
+    }
 
-    // Toggle language on button click
+    setLanguage(getLanguage());
+
     flagButton.addEventListener('click', function(event) {
         if (isLocked) {
             console.log("Translation functionality is disabled because the lock is active");
-            return; // Exit if locked
+            return; 
         }
 
-        event.preventDefault(); // Prevent default anchor click behavior
+        event.preventDefault(); 
 
-        const isPortuguese = flagText.innerHTML.includes('Português');
-
-        if (isPortuguese) {
-            setLanguage('en');
-        } else {
-            setLanguage('pt');
-        }
+        const newLanguage = getLanguage() === 'pt' ? 'en' : 'pt';
+        setLanguage(newLanguage);
+        localStorage.setItem('selectedLanguage', newLanguage);
     });
 
-    // Handle lock icon toggle
     document.querySelector('.lock-icon').addEventListener('click', function(event) {
-        event.stopPropagation(); // Prevent click event from propagating to parent elements
+        event.stopPropagation(); 
 
         const iconElement = this.querySelector('i');
 
-        // Toggle the lock state
         if (iconElement.classList.contains('fa-lock-open')) {
-            iconElement.className = 'fa-solid fa-lock'; // Closed lock icon
-            isLocked = true; // Set lock state to locked
+            iconElement.className = 'fa-solid fa-lock'; 
+            isLocked = true; 
         } else if (iconElement.classList.contains('fa-lock')) {
-            iconElement.className = 'fa-solid fa-lock-open'; // Open lock icon
-            isLocked = false; // Set lock state to unlocked
+            iconElement.className = 'fa-solid fa-lock-open'; 
+            isLocked = false; 
         }
     });
 });
-

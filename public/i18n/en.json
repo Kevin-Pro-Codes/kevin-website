@@ -95,26 +95,20 @@
 "tbot6-title": "CONTACT",
 "tbot6-text": "Feel free to reach out for a casual chat about the topic: kevinprofessionalman@outlook.com",
 
-
-
-
-    "lang-title": "WHAT IS MY RELATIONSHIP AND AVAILABILITY REGARDING ANY LANGUAGE?",
-    "lang-text": "I have always had a passion for the English language, which I consider an extremely rich and universal tongue. English has opened doors to the world, allowing me to access an immense amount of knowledge, whether in books, movies, academic articles, or interactions with people from different cultures around the globe. It's fascinating how English connects millions of people and creates opportunities to share ideas and experiences.\n\nAdditionally, I am someone who is always open to conversations, whether to improve fluency or simply to exchange experiences. I believe that constant practice, through dialogues and immersion in the language, is essential for continuous learning. I am always willing to learn from others, whether in a casual environment or in more formal contexts. I feel that the exchange of ideas and the diversity of perspectives make conversations even more enriching.\n\nIn addition to English, I also study French, which has been a wonderful experience. French is a language full of nuances and a unique sound that fascinates me more every day. I am on a learning journey and, although I am still in the process of improvement, I am increasingly passionate about its expressions and the Francophone culture that accompanies it. I study French with the aim of further expanding my linguistic and cultural horizons.\n\nIf you are also passionate about languages or want to share your own experiences, I would be happy to chat and learn with you. The exchange of knowledge is something I deeply value, and I am sure that conversations can be a great way for all of us to grow together.\n\nIf you would like to chat about experiences or practice casually, I am open to conversations. Send me an email or drop me a message on WhatsApp.",
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-"title-contact": "CONTACTS"
+"lang-title": "WHAT IS MY RELATIONSHIP AND AVAILABILITY REGARDING ANY LANGUAGE?",
+"lang-text": "I have always had a passion for the English language, which I consider an extremely rich and universal tongue. English has opened doors to the world, allowing me to access an immense amount of knowledge, whether in books, movies, academic articles, or interactions with people from different cultures around the globe. It's fascinating how English connects millions of people and creates opportunities to share ideas and experiences.\n\nAdditionally, I am someone who is always open to conversations, whether to improve fluency or simply to exchange experiences. I believe that constant practice, through dialogues and immersion in the language, is essential for continuous learning. I am always willing to learn from others, whether in a casual environment or in more formal contexts. I feel that the exchange of ideas and the diversity of perspectives make conversations even more enriching.\n\nIn addition to English, I also study French, which has been a wonderful experience. French is a language full of nuances and a unique sound that fascinates me more every day. I am on a learning journey and, although I am still in the process of improvement, I am increasingly passionate about its expressions and the Francophone culture that accompanies it. I study French with the aim of further expanding my linguistic and cultural horizons.\n\nIf you are also passionate about languages or want to share your own experiences, I would be happy to chat and learn with you. The exchange of knowledge is something I deeply value, and I am sure that conversations can be a great way for all of us to grow together.\n\nIf you would like to chat about experiences or practice casually, I am open to conversations. Send me an email or drop me a message on WhatsApp.",
     
+"title-contact": "CONTACTS",
+    
+
+"comment_success": "Your comment has been sent!",
+"comment_error": "Error! Invalid comment or email!",
+"comment_cooldown": "You have sent 3 comments recently. Please wait {time} minutes before sending more comments.",
+"email_success": "Email subscription successful!",
+"email_error": "Error! Invalid email address!",
+"email_cooldown": "You have subscribed 3 times recently. Please wait {time} minutes before sending more emails."
+
+
  
 
 }

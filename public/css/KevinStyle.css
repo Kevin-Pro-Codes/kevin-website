@@ -510,7 +510,7 @@ p {
   margin-left: 10px;
 }
 
-#not-found-message {
+#not-found-message-en, #not-found-message-pt {
   display: none; /* Hidden by default, shown when no results found */
   position: fixed; /* Fixed position to cover the entire screen */
   top: 0; /* Position at the top of the page */
@@ -524,12 +524,11 @@ p {
   justify-content: center; /* Horizontally center the content */
   align-items: center; /* Vertically center the content */
   z-index: 1; /* Ensure it appears above other content */
-  padding-top: 350px;  
-
+  padding-top: 350px;
   margin-top: 40px;
 }
 
-#not-found-message p {
+#not-found-message-en p, #not-found-message-pt p {
   padding-top: 150px;
   margin-top: 150px;
   font-size: 60px; /* Adjust the font size */
@@ -557,7 +556,7 @@ p {
   padding: 20px; /* Adjust the padding as needed for spacing inside the box */
   margin-top: 70px;
   /* Adjust spacing between video containers */
-  font-family: Helvetica;
+  font-family: Calibri;
   font-weight: bold;
   margin-bottom: 40px; /* Keeps the space below the box */
 }
@@ -570,12 +569,17 @@ p {
   z-index: 999;
 }
 
+.about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
+
+}
+
+
 .overall-text {  
   position: relative;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   /* Adjust spacing between video containers */
   font-size: 20px;
   color: white;
@@ -587,7 +591,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center;  
   margin-bottom: 40px;
   /* Adjust spacing between video containers */
   font-family: Calibri;
@@ -606,7 +610,7 @@ p {
   /* Rounded corners for the box */
   margin-top: -80px;
   /* Ensure it stays within the flow of the document */
-  margin-bottom: 20px;
+  margin-bottom: -45px;
   word-spacing: 3px;
   line-height: 2; 
 }
@@ -644,6 +648,7 @@ p {
   font-family: Calibri, sans-serif;
   font-weight: bold;}
 
+  
 .about-text2 { 
   position: relative;
   display: flex;
@@ -696,7 +701,7 @@ p {
   /* Rounded corners for the box */
   margin-top: -80px;
   /* Ensure it stays within the flow of the document */
-  margin-bottom: 20px;
+  margin-bottom: -45px;
   word-spacing: 3px;
   line-height: 2;
 }
@@ -739,7 +744,7 @@ p {
   /* Rounded corners for the box */
   margin-top: -80px;
   /* Ensure it stays within the flow of the document */
-  margin-bottom: 20px;
+  margin-bottom: -45px;
   word-spacing: 3px;
   line-height: 2;
 }
@@ -780,7 +785,7 @@ p {
   /* Rounded corners for the box */
   margin-top: -80px;
   /* Ensure it stays within the flow of the document */
-  margin-bottom: 20px;
+  margin-bottom: -45px;
   word-spacing: 3px;
   line-height: 2;
 }
@@ -820,7 +825,7 @@ p {
   /* Rounded corners for the box */
   margin-top: -80px;
   /* Ensure it stays within the flow of the document */
-  margin-bottom: 20px;
+  margin-bottom: -45px;
   word-spacing: 3px;
   line-height: 2;
 }
@@ -860,7 +865,7 @@ p {
   /* Rounded corners for the box */
   margin-top: -80px;
   /* Ensure it stays within the flow of the document */
-  margin-bottom: 20px;
+  margin-bottom: -45px;
   word-spacing: 3px;
   line-height: 2;
 }
@@ -901,7 +906,7 @@ p {
   /* Rounded corners for the box */
   margin-top: -80px;
   /* Ensure it stays within the flow of the document */
-  margin-bottom: 20px;
+  margin-bottom: -45px;
   word-spacing: 3px;
   line-height: 2;
 }
@@ -922,7 +927,7 @@ p {
   border: 3px solid blue;
   border-radius: 10px; /* Rounded corners for the box */
   margin-top: -80px; /* Ensure it stays within the flow of the document */
-  margin-bottom: 20px;
+  margin-bottom: -45px;
   word-spacing: 3px;
   width: 60%;
   line-height: 2;
