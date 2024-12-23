@@ -24,24 +24,26 @@
     
   }
 
-.overall-bottom-container {
-display: grid;
-gap: 5px;
-grid-template-areas:
-  "comment-text"
-  "comment-container"
-  "comment-send"
-  "email-text"
-  "email-container"
-  "email-sub";
-max-width: 600px; /* Adjust width as needed */
-width: 100%;
-border-radius: 10px;
-text-align: center;
-margin-bottom: 20px;
-margin: 0 auto; /* Center horizontally */
-
-}
+  .overall-bottom-container {
+    display: grid;
+    gap: 10px; /* Increase gap for better spacing */
+    grid-template-areas:
+      "comment-text"
+      "comment-container"
+      "comment-send"
+      "email-text"
+      "email-container"
+      "email-sub";
+    max-width: 600px; /* Control the maximum width */
+    width: 90%; /* Use percentage for responsiveness */
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px; /* Add padding for better spacing */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    margin-bottom: 20px;
+  }
+      
 
 
   .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
@@ -73,24 +75,26 @@ margin: 0 auto; /* Center horizontally */
     
   }
 
-.overall-bottom-container {
-display: grid;
-gap: 5px;
-grid-template-areas:
-  "comment-text"
-  "comment-container"
-  "comment-send"
-  "email-text"
-  "email-container"
-  "email-sub";
-max-width: 600px; /* Adjust width as needed */
-width: 100%;
-border-radius: 10px;
-text-align: center;
-margin-bottom: 20px;
-margin: 0 auto; /* Center horizontally */
-
-}
+  .overall-bottom-container {
+    display: grid;
+    gap: 10px; /* Increase gap for better spacing */
+    grid-template-areas:
+      "comment-text"
+      "comment-container"
+      "comment-send"
+      "email-text"
+      "email-container"
+      "email-sub";
+    max-width: 600px; /* Control the maximum width */
+    width: 90%; /* Use percentage for responsiveness */
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px; /* Add padding for better spacing */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    margin-bottom: 20px;
+  }
+      
 
 
   .footer-right {
@@ -179,24 +183,26 @@ margin: 0 auto; /* Center horizontally */
     
   }
 
-.overall-bottom-container {
-display: grid;
-gap: 5px;
-grid-template-areas:
-  "comment-text"
-  "comment-container"
-  "comment-send"
-  "email-text"
-  "email-container"
-  "email-sub";
-max-width: 600px; /* Adjust width as needed */
-width: 100%;
-border-radius: 10px;
-text-align: center;
-margin-bottom: 20px;
-margin: 0 auto; /* Center horizontally */
-
-}
+  .overall-bottom-container {
+    display: grid;
+    gap: 10px; /* Increase gap for better spacing */
+    grid-template-areas:
+      "comment-text"
+      "comment-container"
+      "comment-send"
+      "email-text"
+      "email-container"
+      "email-sub";
+    max-width: 600px; /* Control the maximum width */
+    width: 90%; /* Use percentage for responsiveness */
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px; /* Add padding for better spacing */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    margin-bottom: 20px;
+  }
+      
         
 
   .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
@@ -353,24 +359,26 @@ margin: 0 auto; /* Center horizontally */
       
     }
 
-.overall-bottom-container {
-  display: grid;
-  gap: 5px;
-  grid-template-areas:
-    "comment-text"
-    "comment-container"
-    "comment-send"
-    "email-text"
-    "email-container"
-    "email-sub";
-  max-width: 600px; /* Adjust width as needed */
-  width: 100%;
-  border-radius: 10px;
-  text-align: center;
-  margin-bottom: 20px;
-  margin: 0 auto; /* Center horizontally */
-  
-}
+    .overall-bottom-container {
+      display: grid;
+      gap: 10px; /* Increase gap for better spacing */
+      grid-template-areas:
+        "comment-text"
+        "comment-container"
+        "comment-send"
+        "email-text"
+        "email-container"
+        "email-sub";
+      max-width: 600px; /* Control the maximum width */
+      width: 90%; /* Use percentage for responsiveness */
+      border-radius: 10px;
+      text-align: center;
+      margin: 0 auto; /* Center horizontally */
+      padding: 20px; /* Add padding for better spacing */
+      box-sizing: border-box; /* Ensure padding doesn't affect width */
+      margin-bottom: 20px;
+    }
+        
 
   
     .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
@@ -410,8 +418,7 @@ margin: 0 auto; /* Center horizontally */
     }
 
     
-    .parent-container {
-      display: flex;
+    .parent-container {     
       display: flex; /* Enable Flexbox */  
       align-items: center; /* Center horizontally */
       justify-content: center; /* Center vertically */
@@ -422,24 +429,28 @@ margin: 0 auto; /* Center horizontally */
       
     }
 
-.overall-bottom-container {
-  display: grid;
-  gap: 5px;
-  grid-template-areas:
-    "comment-text"
-    "comment-container"
-    "comment-send"
-    "email-text"
-    "email-container"
-    "email-sub";
-  max-width: 600px; /* Adjust width as needed */
-  width: 100%;
-  border-radius: 10px;
-  text-align: center;
-  margin-bottom: 20px;
-  margin: 0 auto; /* Center horizontally */
-  
-}
+
+    .overall-bottom-container {
+      display: grid;
+      gap: 10px; /* Increase gap for better spacing */
+      grid-template-areas:
+        "comment-text"
+        "comment-container"
+        "comment-send"
+        "email-text"
+        "email-container"
+        "email-sub";
+      max-width: 600px; /* Control the maximum width */
+      width: 90%; /* Use percentage for responsiveness */
+      border-radius: 10px;
+      text-align: center;
+      margin: 0 auto; /* Center horizontally */
+      padding: 20px; /* Add padding for better spacing */
+      box-sizing: border-box; /* Ensure padding doesn't affect width */
+      margin-bottom: 20px;
+    }
+        
+    
 
 
 
@@ -563,25 +574,26 @@ margin: 0 auto; /* Center horizontally */
         
       }
   
-  .overall-bottom-container {
-    display: grid;
-    gap: 5px;
-    grid-template-areas:
-      "comment-text"
-      "comment-container"
-      "comment-send"
-      "email-text"
-      "email-container"
-      "email-sub";
-    max-width: 600px; /* Adjust width as needed */
-    width: 100%;
-    border-radius: 10px;
-    text-align: center;
-    margin-bottom: 20px;
-    margin: 0 auto; /* Center horizontally */
-    
-  }
-  
+      .overall-bottom-container {
+        display: grid;
+        gap: 10px; /* Increase gap for better spacing */
+        grid-template-areas:
+          "comment-text"
+          "comment-container"
+          "comment-send"
+          "email-text"
+          "email-container"
+          "email-sub";
+        max-width: 600px; /* Control the maximum width */
+        width: 90%; /* Use percentage for responsiveness */
+        border-radius: 10px;
+        text-align: center;
+        margin: 0 auto; /* Center horizontally */
+        padding: 20px; /* Add padding for better spacing */
+        box-sizing: border-box; /* Ensure padding doesn't affect width */
+        margin-bottom: 20px;
+      }
+          
   
 
       .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
@@ -640,24 +652,27 @@ margin: 0 auto; /* Center horizontally */
       
     }
 
-.overall-bottom-container {
-  display: grid;
-  gap: 5px;
-  grid-template-areas:
-    "comment-text"
-    "comment-container"
-    "comment-send"
-    "email-text"
-    "email-container"
-    "email-sub";
-  max-width: 600px; /* Adjust width as needed */
-  width: 100%;
-  border-radius: 10px;
-  text-align: center;
-  margin-bottom: 20px;
-  margin: 0 auto; /* Center horizontally */
-  
-}
+    
+    .overall-bottom-container {
+      display: grid;
+      gap: 10px; /* Increase gap for better spacing */
+      grid-template-areas:
+        "comment-text"
+        "comment-container"
+        "comment-send"
+        "email-text"
+        "email-container"
+        "email-sub";
+      max-width: 600px; /* Control the maximum width */
+      width: 90%; /* Use percentage for responsiveness */
+      border-radius: 10px;
+      text-align: center;
+      margin: 0 auto; /* Center horizontally */
+      padding: 20px; /* Add padding for better spacing */
+      box-sizing: border-box; /* Ensure padding doesn't affect width */
+      margin-bottom: 20px;
+    }
+        
 
       
     .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
@@ -784,24 +799,26 @@ margin: 0 auto; /* Center horizontally */
         
       }
   
-  .overall-bottom-container {
-    display: grid;
-    gap: 5px;
-    grid-template-areas:
-      "comment-text"
-      "comment-container"
-      "comment-send"
-      "email-text"
-      "email-container"
-      "email-sub";
-    max-width: 600px; /* Adjust width as needed */
-    width: 100%;
-    border-radius: 10px;
-    text-align: center;
-    margin-bottom: 20px;
-    margin: 0 auto; /* Center horizontally */
-    
-  }
+      .overall-bottom-container {
+        display: grid;
+        gap: 10px; /* Increase gap for better spacing */
+        grid-template-areas:
+          "comment-text"
+          "comment-container"
+          "comment-send"
+          "email-text"
+          "email-container"
+          "email-sub";
+        max-width: 600px; /* Control the maximum width */
+        width: 90%; /* Use percentage for responsiveness */
+        border-radius: 10px;
+        text-align: center;
+        margin: 0 auto; /* Center horizontally */
+        padding: 20px; /* Add padding for better spacing */
+        box-sizing: border-box; /* Ensure padding doesn't affect width */
+        margin-bottom: 20px;
+      }
+          
   
 
       .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
@@ -873,24 +890,27 @@ margin: 0 auto; /* Center horizontally */
       
     }
 
-.overall-bottom-container {
-  display: grid;
-  gap: 5px;
-  grid-template-areas:
-    "comment-text"
-    "comment-container"
-    "comment-send"
-    "email-text"
-    "email-container"
-    "email-sub";
-  max-width: 600px; /* Adjust width as needed */
-  width: 100%;
-  border-radius: 10px;
-  text-align: center;
-  margin-bottom: 20px;
-  margin: 0 auto; /* Center horizontally */
-  
-}
+
+    .overall-bottom-container {
+      display: grid;
+      gap: 10px; /* Increase gap for better spacing */
+      grid-template-areas:
+        "comment-text"
+        "comment-container"
+        "comment-send"
+        "email-text"
+        "email-container"
+        "email-sub";
+      max-width: 600px; /* Control the maximum width */
+      width: 90%; /* Use percentage for responsiveness */
+      border-radius: 10px;
+      text-align: center;
+      margin: 0 auto; /* Center horizontally */
+      padding: 20px; /* Add padding for better spacing */
+      box-sizing: border-box; /* Ensure padding doesn't affect width */
+      margin-bottom: 20px;
+    }
+        
 
 
   .about-content, .extra-text, .copyright-content, .articles-content, .images-content, .projects-content, .coop-content, .tradingbot-content, .languages-content, .contact-content {
