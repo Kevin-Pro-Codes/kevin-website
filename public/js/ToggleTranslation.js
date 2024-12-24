@@ -46,11 +46,15 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             localStorage.setItem('selectedLanguage', lang);
+
+            // Dispatch a custom event to notify other components of the language change
+            const languageChangeEvent = new CustomEvent('languageChanged', { detail: lang });
+            document.dispatchEvent(languageChangeEvent);
         } catch (error) {
             console.error('Error loading language:', error);
         }
     }
-
+    
     function setPortuguese() {
         flagText.innerHTML = 'Língua: Português';
         flagText.classList.add('portuguese-text');
