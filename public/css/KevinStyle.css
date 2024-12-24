@@ -1,3 +1,5 @@
+
+
 html,body
 {
     width: 100%;
@@ -520,12 +522,12 @@ p {
   background-color: rgba(0, 0, 0, 0.8); /* Black background with slight transparency */
   color: white; /* White text color */
   font-family: 'Calibri', sans-serif; /* Set the font to Calibri */
-  display: flex; /* Use Flexbox for centering */
+  
   justify-content: center; /* Horizontally center the content */
   align-items: center; /* Vertically center the content */
   z-index: 1; /* Ensure it appears above other content */
   padding-top: 350px;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 #not-found-message-en p, #not-found-message-pt p {
