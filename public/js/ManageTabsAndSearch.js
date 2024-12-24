@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     label.style.textAlign = 'left'; 
                     label.style.paddingLeft = '3.7%'; 
                     label.appendChild(ordinalSpan); 
-                    label.appendChild(document.createTextNode(getTranslation('search_result_message'))); // E aqui
+                    label.appendChild(document.createTextNode(getTranslation('search_result_message'))); 
 
                     const wrapper = document.createElement('div');
                     wrapper.style.textAlign = 'center'; 
